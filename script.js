@@ -1,22 +1,94 @@
 // Mock Movie Data (expanded for pagination testing)
 const mockMovies = [
-    // NOTE: The 'download_link' is still '#' for all entries here, 
-    // but the function is now structured to use a real URL if provided.
-    { id: 1, title: "Cosmic Odyssey", year: 2024, genre: "Sci-Fi", rating: 8.5, size: "2.8 GB", cover: "https://placehold.co/400x600/1e40af/ffffff?text=Odyssey", synopsis: "A team of astronauts embarks on a perilous journey to the edge of the known universe to find a habitable planet before Earth's resources are depleted.", cast: "Emma Stone, Chris Pratt, Ken Watanabe", download_link: "#"},
-    { id: 2, title: "The Silent Heist", year: 2023, genre: "Thriller", rating: 7.9, size: "1.9 GB", cover: "https://placehold.co/400x600/f59e0b/ffffff?text=Heist", synopsis: "A master thief attempts one last impossible job: stealing a priceless diamond from a vault protected by sound-sensitive security systems.", cast: "Ryan Gosling, Anya Taylor-Joy", download_link: "#"},
-    { id: 3, title: "Eternal Summer", year: 2024, genre: "Romance", rating: 9.1, size: "1.5 GB", cover: "https://placehold.co/400x600/ef4444/ffffff?text=Summer", synopsis: "Two childhood friends meet again years later on a remote Italian island, forcing them to confront their past feelings and a future they never planned.", cast: "Zendaya, Timothée Chalamet", download_link: "#"},
-    { id: 4, title: "Dragon's Fury", year: 2022, genre: "Fantasy", rating: 7.2, size: "3.5 GB", cover: "https://placehold.co/400x600/10b981/ffffff?text=Dragon", synopsis: "In a world where magic is banned, a young warrior must tame the last living dragon to save his village from a tyrannical empire.", cast: "Henry Cavill, Millie Bobby Brown", download_link: "#"},
-    { id: 5, title: "City of Shadows", year: 2023, genre: "Action", rating: 8.8, size: "2.2 GB", cover: "https://placehold.co/400x600/8b5cf6/ffffff?text=Shadows", synopsis: "A disgraced former police detective uncovers a vast conspiracy involving government officials and the city's criminal underworld.", cast: "Idris Elba, Gal Gadot", download_link: "#"},
-    { id: 6, title: "The Inventor", year: 2021, genre: "Biography", rating: 8.0, size: "1.7 GB", cover: "https://placehold.co/400x600/f97316/ffffff?text=Inventor", synopsis: "The inspiring true story of Nikola Tesla and his relentless pursuit of wireless energy, despite facing opposition from powerful competitors.", cast: "Benedict Cumberbatch, Tom Holland", download_link: "#"},
-    { id: 7, title: "Frozen Planet II", year: 2024, genre: "Documentary", rating: 9.5, size: "4.1 GB", cover: "https://placehold.co/400x600/06b6d4/ffffff?text=Planet", synopsis: "A stunning exploration of the Arctic and Antarctic, revealing the lives of animals coping with the extreme and rapidly changing climate.", cast: "David Attenborough (Narrator)", download_link: "#"},
-    { id: 8, title: "Cyber Runner", year: 2024, genre: "Sci-Fi", rating: 8.3, size: "2.5 GB", cover: "https://placehold.co/400x600/6b7280/ffffff?text=Cyber", synopsis: "In a neon-drenched future, a rogue hacker finds a cryptic message that could expose the centralized AI controlling the city.", cast: "Keanu Reeves, Scarlett Johansson", download_link: "#"},
-    { id: 9, title: "The Martian Chronicles", year: 2020, genre: "Sci-Fi", rating: 7.5, size: "2.1 GB", cover: "https://placehold.co/400x600/374151/ffffff?text=Martian", synopsis: "Exploration team struggles to colonize Mars after a catastrophic equipment failure.", cast: "Matt Damon, Jessica Chastain", download_link: "#"},
-    { id: 10, title: "Last Stand at Midnight", year: 2023, genre: "Action", rating: 8.9, size: "3.0 GB", cover: "https://placehold.co/400x600/4f46e5/ffffff?text=Stand", synopsis: "A rogue agent must protect a witness from an international assassination squad on New Year's Eve.", cast: "Tom Cruise, Emily Blunt", download_link: "#"},
-    { id: 11, title: "Whispers of the Past", year: 2022, genre: "Thriller", rating: 6.8, size: "1.4 GB", cover: "https://placehold.co/400x600/dc2626/ffffff?text=Whispers", synopsis: "A cold case detective finds a connection between a decades-old murder and a recent disappearance in his small hometown.", cast: "Chris Evans, Ana de Armas", download_link: "#"},
-    { id: 12, title: "A Taste of Freedom", year: 2024, genre: "Documentary", rating: 9.3, size: "3.2 GB", cover: "https://placehold.co/400x600/10b981/ffffff?text=Freedom", synopsis: "Following the lives of three individuals released from incarceration and their journey to rebuild their lives.", cast: "N/A", download_link: "#"},
-    { id: 13, title: "The Secret Garden", year: 2021, genre: "Romance", rating: 6.5, size: "1.2 GB", cover: "https://placehold.co/400x600/ec4899/ffffff?text=Garden", synopsis: "An adaptation of the classic novel about a young girl who discovers a hidden garden on her uncle's estate.", cast: "Colin Firth, Julie Walters", download_link: "#"},
-    { id: 14, title: "Future Shock", year: 2025, genre: "Sci-Fi", rating: 9.0, size: "3.8 GB", cover: "https://placehold.co/400x600/000000/ffffff?text=Shock", synopsis: "A gripping tale of a society where dreams are commodified and sold on the black market.", cast: "Leonardo DiCaprio, Margot Robbie", download_link: "#"},
-    { id: 15, title: "Jungle Hunt", year: 2023, genre: "Action", rating: 7.8, size: "2.4 GB", cover: "https://placehold.co/400x600/4c0519/ffffff?text=Hunt", synopsis: "A survival expert guides a group of researchers through the Amazon, encountering danger at every turn.", cast: "Dwayne Johnson, Jason Statham", download_link: "#"},
+    // Changed 'size' and 'download_link' to a 'downloads' array
+    { id: 1, title: "Dhuruvangal Pathinaaru", year: 2016, genre: "Crime/Thriller", rating: 8.2, cover:"dhuruvangal-pathinaru.jpeg", synopsis: "A couple dies under mysterious circumstances and Inspector Deepak is assigned the case. However, he loses his leg in a confrontation during the investigation, which leads to the end of his career.", cast: " Rahman, Prakash Raghavan, Sharathkumar, Santhosh Krishna", 
+        downloads: [
+            { quality: "480p", size: "0.4 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" },
+            { quality: "720p", size: "0.84 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" }, // This is the original link
+            { quality: "1080p", size: "1.5 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" }
+        ]
+    },
+    { id: 2, title: "The Silent Heist", year: 2023, genre: "Thriller", rating: 7.9, cover: "https://placehold.co/400x600/f59e0b/ffffff?text=Heist", synopsis: "A master thief attempts one last impossible job: stealing a priceless diamond from a vault protected by sound-sensitive security systems.", cast: "Ryan Gosling, Anya Taylor-Joy", 
+        downloads: [
+            { quality: "480p", size: "1.0 GB", link: "#" },
+            { quality: "720p", size: "1.9 GB", link: "#" },
+            { quality: "1080p", size: "3.5 GB", link: "#" }
+        ]
+    },
+    { id: 3, title: "Eternal Summer", year: 2024, genre: "Romance", rating: 9.1, cover: "https://placehold.co/400x600/ef4444/ffffff?text=Summer", synopsis: "Two childhood friends meet again years later on a remote Italian island, forcing them to confront their past feelings and a future they never planned.", cast: "Zendaya, Timothée Chalamet", 
+        downloads: [
+            { quality: "720p", size: "1.5 GB", link: "#" },
+            { quality: "1080p", size: "2.8 GB", link: "#" }
+        ]
+    },
+    { id: 4, title: "Dragon's Fury", year: 2022, genre: "Fantasy", rating: 7.2, cover: "https://placehold.co/400x600/10b981/ffffff?text=Dragon", synopsis: "In a world where magic is banned, a young warrior must tame the last living dragon to save his village from a tyrannical empire.", cast: "Henry Cavill, Millie Bobby Brown", 
+        downloads: [
+            { quality: "1080p", size: "3.5 GB", link: "#" }
+        ]
+    },
+    { id: 5, title: "City of Shadows", year: 2023, genre: "Action", rating: 8.8, cover: "https://placehold.co/400x600/8b5cf6/ffffff?text=Shadows", synopsis: "A disgraced former police detective uncovers a vast conspiracy involving government officials and the city's criminal underworld.", cast: "Idris Elba, Gal Gadot", 
+        downloads: [
+            { quality: "480p", size: "1.2 GB", link: "#" },
+            { quality: "720p", size: "2.2 GB", link: "#" },
+            { quality: "1080p", size: "4.0 GB", link: "#" }
+        ]
+    },
+    { id: 6, title: "The Inventor", year: 2021, genre: "Biography", rating: 8.0, cover: "https://placehold.co/400x600/f97316/ffffff?text=Inventor", synopsis: "The inspiring true story of Nikola Tesla and his relentless pursuit of wireless energy, despite facing opposition from powerful competitors.", cast: "Benedict Cumberbatch, Tom Holland", 
+        downloads: [
+            { quality: "720p", size: "1.7 GB", link: "#" }
+        ]
+    },
+    { id: 7, title: "Frozen Planet II", year: 2024, genre: "Documentary", rating: 9.5, cover: "https://placehold.co/400x600/06b6d4/ffffff?text=Planet", synopsis: "A stunning exploration of the Arctic and Antarctic, revealing the lives of animals coping with the extreme and rapidly changing climate.", cast: "David Attenborough (Narrator)", 
+        downloads: [
+            { quality: "1080p", size: "4.1 GB", link: "#" }
+        ]
+    },
+    { id: 8, title: "Cyber Runner", year: 2024, genre: "Sci-Fi", rating: 8.3, cover: "https://placehold.co/400x600/6b7280/ffffff?text=Cyber", synopsis: "In a neon-drenched future, a rogue hacker finds a cryptic message that could expose the centralized AI controlling the city.", cast: "Keanu Reeves, Scarlett Johansson", 
+        downloads: [
+            { quality: "720p", size: "2.5 GB", link: "#" },
+            { quality: "1080p", size: "4.5 GB", link: "#" }
+        ]
+    },
+    { id: 9, title: "The Martian Chronicles", year: 2020, genre: "Sci-Fi", rating: 7.5, cover: "https://placehold.co/400x600/374151/ffffff?text=Martian", synopsis: "Exploration team struggles to colonize Mars after a catastrophic equipment failure.", cast: "Matt Damon, Jessica Chastain", 
+        downloads: [
+            { quality: "480p", size: "1.1 GB", link: "#" },
+            { quality: "720p", size: "2.1 GB", link: "#" }
+        ]
+    },
+    { id: 10, title: "Last Stand at Midnight", year: 2023, genre: "Action", rating: 8.9, cover: "https://placehold.co/400x600/4f46e5/ffffff?text=Stand", synopsis: "A rogue agent must protect a witness from an international assassination squad on New Year's Eve.", cast: "Tom Cruise, Emily Blunt", 
+        downloads: [
+            { quality: "720p", size: "3.0 GB", link: "#" },
+            { quality: "1080p", size: "5.5 GB", link: "#" }
+        ]
+    },
+    { id: 11, title: "Whispers of the Past", year: 2022, genre: "Thriller", rating: 6.8, cover: "https://placehold.co/400x600/dc2626/ffffff?text=Whispers", synopsis: "A cold case detective finds a connection between a decades-old murder and a recent disappearance in his small hometown.", cast: "Chris Evans, Ana de Armas", 
+        downloads: [
+            { quality: "480p", size: "0.7 GB", link: "#" },
+            { quality: "720p", size: "1.4 GB", link: "#" }
+        ]
+    },
+    { id: 12, title: "A Taste of Freedom", year: 2024, genre: "Documentary", rating: 9.3, cover: "https://placehold.co/400x600/10b981/ffffff?text=Freedom", synopsis: "Following the lives of three individuals released from incarceration and their journey to rebuild their lives.", cast: "N/A", 
+        downloads: [
+            { quality: "1080p", size: "3.2 GB", link: "#" }
+        ]
+    },
+    { id: 13, title: "The Secret Garden", year: 2021, genre: "Romance", rating: 6.5, cover: "https://placehold.co/400x600/ec4899/ffffff?text=Garden", synopsis: "An adaptation of the classic novel about a young girl who discovers a hidden garden on her uncle's estate.", cast: "Colin Firth, Julie Walters", 
+        downloads: [
+            { quality: "480p", size: "1.2 GB", link: "#" }
+        ]
+    },
+    { id: 14, title: "Future Shock", year: 2025, genre: "Sci-Fi", rating: 9.0, cover: "https://placehold.co/400x600/000000/ffffff?text=Shock", synopsis: "A gripping tale of a society where dreams are commodified and sold on the black market.", cast: "Leonardo DiCaprio, Margot Robbie", 
+        downloads: [
+            { quality: "720p", size: "3.8 GB", link: "#" },
+            { quality: "1080p", size: "6.5 GB", link: "#" }
+        ]
+    },
+    { id: 15, title: "Jungle Hunt", year: 2023, genre: "Action", rating: 7.8, cover: "https://placehold.co/400x600/4c0519/ffffff?text=Hunt", synopsis: "A survival expert guides a group of researchers through the Amazon, encountering danger at every turn.", cast: "Dwayne Johnson, Jason Statham", 
+        downloads: [
+            { quality: "480p", size: "1.4 GB", link: "#" },
+            { quality: "720p", size: "2.4 GB", link: "#" }
+        ]
+    },
 ];
 
 const movieGrid = document.getElementById('movieGrid');
@@ -102,9 +174,22 @@ function sortMovies(movies) {
             valA = parseFloat(valA);
             valB = parseFloat(valB);
         } else if (field === 'size') {
-            // Simple logic to convert GB string to comparable number
-            valA = parseFloat(valA.replace(' GB', ''));
-            valB = parseFloat(valB.replace(' GB', ''));
+            // NOTE: The 'size' field is no longer directly on the movie object.
+            // We'll use the size of the highest quality download as a proxy for sorting.
+            // If we can't find a download, default to a high value so it sorts last.
+            const getSizeValue = (movie) => {
+                const highestQuality = movie.downloads.reduce((prev, current) => {
+                    const q_order = { '480p': 1, '720p': 2, '1080p': 3 };
+                    return q_order[prev.quality] > q_order[current.quality] ? prev : current;
+                }, { quality: '480p', size: '0 GB' });
+
+                if (highestQuality) {
+                    return parseFloat(highestQuality.size.replace(' GB', '').replace(' MB', '')); // Simplified size comparison
+                }
+                return order === 'asc' ? 9999 : 0; // Sort undefined last/first based on order
+            };
+            valA = getSizeValue(a);
+            valB = getSizeValue(b);
         }
 
         if (valA < valB) return order === 'asc' ? -1 : 1;
@@ -128,8 +213,23 @@ function renderMovies(moviesToRender) {
         `;
         return;
     }
+    
+    // Helper to get the highest quality info for display purposes
+    const getDisplayInfo = (movie) => {
+        const sortedDownloads = movie.downloads.sort((a, b) => {
+            const q_order = { '480p': 1, '720p': 2, '1080p': 3 };
+            return q_order[b.quality] - q_order[a.quality];
+        });
+        const highestQuality = sortedDownloads[0];
+        
+        return {
+            quality: highestQuality ? highestQuality.quality : 'N/A',
+            size: highestQuality ? highestQuality.size : 'N/A'
+        };
+    }
 
     moviesToRender.forEach(movie => {
+        const displayInfo = getDisplayInfo(movie); // Get highest quality info
         const card = document.createElement('div');
         card.setAttribute('data-movie-id', movie.id);
         let cardHTML = '';
@@ -155,7 +255,8 @@ function renderMovies(moviesToRender) {
                     ${getVisualStarRatingHtml(movie.rating)}
                     
                     <div class="mt-auto pt-2 border-t border-gray-700 flex flex-col space-y-2 mt-4">
-                        <p class="text-xs text-gray-500">File Size: <span class="text-white font-medium">${movie.size}</span></p>
+                        <p class="text-xs text-gray-500">Max Quality: <span class="text-white font-medium">${displayInfo.quality}</span></p>
+                        <p class="text-xs text-gray-500">Max Size: <span class="text-white font-medium">${displayInfo.size}</span></p>
                     </div>
                 </div>
             `;
@@ -180,11 +281,12 @@ function renderMovies(moviesToRender) {
                 </div>
                 
                 <div class="flex-shrink-0 text-right space-y-1 hidden sm:block">
-                    <p class="text-xs text-gray-500">Size: <span class="text-white font-medium">${movie.size}</span></p>
+                    <p class="text-xs text-gray-500">Max Quality: <span class="text-white font-medium">${displayInfo.quality}</span></p>
+                    <p class="text-xs text-gray-500">Max Size: <span class="text-white font-medium">${displayInfo.size}</span></p>
                 </div>
                 
                 <div class="flex-shrink-0 ml-4">
-                    <button onclick="handleDownloadModal(${movie.id}); event.stopPropagation();"
+                    <button onclick="showMovieDetails(${movie.id}); event.stopPropagation();"
                             class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition duration-300">
                         Download
                     </button>
@@ -287,6 +389,27 @@ function showMovieDetails(movieId) {
     const movie = mockMovies.find(m => m.id === movieId);
     if (!movie) return;
 
+    // Generate download button HTML for all available qualities
+    const downloadButtonsHTML = movie.downloads.map(download => `
+        <button onclick="handleDownloadModal(${movie.id}, '${download.quality}', '${download.size}', '${download.link}')"
+                class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 flex justify-between items-center text-left mb-2">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                Download ${download.quality}
+            </span>
+            <span class="text-sm text-gray-200 font-normal ml-4">${download.size}</span>
+        </button>
+    `).join('');
+
+    // Determine max quality and size for display
+    const sortedDownloads = movie.downloads.sort((a, b) => {
+        const q_order = { '480p': 1, '720p': 2, '1080p': 3 };
+        return q_order[b.quality] - q_order[a.quality];
+    });
+    const maxQuality = sortedDownloads[0];
+
     modalBody.innerHTML = `
         <div class="md:w-1/3 flex-shrink-0">
             <img src="${movie.cover}" alt="${movie.title} Cover" 
@@ -305,7 +428,7 @@ function showMovieDetails(movieId) {
                     <span class="text-xl font-bold text-yellow-400">${movie.rating}</span>
                     <span class="text-lg text-gray-400">/ 10</span>
                 </div>
-                <span class="text-lg text-gray-400">File Size: ${movie.size}</span>
+                <span class="text-lg text-gray-400">Max Quality: ${maxQuality.quality} (${maxQuality.size})</span>
             </div>
 
             <h3 class="text-xl font-semibold border-b border-gray-700 pb-1 mb-2">Synopsis</h3>
@@ -313,14 +436,11 @@ function showMovieDetails(movieId) {
 
             <h3 class="text-xl font-semibold border-b border-gray-700 pb-1 mb-2">Starring</h3>
             <p class="text-gray-400 mb-8">${movie.cast}</p>
-
-            <button onclick="handleDownloadModal(${movie.id})"
-                    class="w-full md:w-auto bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                </svg>
-                Download Now
-            </button>
+            
+            <h3 class="text-xl font-semibold border-b border-gray-700 pb-1 mb-4 text-green-400">Download Options</h3>
+            <div class="space-y-3">
+                ${downloadButtonsHTML}
+            </div>
         </div>
     `;
 
@@ -343,9 +463,12 @@ function closeModal() {
 /**
  * Simulates a download action from the modal, shows a notification, 
  * and now ACTUALLY initiates the download using window.location.href.
- * @param {number} movieId - The ID of the movie being downloaded.
+ * * @param {number} movieId - The ID of the movie.
+ * @param {string} quality - The selected download quality (e.g., '720p').
+ * @param {string} size - The file size for the selected quality.
+ * @param {string} downloadLink - The actual download URL.
  */
-function handleDownloadModal(movieId) {
+function handleDownloadModal(movieId, quality, size, downloadLink) {
     const movie = mockMovies.find(m => m.id === movieId);
     if (!movie) return;
 
@@ -353,7 +476,7 @@ function handleDownloadModal(movieId) {
     closeModal();
 
     // 2. Show notification (Start message)
-    notificationText.textContent = `Starting download for "${movie.title}" (${movie.size})...`;
+    notificationText.textContent = `Starting download for "${movie.title}" (${quality}, ${size})...`;
     notificationBox.style.display = 'block';
     notificationBox.classList.remove('bg-green-600');
     notificationBox.classList.add('bg-blue-600');
@@ -363,18 +486,18 @@ function handleDownloadModal(movieId) {
         notificationBox.style.transform = 'translateX(0)';
     }, 10);
 
-    // 3. ACTUAL DOWNLOAD INITIATION (NEW STEP)
-    if (movie.download_link && movie.download_link !== '#') {
-        window.location.href = movie.download_link; 
+    // 3. ACTUAL DOWNLOAD INITIATION
+    if (downloadLink && downloadLink !== '#') {
+        window.location.href = downloadLink; 
     } else {
         // Fallback for mock data (when download_link is '#')
-        console.warn(`Download link for "${movie.title}" is a placeholder ('#'). No file initiated.`);
+        console.warn(`Download link for "${movie.title}" at ${quality} is a placeholder ('#'). No file initiated.`);
     }
 
     // 4. Simulate download process delay and update notification
     setTimeout(() => {
         // Changed message to reflect that the download is initiated/finished by the browser
-        notificationText.textContent = `Download for "${movie.title}" initiated! Check your browser's download queue.`;
+        notificationText.textContent = `Download for "${movie.title}" (${quality}) initiated! Check your browser's download queue.`;
         notificationBox.classList.remove('bg-blue-600');
         notificationBox.classList.add('bg-green-600');
         
