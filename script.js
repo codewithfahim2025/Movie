@@ -462,8 +462,9 @@ function closeModal() {
 
 /**
  * Simulates a download action from the modal, shows a notification, 
- * and now ACTUALLY initiates the download using window.location.href.
- * * @param {number} movieId - The ID of the movie.
+ * and ACTUALLY initiates the download using a robust anchor tag method
+ * for better mobile compatibility.
+ * @param {number} movieId - The ID of the movie.
  * @param {string} quality - The selected download quality (e.g., '720p').
  * @param {string} size - The file size for the selected quality.
  * @param {string} downloadLink - The actual download URL.
@@ -486,9 +487,18 @@ function handleDownloadModal(movieId, quality, size, downloadLink) {
         notificationBox.style.transform = 'translateX(0)';
     }, 10);
 
-    // 3. ACTUAL DOWNLOAD INITIATION
+    // 3. ROBUST DOWNLOAD INITIATION (Using A Tag for better mobile compatibility)
     if (downloadLink && downloadLink !== '#') {
-        window.location.href = downloadLink; 
+        const a = document.createElement('a');
+        a.href = downloadLink;
+        // The 'download' attribute is optional but can suggest a file name.
+        a.download = `${movie.title}_${quality}`; 
+        a.style.display = 'none'; // Keep it hidden
+        document.body.appendChild(a);
+        a.click(); // Programmatically click the hidden link
+        document.body.removeChild(a); // Clean up the element
+
+        console.log(`Download initiated via anchor tag for: ${downloadLink}`);
     } else {
         // Fallback for mock data (when download_link is '#')
         console.warn(`Download link for "${movie.title}" at ${quality} is a placeholder ('#'). No file initiated.`);
