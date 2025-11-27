@@ -1,0 +1,45 @@
+        /* Custom styles for better aesthetics and interaction */
+        body {
+            font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif,'Inter', sans-serif;
+            background-color: #0d1117; /* Dark background */
+        }
+        .movie-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        .movie-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.5), 0 4px 6px -4px rgba(37, 99, 235, 0.5); /* Blue glow on hover */
+        }
+        /* Modal backdrop for overlay */
+        .modal-backdrop {
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 50;
+        }
+        /* Style for the range input slider (optional customization) */
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #3b82f6; /* Blue 500 */
+            cursor: pointer;
+            margin-top: -5px; /* Adjust vertical alignment */
+            box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
+        }
+        input[type=range]::-moz-range-thumb {
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #3b82f6;
+            cursor: pointer;
+            box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
+        }
+        input[type=range] {
+            height: 8px;
+            background: #4b5563; /* Gray 600 */
+            border-radius: 4px;
+            transition: opacity .2s;
+        }
+    
