@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M STREAM- High-Quality Movie Downloads</title>
-    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css"/>
-    <!--Adsterra anti adblock popunder-->
     <script type='text/javascript' src='//underpantsjokeimmunity.com/c7/15/c2/c715c2dd2da7168aa95b3b606425fb08.js'></script>
 
-    <!--GA4-->
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1R8Z4YY6W3"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1R8Z4YY6W3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -24,7 +20,6 @@
     </head>
 <body class="bg-gray-900 text-white min-h-screen">
 
-    <!-- Header and Navigation -->
     <header class="bg-gray-800 shadow-lg sticky top-0 z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center">
             <h1 class="text-3xl font-bold text-blue-400 mb-3 md:mb-0">
@@ -39,31 +34,24 @@
         </div>
     </header>
 .
-    <!-- Main Content Area -->
     <main id="movies" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 class="text-4xl font-extrabold mb-8 border-b-2 border-blue-500 pb-2">Latest Releases</h2>
 
-        <!-- Filtering and Search Controls -->
         <div class="flex flex-col gap-4 mb-8">
-            <!-- Top Row: Search, Genre, Sort, View -->
             <div class="flex flex-col sm:flex-row gap-4">
-                <!-- Search Bar -->
                 <div class="w-full sm:w-2/5">
                     <input type="text" id="searchInput" onkeyup="applyFilters(true)"
                            placeholder="Search movies by title, genre, or cast..."
                            class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 text-white placeholder-gray-400 transition duration-300">
                 </div>
                 
-                <!-- Genre Filter Dropdown -->
                 <div class="w-full sm:w-1/5">
                     <select id="genreFilter" onchange="applyFilters(true)"
                             class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 text-white transition duration-300 appearance-none">
                         <option value="">All Genres</option>
-                        <!-- Options will be populated by JS -->
-                    </select>
+                        </select>
                 </div>
 
-                <!-- Sort By Dropdown -->
                 <div class="w-full sm:w-1/5">
                     <select id="sortFilter" onchange="applyFilters(true)"
                             class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 text-white transition duration-300 appearance-none">
@@ -71,10 +59,11 @@
                         <option value="rating_desc">Rating (Highest)</option>
                         <option value="year_desc">Year (Newest)</option>
                         <option value="size_asc">Size (Smallest)</option>
+                        <option value="industry_asc">Industry (A-Z)</option> 
+                        <option value="industry_desc">Industry (Z-A)</option>
                     </select>
                 </div>
 
-                <!-- View Toggle Button -->
                 <div class="w-full sm:w-1/5 flex items-center">
                     <button id="viewToggle" onclick="toggleView()"
                             class="w-full px-4 py-2 rounded-lg bg-gray-600 hover:bg-gray-500 text-white font-semibold transition duration-300">
@@ -83,7 +72,6 @@
                 </div>
             </div>
 
-            <!-- Bottom Row: Rating Slider Filter (NEW) -->
             <div class="w-full bg-gray-800 p-4 rounded-lg shadow-inner">
                 <label for="ratingFilter" class="block text-sm font-medium text-gray-300 mb-2">
                     Minimum Rating: <span id="currentRatingDisplay" class="font-bold text-blue-400">0.0</span> / 10
@@ -95,7 +83,6 @@
             </div>
         </div>
         
-        <!-- Loading Indicator -->
         <div id="loadingIndicator" class="text-center py-20 hidden">
             <svg class="animate-spin mx-auto h-10 w-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
@@ -104,12 +91,9 @@
             <p class="text-gray-400 mt-3 text-lg">Fetching movie data...</p>
         </div>
 
-        <!-- Movie Grid Container -->
         <div id="movieGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-            <!-- Movie cards will be injected here by JavaScript -->
-        </div>
+            </div>
 
-        <!-- Load More Button Container -->
         <div id="loadMoreContainer" class="mt-8 text-center hidden">
             <button id="loadMoreButton" onclick="loadMore()"
                     class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50">
@@ -117,18 +101,14 @@
             </button>
         </div>
 
-        <!-- Notification/Message Box (for download status) -->
         <div id="notificationBox" class="fixed bottom-4 right-4 bg-green-600 text-white p-4 rounded-xl shadow-2xl transition duration-500 transform translate-x-full" style="display:none;">
             <p id="notificationText"></p>
         </div>
     </main>
 
-    <!-- Movie Detail Modal -->
     <div id="movieModal" class="fixed inset-0 hidden modal-backdrop flex items-center justify-center p-4">
-        <!-- Modal Content -->
         <div class="bg-gray-800 rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative transform transition-all duration-300 scale-95 opacity-0" id="modalContent">
             
-            <!-- Close Button -->
             <button onclick="closeModal()" class="absolute top-3 right-3 text-gray-400 hover:text-white bg-gray-700 rounded-full p-2 transition duration-300 z-10">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -136,15 +116,13 @@
             </button>
             
             <div id="modalBody" class="p-6 md:p-10 flex flex-col md:flex-row gap-6">
-                <!-- Content will be injected here -->
-            </div>
+                </div>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer class="bg-gray-800 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-gray-400">
-            &copy; 2024 StreamVault. All rights reserved. | Disclaimer: This site hosts no files, links are provided by external sources.
+            &copy; 2025 by M STREAM. All rights reserved. | Disclaimer: This site hosts no files, links are provided by external sources.
         </div>
     </footer>
 <script src="script.js"></script>

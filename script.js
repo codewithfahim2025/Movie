@@ -6,88 +6,103 @@ const mockMovies = [
             { quality: "480p", size: "0.4 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" },
             { quality: "720p", size: "0.84 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" }, // This is the original link
             { quality: "1080p", size: "1.5 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" }
-        ]
+        ],
+        industry: "Bollywood" // ADDED INDUSTRY FIELD
     },
     { id: 2, title: "The Silent Heist", year: 2023, genre: "Thriller", rating: 7.9, cover: "https://placehold.co/400x600/f59e0b/ffffff?text=Heist", synopsis: "A master thief attempts one last impossible job: stealing a priceless diamond from a vault protected by sound-sensitive security systems.", cast: "Ryan Gosling, Anya Taylor-Joy", 
         downloads: [
             { quality: "480p", size: "1.0 GB", link: "#" },
             { quality: "720p", size: "1.9 GB", link: "#" },
             { quality: "1080p", size: "3.5 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 3, title: "Eternal Summer", year: 2024, genre: "Romance", rating: 9.1, cover: "https://placehold.co/400x600/ef4444/ffffff?text=Summer", synopsis: "Two childhood friends meet again years later on a remote Italian island, forcing them to confront their past feelings and a future they never planned.", cast: "Zendaya, Timothée Chalamet", 
         downloads: [
             { quality: "720p", size: "1.5 GB", link: "#" },
             { quality: "1080p", size: "2.8 GB", link: "#" }
-        ]
+        ],
+        industry: "International" // ADDED INDUSTRY FIELD
     },
     { id: 4, title: "Dragon's Fury", year: 2022, genre: "Fantasy", rating: 7.2, cover: "https://placehold.co/400x600/10b981/ffffff?text=Dragon", synopsis: "In a world where magic is banned, a young warrior must tame the last living dragon to save his village from a tyrannical empire.", cast: "Henry Cavill, Millie Bobby Brown", 
         downloads: [
             { quality: "1080p", size: "3.5 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 5, title: "City of Shadows", year: 2023, genre: "Action", rating: 8.8, cover: "https://placehold.co/400x600/8b5cf6/ffffff?text=Shadows", synopsis: "A disgraced former police detective uncovers a vast conspiracy involving government officials and the city's criminal underworld.", cast: "Idris Elba, Gal Gadot", 
         downloads: [
             { quality: "480p", size: "1.2 GB", link: "#" },
             { quality: "720p", size: "2.2 GB", link: "#" },
             { quality: "1080p", size: "4.0 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 6, title: "The Inventor", year: 2021, genre: "Biography", rating: 8.0, cover: "https://placehold.co/400x600/f97316/ffffff?text=Inventor", synopsis: "The inspiring true story of Nikola Tesla and his relentless pursuit of wireless energy, despite facing opposition from powerful competitors.", cast: "Benedict Cumberbatch, Tom Holland", 
         downloads: [
             { quality: "720p", size: "1.7 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 7, title: "Frozen Planet II", year: 2024, genre: "Documentary", rating: 9.5, cover: "https://placehold.co/400x600/06b6d4/ffffff?text=Planet", synopsis: "A stunning exploration of the Arctic and Antarctic, revealing the lives of animals coping with the extreme and rapidly changing climate.", cast: "David Attenborough (Narrator)", 
         downloads: [
             { quality: "1080p", size: "4.1 GB", link: "#" }
-        ]
+        ],
+        industry: "International" // ADDED INDUSTRY FIELD
     },
     { id: 8, title: "Cyber Runner", year: 2024, genre: "Sci-Fi", rating: 8.3, cover: "https://placehold.co/400x600/6b7280/ffffff?text=Cyber", synopsis: "In a neon-drenched future, a rogue hacker finds a cryptic message that could expose the centralized AI controlling the city.", cast: "Keanu Reeves, Scarlett Johansson", 
         downloads: [
             { quality: "720p", size: "2.5 GB", link: "#" },
             { quality: "1080p", size: "4.5 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 9, title: "The Martian Chronicles", year: 2020, genre: "Sci-Fi", rating: 7.5, cover: "https://placehold.co/400x600/374151/ffffff?text=Martian", synopsis: "Exploration team struggles to colonize Mars after a catastrophic equipment failure.", cast: "Matt Damon, Jessica Chastain", 
         downloads: [
             { quality: "480p", size: "1.1 GB", link: "#" },
             { quality: "720p", size: "2.1 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 10, title: "Last Stand at Midnight", year: 2023, genre: "Action", rating: 8.9, cover: "https://placehold.co/400x600/4f46e5/ffffff?text=Stand", synopsis: "A rogue agent must protect a witness from an international assassination squad on New Year's Eve.", cast: "Tom Cruise, Emily Blunt", 
         downloads: [
             { quality: "720p", size: "3.0 GB", link: "#" },
             { quality: "1080p", size: "5.5 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 11, title: "Whispers of the Past", year: 2022, genre: "Thriller", rating: 6.8, cover: "https://placehold.co/400x600/dc2626/ffffff?text=Whispers", synopsis: "A cold case detective finds a connection between a decades-old murder and a recent disappearance in his small hometown.", cast: "Chris Evans, Ana de Armas", 
         downloads: [
             { quality: "480p", size: "0.7 GB", link: "#" },
             { quality: "720p", size: "1.4 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 12, title: "A Taste of Freedom", year: 2024, genre: "Documentary", rating: 9.3, cover: "https://placehold.co/400x600/10b981/ffffff?text=Freedom", synopsis: "Following the lives of three individuals released from incarceration and their journey to rebuild their lives.", cast: "N/A", 
         downloads: [
             { quality: "1080p", size: "3.2 GB", link: "#" }
-        ]
+        ],
+        industry: "International" // ADDED INDUSTRY FIELD
     },
     { id: 13, title: "The Secret Garden", year: 2021, genre: "Romance", rating: 6.5, cover: "https://placehold.co/400x600/ec4899/ffffff?text=Garden", synopsis: "An adaptation of the classic novel about a young girl who discovers a hidden garden on her uncle's estate.", cast: "Colin Firth, Julie Walters", 
         downloads: [
             { quality: "480p", size: "1.2 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 14, title: "Future Shock", year: 2025, genre: "Sci-Fi", rating: 9.0, cover: "https://placehold.co/400x600/000000/ffffff?text=Shock", synopsis: "A gripping tale of a society where dreams are commodified and sold on the black market.", cast: "Leonardo DiCaprio, Margot Robbie", 
         downloads: [
             { quality: "720p", size: "3.8 GB", link: "#" },
             { quality: "1080p", size: "6.5 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
     { id: 15, title: "Jungle Hunt", year: 2023, genre: "Action", rating: 7.8, cover: "https://placehold.co/400x600/4c0519/ffffff?text=Hunt", synopsis: "A survival expert guides a group of researchers through the Amazon, encountering danger at every turn.", cast: "Dwayne Johnson, Jason Statham", 
         downloads: [
             { quality: "480p", size: "1.4 GB", link: "#" },
             { quality: "720p", size: "2.4 GB", link: "#" }
-        ]
+        ],
+        industry: "Hollywood" // ADDED INDUSTRY FIELD
     },
 ];
 
@@ -169,8 +184,14 @@ function sortMovies(movies) {
         let valA = a[field];
         let valB = b[field];
 
+        // NEW: Industry Sorting - Case-insensitive string comparison
+        if (field === 'industry') {
+            valA = valA.toLowerCase();
+            valB = valB.toLowerCase();
+        } 
+        
         // Numeric conversion for proper sorting
-        if (field === 'rating' || field === 'year') {
+        else if (field === 'rating' || field === 'year') {
             valA = parseFloat(valA);
             valB = parseFloat(valB);
         } else if (field === 'size') {
