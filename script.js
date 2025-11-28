@@ -491,8 +491,10 @@ function handleDownloadModal(movieId, quality, size, downloadLink) {
     if (downloadLink && downloadLink !== '#') {
         const a = document.createElement('a');
         a.href = downloadLink;
-        // The 'download' attribute is optional but can suggest a file name.
-        a.download = `${movie.title}_${quality}`; 
+        // 👇 MODIFIED LINE: Add a file extension and clean the title to strengthen the download suggestion.
+        const cleanTitle = movie.title.replace(/[^a-z0-9]/gi, '_');
+        a.download = `${cleanTitle}_${quality}.mp4`; 
+        
         a.style.display = 'none'; // Keep it hidden
         document.body.appendChild(a);
         a.click(); // Programmatically click the hidden link
