@@ -341,11 +341,11 @@ function toggleView() {
     
     // Apply appropriate classes to the grid container
     if (currentView === 'list') {
-        toggleButton.textContent = 'Switch to Grid View';
+        if (toggleButton) toggleButton.textContent = 'Switch to Grid View';
         movieGrid.classList.remove('grid-cols-2', 'sm:grid-cols-3', 'lg:grid-cols-4', 'xl:grid-cols-5', 'gap-6');
         movieGrid.classList.add('flex', 'flex-col', 'gap-4');
     } else {
-        toggleButton.textContent = 'Switch to List View';
+        if (toggleButton) toggleButton.textContent = 'Switch to List View';
         movieGrid.classList.add('grid-cols-2', 'sm:grid-cols-3', 'lg:grid-cols-4', 'xl:grid-cols-5', 'gap-6');
         movieGrid.classList.remove('flex', 'flex-col', 'gap-4');
     }
@@ -377,9 +377,10 @@ function applyFilters(resetPage = false) {
     }
 
     
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    const selectedGenre = document.getElementById('genreFilter').value;
-    const minRating = parseFloat(ratingFilter.value); 
+    const searchInput = document.getElementById('searchInput');
+    const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+    const selectedGenre = genreFilter ? genreFilter.value : '';
+    const minRating = ratingFilter ? parseFloat(ratingFilter.value) : 0; 
     
     let filtered = mockMovies.filter(movie => {
         // Text search filter (includes title, genre, and cast)
@@ -408,10 +409,55 @@ function applyFilters(resetPage = false) {
 
     // Show/Hide Load More Button
     const loadMoreContainer = document.getElementById('loadMoreContainer');
-    if (moviesToRender.length < totalFilteredMovies) {
-        loadMoreContainer.classList.remove('hidden');
-    } else {
-        loadMoreContainer.classList.add('hidden');
+    if (loadMoreContainer) {
+        if (moviesToRender.length < totalFilteredMovies) {
+            loadMoreContainer.classList.remove('hidden');
+        } else {
+            loadMoreContainer.classList.add('hidden');
+        }
+    }
+}
+
+
+/**
+ * Attaches necessary event listeners to the filter and view elements (Index Page Only).
+ */
+function setupEventListeners() {
+    // 1. Filter Change Listeners
+    const filterElements = [
+        document.getElementById('searchInput'),
+        document.getElementById('genreFilter'),
+        document.getElementById('sortFilter'),
+        document.getElementById('ratingFilter')
+    ];
+
+    filterElements.forEach(element => {
+        if (element) {
+            // Use 'change' for select/range, 'input' for text search
+            const eventType = element.id === 'searchInput' ? 'input' : 'change';
+            
+            element.addEventListener(eventType, () => applyFilters(true)); // resetPage=true on filter change
+        }
+    });
+
+    // 2. Rating Slider Listener (for visual update)
+    if (ratingFilter && currentRatingDisplay) {
+        ratingFilter.addEventListener('input', (e) => {
+            currentRatingDisplay.textContent = e.target.value;
+            // Immediate visual update on rating filter is done in the 'input' handler above
+        });
+    }
+
+    // 3. View Toggle Button Listener
+    const viewToggleBtn = document.getElementById('viewToggleBtn');
+    if (viewToggleBtn) {
+        viewToggleBtn.addEventListener('click', toggleView);
+    }
+
+    // 4. Load More Button Listener
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', loadMore);
     }
 }
 
@@ -420,22 +466,22 @@ function applyFilters(resetPage = false) {
  * Renders the full details of a single movie on the movie_detail.html page.
  */
 function loadDetailPage() {
-    const detailContainer = document.getElementById('detailContent');
-    if (!detailContainer) return; // Ensure we are on the detail page
+    const detailContent = document.getElementById('detailContent');
+    if (!detailContent) return; // Ensure we are on the detail page
 
     // 1. Get ID from URL
     const params = new URLSearchParams(window.location.search);
     const movieId = parseInt(params.get('id'));
 
     if (!movieId) {
-        detailContainer.innerHTML = '<div class="text-center py-20 text-red-500 text-xl font-bold">Error: Movie ID not found in the URL.</div>';
+        renderError("Movie ID not found in the URL. Please return to the homepage.");
         return;
     }
 
     // 2. Find movie data
     const movie = mockMovies.find(m => m.id === movieId);
     if (!movie) {
-        detailContainer.innerHTML = '<div class="text-center py-20 text-red-500 text-xl font-bold">Error: Movie not found.</div>';
+        renderError(`Movie with ID: ${movieId} was not found.`);
         return;
     }
     
@@ -457,7 +503,7 @@ function loadDetailPage() {
     `).join('');
 
     // 4. Render Details - NOW EXCLUSIVELY SHOWING SYNOPSIS, CAST, AND DOWNLOADS HERE
-    detailContainer.innerHTML = `
+    detailContent.innerHTML = `
         <div class="flex flex-col md:flex-row gap-8">
             <div class="md:w-1/3 flex-shrink-0">
                 <img src="${movie.cover}" alt="${movie.title} Cover" 
@@ -494,6 +540,28 @@ function loadDetailPage() {
     document.title = `${movie.title} - M STREAM`;
 }
 
+/**
+ * Renders a standard error message on the detail page.
+ * @param {string} message - The error message to display.
+ */
+function renderError(message) {
+    const detailContent = document.getElementById('detailContent');
+    if (detailContent) {
+        detailContent.innerHTML = `
+            <div class="text-center py-20 bg-red-900/50 rounded-xl">
+                <svg class="mx-auto h-12 w-12 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.39 16c-.77 1.333.192 3 1.732 3z"/>
+                </svg>
+                <h2 class="mt-2 text-2xl font-bold text-red-400">Error</h2>
+                <p class="mt-1 text-lg text-red-300">${message}</p>
+                <a href="index.html" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Go Back Home
+                </a>
+            </div>
+        `;
+    }
+}
+
 
 /**
  * Simulates a download action, shows a notification, and initiates the download.
@@ -504,7 +572,7 @@ function loadDetailPage() {
  */
 function handleDownloadModal(movieId, quality, size, downloadLink) {
     const movie = mockMovies.find(m => m.id === movieId);
-    if (!movie) return;
+    if (!movie || !notificationBox || !notificationText) return;
 
     // 1. Show notification (Start message)
     notificationText.textContent = `Starting download for "${movie.title}" (${quality}, ${size})...`;
@@ -563,7 +631,7 @@ window.onload = () => {
         // Run index page specific logic
         
         // Set initial value for the display
-        if (currentRatingDisplay) currentRatingDisplay.textContent = ratingFilter.value;
+        if (currentRatingDisplay && ratingFilter) currentRatingDisplay.textContent = ratingFilter.value;
 
         // Show loading indicator
         if (loadingIndicator) loadingIndicator.classList.remove('hidden');
@@ -572,13 +640,17 @@ window.onload = () => {
         // Simulate network delay before rendering
         setTimeout(() => {
             if (loadingIndicator) loadingIndicator.classList.add('hidden');
-            if (movieGrid) movieGrid.style.display = 'grid'; 
+            if (movieGrid) {
+                movieGrid.style.display = 'grid'; 
+                movieGrid.classList.add('grid-cols-2', 'sm:grid-cols-3', 'lg:grid-cols-4', 'xl:grid-cols-5', 'gap-6');
+            }
             
             populateGenreFilter();
-            // Ensure initial grid view classes are applied
-            if (movieGrid) movieGrid.classList.add('grid-cols-2', 'sm:grid-cols-3', 'lg:grid-cols-4', 'xl:grid-cols-5', 'gap-6');
             
             applyFilters(); // Renders, sorts, and filters default view (page 1)
+            
+            // Attach all interaction listeners
+            setupEventListeners(); 
         }, 1500); // 1.5 second loading time simulation
     }
 };
