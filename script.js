@@ -18,7 +18,7 @@ const mockMovies = [
         ], 
         industry: "Telugu"
     },
-    { id: 3, title: "Dracula:A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", 
+    { id: 3, title: "Dracula: A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
             { quality: "480p", size: "500 MB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" },
@@ -464,6 +464,11 @@ function loadMore() {
     applyFilters(false);
 }
 
+// NEW FUNCTION: Triggers filtering specifically for the search button.
+function triggerSearch() {
+    applyFilters(true);
+}
+
 /**
  * Applies text search, genre filtering, and sorting (index page only).
  * @param {boolean} resetPage - If true, resets pagination (used when filters/search change).
@@ -482,10 +487,13 @@ function applyFilters(resetPage = false) {
     
     let filtered = mockMovies.filter(movie => {
         // Text search filter 
-        const textMatch = movie.title.toLowerCase().includes(searchTerm) || 
-                          movie.genre.toLowerCase().includes(searchTerm) ||
-                          movie.cast.toLowerCase().includes(searchTerm);
+        const titleMatch = movie.title.toLowerCase().includes(searchTerm);
+        const genreSearchMatch = movie.genre.toLowerCase().includes(searchTerm);
+        // FIX: Ensure movie.cast is treated as an empty string if it is missing/undefined
+        const castMatch = (movie.cast || "").toLowerCase().includes(searchTerm);
         
+        const textMatch = titleMatch || genreSearchMatch || castMatch;
+
         // Genre selection filter
         const genreMatch = !selectedGenre || movie.genre.includes(selectedGenre);
 
@@ -522,17 +530,24 @@ function applyFilters(resetPage = false) {
  * Attaches necessary event listeners to the filter and view elements (Index Page Only).
  */
 function setupEventListeners() {
-    // 1. View Toggle Button Listener
-    const viewToggleBtn = document.getElementById('viewToggle'); 
-    if (viewToggleBtn) {
-        viewToggleBtn.addEventListener('click', toggleView);
-    }
+    // 1. View Toggle Button Listener is inline in HTML.
     
     // 2. Load More Button Listener
     const loadMoreBtn = document.getElementById('loadMoreButton'); 
     if (loadMoreBtn) {
         // Ensure this listener is active, even if the button uses an inline onclick
         loadMoreBtn.addEventListener('click', loadMore);
+    }
+
+    // 3. NEW: Listen for Enter key on the search input to trigger search
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault(); // Prevent default form submission
+                triggerSearch();
+            }
+        });
     }
 }
 
