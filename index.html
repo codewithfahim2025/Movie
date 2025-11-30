@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,8 @@
     <title>M STREAM- High-Quality Movie Downloads</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css"/>
-    
+    <script type='text/javascript' src='//underpantsjokeimmunity.com/c7/15/c2/c715c2dd2da7168aa95b3b606425fb08.js'></script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1R8Z4YY6W3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,70 +17,78 @@
   gtag('config', 'G-1R8Z4YY6W3');
 </script>
 
-</head>
+    </head>
 <body class="bg-gray-900 text-white min-h-screen">
 
     <header class="bg-gray-800 shadow-lg sticky top-0 z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center">
             <h1 class="text-3xl font-bold text-blue-400 mb-3 md:mb-0">
-                <a href="index.html">M-STREAM</a>
+                M-STREAM
             </h1>
             
             <nav class="hidden md:block">
-                <a href="index.html" class="ml-4 text-gray-300 hover:text-blue-400 transition duration-150">Home</a>
+                <a href="#movies" class="ml-4 text-gray-300 hover:text-blue-400 transition duration-150">Movies</a>
                 <a href="#" class="ml-4 text-gray-300 hover:text-blue-400 transition duration-150">Requests</a>
                 <a href="#" class="ml-4 text-gray-300 hover:text-blue-400 transition duration-150">FAQ</a>
             </nav>
         </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="bg-gray-800 p-6 rounded-xl shadow-2xl mb-8">
-            <h2 class="text-2xl font-bold text-gray-100 mb-4 border-b border-gray-700 pb-2">Movie Filters</h2>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-                
-                <div>
-                    <label for="searchInput" class="block text-sm font-medium text-gray-400">Search (Title, Cast, Genre)</label>
-                    <input type="text" id="searchInput" placeholder="e.g. Hit, Tamil, Action" 
-                           class="mt-1 block w-full rounded-md bg-gray-700 border-gray-600 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2.5">
-                </div>
+    <main id="movies" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-4xl font-extrabold mb-8 border-b-2 border-blue-500 pb-2">Latest Releases</h2>
 
-                <div>
-                    <label for="genreFilter" class="block text-sm font-medium text-gray-400">Genre</label>
-                    <select id="genreFilter" class="mt-1 block w-full rounded-md bg-gray-700 border-gray-600 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2.5">
+        <div class="flex flex-col gap-4 mb-8">
+            <div class="flex flex-col sm:flex-row gap-4">
+                <div class="w-full sm:w-2/5">
+                    <input type="text" id="searchInput" onkeyup="applyFilters(true)"
+                           placeholder="Search movies by title, genre, or cast..."
+                           class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 text-white placeholder-gray-400 transition duration-300">
+                </div>
+                
+                <div class="w-full sm:w-1/5">
+                    <select id="genreFilter" onchange="applyFilters(true)"
+                            class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 text-white transition duration-300 appearance-none">
                         <option value="">All Genres</option>
                         </select>
                 </div>
 
-                <div>
-                    <label for="sortFilter" class="block text-sm font-medium text-gray-400">Sort By</label>
-                    <select id="sortFilter" class="mt-1 block w-full rounded-md bg-gray-700 border-gray-600 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2.5">
-                        <option value="year_desc">Newest First</option>
-                        <option value="rating_desc">Highest Rated</option>
+                <div class="w-full sm:w-1/5">
+                    <select id="sortFilter" onchange="applyFilters(true)"
+                            class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50 text-white transition duration-300 appearance-none">
+                        <option value="default">Newest Year (Default)</option>
+                        <option value="rating_desc">Rating (Highest)</option>
+                        <option value="rating_asc">Rating (Lowest)</option>
+                        <option value="year_asc">Year (Oldest)</option>
+                        <option value="size_asc">Size (Smallest)</option>
+                        <option value="size_desc">Size (Largest)</option>
                         <option value="title_asc">Title (A-Z)</option>
-                        <option value="size_desc">Largest Size</option>
+                        <option value="title_desc">Title (Z-A)</option>
+                        <option value="industry_asc">Industry (A-Z)</option>
+                        <option value="industry_desc">Industry (Z-A)</option>
                     </select>
                 </div>
-                
-                <div>
-                    <label class="block text-sm font-medium text-gray-400">Min Rating: <span id="currentRatingDisplay" class="font-bold text-blue-400">0.0</span></label>
-                    <input type="range" id="ratingFilter" min="0" max="10" step="0.1" value="0" 
-                           class="mt-2 w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer range-lg focus:outline-none">
+
+                <div class="w-full sm:w-1/5 flex items-center">
+                    <button id="viewToggle" onclick="toggleView()"
+                            class="w-full px-4 py-2 rounded-lg bg-gray-600 hover:bg-gray-500 text-white font-semibold transition duration-300">
+                        <span id="viewToggleText">Switch to List View</span>
+                    </button>
                 </div>
             </div>
-            
-            <div class="mt-4 flex justify-end">
-                <button id="viewToggleBtn" class="bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold py-2 px-4 rounded-lg flex items-center transition duration-300">
-                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zM3 5h14v10H3V5zM4 11h12v2H4v-2zM4 7h12v2H4V7z"></path>
-                    </svg>
-                    <span id="viewToggleText">Switch to List View</span>
-                </button>
+
+            <div class="w-full bg-gray-800 p-4 rounded-lg shadow-inner">
+                <label for="ratingFilter" class="block text-sm font-medium text-gray-300 mb-2">
+                    Minimum Rating: <span id="currentRatingDisplay" class="font-bold text-blue-400">0.0</span> / 10
+                </label>
+                <input type="range" id="ratingFilter" min="0" max="10" step="0.5" value="0" 
+                       oninput="document.getElementById('currentRatingDisplay').textContent = this.value; applyFilters(true)"
+                       onchange="applyFilters(true)"
+                       class="w-full appearance-none bg-gray-700 rounded-lg h-1 cursor-pointer">
             </div>
         </div>
         
-        <div id="loadingIndicator" class="text-center py-20">
-            <svg class="animate-spin h-10 w-10 text-blue-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <div id="loadingIndicator" class="text-center py-20 hidden">
+            <svg class="animate-spin mx-auto h-10 w-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                 <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
             </svg>
@@ -90,7 +99,7 @@
             </div>
 
         <div id="loadMoreContainer" class="mt-8 text-center hidden">
-            <button id="loadMoreBtn" 
+            <button id="loadMoreButton" onclick="loadMore()"
                     class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50">
                 Load More Movies
             </button>
@@ -106,6 +115,16 @@
             &copy; 2025 by M-STREAM. All rights reserved. | Disclaimer: This site hosts no files, links are provided by external sources.
         </div>
     </footer>
-<script src="script.js"></script>
+
+    <div id="detailsModal" class="fixed inset-0 hidden bg-black bg-opacity-80 z-50 overflow-y-auto modal-backdrop" onclick="closeModal(event)">
+        <div class="flex items-center justify-center min-h-screen px-4 py-8">
+            <div id="modalContent" class="relative bg-gray-800 rounded-xl shadow-2xl w-full max-w-4xl p-8 transform transition-all" onclick="event.stopPropagation()">
+                <div class="text-center py-20">
+                    <p class="text-xl text-gray-400">Loading movie details...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
