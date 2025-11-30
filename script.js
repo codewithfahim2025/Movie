@@ -18,14 +18,14 @@ const mockMovies = [
         ], 
         industry: "Telugu"
     },
-    { id: 3, title: "Eternal Summer", year: 2024, genre: "Romance", rating: 9.1, cover: "https://placehold.co/400x600/ef4444/ffffff?text=Summer", release_date: "2024-11-28", synopsis: "Two childhood friends meet again years later on a remote Italian island, forcing them to confront their past feelings and a future they never planned.", cast: "Zendaya, Timothée Chalamet", 
+    { id: 3, title: "Dracula:A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
-            { quality: "480p", size: "500 MB", link: "#" },
-            { quality: "720p", size: "1.2 GB", link: "#" },
-            { quality: "1080p", size: "2.8 GB", link: "#" }
+            { quality: "480p", size: "500 MB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" },
+            { quality: "720p", size: "0.6 GB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" },
+            { quality: "1080p", size: "2.8 GB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" }
         ], 
-        industry: "International"
+        industry: "Hollywood"
     },
     { id: 4, title: "Dragon's Fury", year: 2022, genre: "Fantasy", rating: 7.2, cover: "https://placehold.co/400x600/10b981/ffffff?text=Dragon", release_date: "2022-04-01", synopsis: "In a world where magic is banned, a young warrior must tame the last living dragon to save his village from a tyrannical empire.", cast: "Henry Cavill, Millie Bobby Brown", 
         // UPDATED: Added 480p and 720p options
