@@ -43,14 +43,14 @@ const mockMovies = [
             { quality: "720p", size: "0.76 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" },
             { quality: "1080p", size: "4.0 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" }
         ], 
-        industry: "Hollywood"
+        industry: "Tamil"
     },
-    { id: 6, title: "The Inventor", year: 2021, genre: "Biography", rating: 8.0, cover: "https://placehold.co/400x600/f97316/ffffff?text=Inventor", release_date: "2021-03-05", synopsis: "The inspiring true story of Nikola Tesla and his relentless pursuit of wireless energy, despite facing opposition from powerful competitors.", cast: "Benedict Cumberbatch, Tom Holland", 
+    { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-fi", rating: 7.5, cover: "frankenstein.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
         // UPDATED: Added 480p and 1080p options
         downloads: [
-            { quality: "480p", size: "400 MB", link: "#" },
-            { quality: "720p", size: "1.7 GB", link: "#" },
-            { quality: "1080p", size: "3.2 GB", link: "#" }
+            { quality: "480p", size: "400 MB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" },
+            { quality: "720p", size: "1.0 GB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" },
+            { quality: "1080p", size: "3.2 GB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" }
         ], 
         industry: "Hollywood"
     },
