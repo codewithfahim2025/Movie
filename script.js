@@ -27,21 +27,21 @@ const mockMovies = [
         ], 
         industry: "Hollywood"
     },
-    { id: 4, title: "Dragon's Fury", year: 2022, genre: "Fantasy", rating: 7.2, cover: "https://placehold.co/400x600/10b981/ffffff?text=Dragon", release_date: "2022-04-01", synopsis: "In a world where magic is banned, a young warrior must tame the last living dragon to save his village from a tyrannical empire.", cast: "Henry Cavill, Millie Bobby Brown", 
+    { id: 4, title: "Kantara:A Legend Chapter-1", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
-            { quality: "480p", size: "700 MB", link: "#" },
-            { quality: "720p", size: "1.9 GB", link: "#" },
-            { quality: "1080p", size: "3.5 GB", link: "#" }
+            { quality: "480p", size: "700 MB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" },
+            { quality: "720p", size: "0.88 GB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" },
+            { quality: "1080p", size: "3.5 GB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" }
         ], 
-        industry: "Hollywood"
+        industry: "Kannada"
     },
-    { id: 5, title: "City of Shadows", year: 2023, genre: "Action", rating: 8.8, cover: "https://placehold.co/400x600/8b5cf6/ffffff?text=Shadows", release_date: "2023-10-20", synopsis: "A disgraced former police detective uncovers a vast conspiracy involving government officials and the city's criminal underworld.", cast: "Idris Elba, Gal Gadot", 
+    { id: 5, title: "Aaryan", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
-            { quality: "480p", size: "800 MB", link: "#" },
-            { quality: "720p", size: "2.1 GB", link: "#" },
-            { quality: "1080p", size: "4.0 GB", link: "#" }
+            { quality: "480p", size: "800 MB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" },
+            { quality: "720p", size: "0.76 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" },
+            { quality: "1080p", size: "4.0 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" }
         ], 
         industry: "Hollywood"
     },
