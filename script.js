@@ -45,7 +45,7 @@ const mockMovies = [
         ], 
         industry: "Tamil"
     },
-    { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-fi", rating: 7.5, cover: "frankenstein.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
+    { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
         // UPDATED: Added 480p and 1080p options
         downloads: [
             { quality: "480p", size: "400 MB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" },
