@@ -1,6 +1,6 @@
 // Mock Movie Data (expanded for robust pagination testing)
 const mockMovies = [
-    { id: 1, title: "Dhuruvangal Pathinaaru", year: 2016, genre: "Crime/Thriller", rating: 8.2, cover:"dhuruvangal-pathinaru.jpeg", release_date: "2016-12-29", synopsis: "A couple dies under mysterious circumstances and Inspector Deepak is assigned the case. However, he loses his leg in a confrontation during the investigation, which leads to the end of his career.", cast: " Rahman, Prakash Raghavan, Sharathkumar, Santhosh Krishna", 
+    { id: 1, title: "Dhuruvangal Pathinaaru(WebDL)", year: 2016, genre: "Crime/Thriller", rating: 8.2, cover:"dhuruvangal-pathinaru.jpeg", release_date: "2016-12-29", synopsis: "A couple dies under mysterious circumstances and Inspector Deepak is assigned the case. However, he loses his leg in a confrontation during the investigation, which leads to the end of his career.", cast: " Rahman, Prakash Raghavan, Sharathkumar, Santhosh Krishna", 
         // UPDATED: Added 480p and 1080p options
         downloads: [
             { quality: "480p", size: "450 MB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" },
@@ -9,7 +9,7 @@ const mockMovies = [
         ], 
         industry: "Tamil"
     },
-    { id: 2, title: "Hit: The First Case", year: 2020, genre: "Crime/Thriller", rating: 7.6, cover: "hit.jpeg", release_date: "2020-02-28", synopsis: "A police officer in the homicide intervention team must overcome his struggles with his tragic past in order to investigate a case involving a missing woman.", cast: "Vishwak Sen,Adivi Sesh,Meenakshi Chaudhary.", 
+    { id: 2, title: "Hit: The First Case(WebDL)", year: 2020, genre: "Crime/Thriller", rating: 7.6, cover: "hit.jpeg", release_date: "2020-02-28", synopsis: "A police officer in the homicide intervention team must overcome his struggles with his tragic past in order to investigate a case involving a missing woman.", cast: "Vishwak Sen,Adivi Sesh,Meenakshi Chaudhary.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
             { quality: "480p", size: "600 MB", link: "https://drive.google.com/uc?export=download&id=1f5CLl_7ARdDuj2pGaToasW_2z3t_OrEs" },
@@ -18,7 +18,7 @@ const mockMovies = [
         ], 
         industry: "Telugu"
     },
-    { id: 3, title: "Dracula: A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", cast:"Caleb Landry Jones,Zoe Bleu,Matilda De Angelis.",
+    { id: 3, title: "Dracula: A Love Tale(WebDL)", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", cast:"Caleb Landry Jones,Zoe Bleu,Matilda De Angelis.",
         // UPDATED: Added 480p and 720p options
         downloads: [
             { quality: "480p", size: "500 MB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" },
@@ -27,7 +27,7 @@ const mockMovies = [
         ], 
         industry: "Hollywood"
     },
-    { id: 4, title: "Kantara:A Legend Chapter-1", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.",cast:"Rukmini Vasanth,Rishab Shetty,Gulshan Devaiah.", 
+    { id: 4, title: "Kantara:A Legend Chapter-1(WebDL)", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.",cast:"Rukmini Vasanth,Rishab Shetty,Gulshan Devaiah.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
             { quality: "480p", size: "700 MB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" },
@@ -36,7 +36,7 @@ const mockMovies = [
         ], 
         industry: "Kannada"
     },
-    { id: 5, title: "Aaryan", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
+    { id: 5, title: "Aaryan(WebDL)", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
         // UPDATED: Added 480p and 720p options
         downloads: [
             { quality: "480p", size: "800 MB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" },
@@ -45,7 +45,7 @@ const mockMovies = [
         ], 
         industry: "Tamil"
     },
-    { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
+    { id: 6, title: "Frankenstein(WebDL)", year: 2025, genre: "Horror/Sci-fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
         // UPDATED: Added 480p and 1080p options
         downloads: [
             { quality: "480p", size: "400 MB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" },
@@ -55,13 +55,13 @@ const mockMovies = [
         industry: "Hollywood"
     },
     // --- EXPANDED MOCK DATA (All updated to include 480p, 720p, 1080p) ---
-    { id: 7, title: "Frozen Planet II", year: 2024, genre: "Documentary", rating: 9.5, cover: "https://placehold.co/400x600/06b6d4/ffffff?text=Planet", release_date: "2024-09-01", synopsis: "A stunning exploration of the Arctic and Antarctic, revealing the lives of animals coping with the extreme and rapidly changing climate.", cast: "David Attenborough (Narrator)", 
+    { id: 7, title: "Tere Ishk Mein(PreHDRip)", year: 2025, genre: "Romance/Musical", rating: 8.2, cover: "tereishkmein2025.jpeg", release_date: "2025-11-28", synopsis: "Shankar and Mukti's intense love story unfolds against the backdrop of Benaras, exploring surrender and transformation through an all-consuming romance that heals, hurts, and changes them.", cast: "Dhanush,Kriti Sanon,Prabhu Deva.", 
         downloads: [
-            { quality: "480p", size: "900 MB", link: "#" },
-            { quality: "720p", size: "2.5 GB", link: "#" },
-            { quality: "1080p", size: "4.1 GB", link: "#" }
+            { quality: "480p", size: "900 MB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3" },
+            { quality: "720p", size: "1.3 GB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3" },
+            { quality: "1080p", size: "4.1 GB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3" }
         ], 
-        industry: "International" 
+        industry: "Bollywood" 
     },
     { id: 8, title: "Cyber Runner", year: 2024, genre: "Sci-Fi", rating: 8.3, cover: "https://placehold.co/400x600/6b7280/ffffff?text=Cyber", release_date: "2024-01-10", synopsis: "In a neon-drenched future, a rogue hacker finds a cryptic message that could expose the centralized AI controlling the city.", cast: "Keanu Reeves, Scarlett Johansson", 
         downloads: [
