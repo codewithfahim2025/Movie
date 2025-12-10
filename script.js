@@ -1,217 +1,243 @@
 // Mock Movie Data (expanded for robust pagination testing)
 const mockMovies = [
-    { id: 1, title: "Dhuruvangal Pathinaaru(WebDL)", year: 2016, genre: "Crime/Thriller", rating: 8.2, cover:"dhuruvangal-pathinaru.jpeg", release_date: "2016-12-29", synopsis: "A couple dies under mysterious circumstances and Inspector Deepak is assigned the case. However, he loses his leg in a confrontation during the investigation, which leads to the end of his career.", cast: " Rahman, Prakash Raghavan, Sharathkumar, Santhosh Krishna", 
-        // UPDATED: Added 480p and 1080p options
+    { id: 1, title: "Dhuruvangal Pathinaaru", year: 2016, genre: "Crime/Thriller", rating: 8.2, cover:"dhuruvangal-pathinaru.jpeg", release_date: "2016-12-29", synopsis: "A couple dies under mysterious circumstances and Inspector Deepak is assigned the case. However, he loses his leg in a confrontation during the investigation, which leads to the end of his career.", cast: " Rahman, Prakash Raghavan, Sharathkumar, Santhosh Krishna", 
+        // UPDATED: Added 'type' field to download objects
         downloads: [
-            { quality: "480p", size: "450 MB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" },
-            { quality: "720p", size: "0.84 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" },
-            { quality: "1080p", size: "1.6 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D" }
+            
+            { quality: "720p", size: "0.84 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D", type: "WEB-DL" },
+           
         ], 
-        industry: "Tamil"
+        industry: "Tamil, English", // Multi-language support
+        watch_link: "https://example.com/watch/dhuruvangal-16" // Watch online link
     },
-    { id: 2, title: "Hit: The First Case(WebDL)", year: 2020, genre: "Crime/Thriller", rating: 7.6, cover: "hit.jpeg", release_date: "2020-02-28", synopsis: "A police officer in the homicide intervention team must overcome his struggles with his tragic past in order to investigate a case involving a missing woman.", cast: "Vishwak Sen,Adivi Sesh,Meenakshi Chaudhary.", 
-        // UPDATED: Added 480p and 720p options
+    { id: 2, title: "Hit: The First Case", year: 2020, genre: "Crime/Thriller", rating: 7.6, cover: "hit.jpeg", release_date: "2020-02-28", synopsis: "A police officer in the homicide intervention team must overcome his struggles with his tragic past in order to investigate a case involving a missing woman.", cast: "Vishwak Sen,Adivi Sesh,Meenakshi Chaudhary.", 
+        // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "600 MB", link: "https://drive.google.com/uc?export=download&id=1f5CLl_7ARdDuj2pGaToasW_2z3t_OrEs" },
-            { quality: "720p", size: "1.36 GB", link: "https://drive.google.com/uc?export=download&id=1f5CLl_7ARdDuj2pGaToasW_2z3t_OrEs" },
-            { quality: "1080p", size: "3.5 GB", link: "https://drive.google.com/uc?export=download&id=1f5CLl_7ARdDuj2pGaToasW_2z3t_OrEs" }
+           
+            { quality: "720p", size: "1.36 GB", link: "https://drive.google.com/uc?export=download&id=1f5CLl_7ARdDuj2pGaToasW_2z3t_OrEs", type: "WEB-DL" },
+         
         ], 
-        industry: "Telugu"
+        industry: "Telugu, Hindi",
+        watch_link: "https://example.com/watch/hit-first-case"
     },
-    { id: 3, title: "Dracula: A Love Tale(WebDL)", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", cast:"Caleb Landry Jones,Zoe Bleu,Matilda De Angelis.",
-        // UPDATED: Added 480p and 720p options
+    { id: 3, title: "Dracula: A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", cast:"Caleb Landry Jones,Zoe Bleu,Matilda De Angelis.",
+        // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "500 MB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" },
-            { quality: "720p", size: "0.6 GB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" },
-            { quality: "1080p", size: "2.8 GB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz" }
+           
+            { quality: "720p", size: "0.6 GB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz", type: "WEB-DL" },
+           
         ], 
-        industry: "Hollywood"
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/dracula-love-tale"
     },
-    { id: 4, title: "Kantara:A Legend Chapter-1(WebDL)", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.",cast:"Rukmini Vasanth,Rishab Shetty,Gulshan Devaiah.", 
-        // UPDATED: Added 480p and 720p options
+    { id: 4, title: "Kantara:A Legend Chapter-1", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.",cast:"Rukmini Vasanth,Rishab Shetty,Gulshan Devaiah.", 
+        // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "700 MB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" },
-            { quality: "720p", size: "0.88 GB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" },
-            { quality: "1080p", size: "3.5 GB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6" }
+          
+            { quality: "720p", size: "0.88 GB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6", type: "WEB-DL" },
+           
         ], 
-        industry: "Kannada"
+        industry: "Kannada",
+        watch_link: "https://example.com/watch/kantara"
     },
-    { id: 5, title: "Aaryan(WebDL)", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
-        // UPDATED: Added 480p and 720p options
+    { id: 5, title: "Aaryan", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
+        // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "800 MB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" },
-            { quality: "720p", size: "0.76 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" },
-            { quality: "1080p", size: "4.0 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS" }
+          
+            { quality: "720p", size: "0.76 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS", type: "WEB-DL" },
+            
         ], 
-        industry: "Tamil"
+        industry: "Tamil",
+        watch_link: "https://example.com/watch/aaryan"
     },
-    { id: 6, title: "Frankenstein(WebDL)", year: 2025, genre: "Horror/Sci-Fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
-        // UPDATED: Added 480p and 1080p options
+    { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-Fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
+        // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "400 MB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" },
-            { quality: "720p", size: "1.0 GB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" },
-            { quality: "1080p", size: "3.2 GB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas" }
+           
+            { quality: "720p", size: "1.0 GB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas", type: "BluRay" },
+           
         ], 
-        industry: "Hollywood"
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/frankenstein"
     },
-    // --- EXPANDED MOCK DATA (All updated to include 480p, 720p, 1080p) ---
-    { id: 7, title: "Tere Ishk Mein(PreHDRip)", year: 2025, genre: "Romance/Musical", rating: 8.2, cover: "tereishkmein2025.jpeg", release_date: "2025-11-28", synopsis: "Shankar and Mukti's intense love story unfolds against the backdrop of Benaras, exploring surrender and transformation through an all-consuming romance that heals, hurts, and changes them.", cast: "Dhanush,Kriti Sanon,Prabhu Deva.", 
+    // --- EXPANDED MOCK DATA (All updated to include 'type' field) ---
+    { id: 7, title: "Tere Ishk Mein", year: 2025, genre: "Romance/Musical", rating: 8.2, cover: "tereishkmein2025.jpeg", release_date: "2025-11-28", synopsis: "Shankar and Mukti's intense love story unfolds against the backdrop of Benaras, exploring surrender and transformation through an all-consuming romance that heals, hurts, and changes them.", cast: "Dhanush,Kriti Sanon,Prabhu Deva.", 
         downloads: [
-            { quality: "480p", size: "900 MB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3" },
-            { quality: "720p", size: "1.3 GB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3" },
-            { quality: "1080p", size: "4.1 GB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3" }
+           
+            { quality: "720p", size: "1.3 GB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3", type: "HDTC" },
+           
         ], 
-        industry: "Bollywood" 
+        industry: "Bollywood, International", 
+        watch_link: "https://example.com/watch/ter-ishk-mein"
     },
     { id: 8, title: "Cyber Runner", year: 2024, genre: "Sci-Fi", rating: 8.3, cover: "https://placehold.co/400x600/6b7280/ffffff?text=Cyber", release_date: "2024-01-10", synopsis: "In a neon-drenched future, a rogue hacker finds a cryptic message that could expose the centralized AI controlling the city.", cast: "Keanu Reeves, Scarlett Johansson", 
         downloads: [
-            { quality: "480p", size: "750 MB", link: "#" },
-            { quality: "720p", size: "2.3 GB", link: "#" },
-            { quality: "1080p", size: "4.5 GB", link: "#" }
+            { quality: "480p", size: "750 MB", link: "#", type: "BluRay" },
+            { quality: "720p", size: "2.3 GB", link: "#", type: "BluRay" },
+            { quality: "1080p", size: "4.5 GB", link: "#", type: "BluRay" }
         ], 
-        industry: "Hollywood" 
+        industry: "English", 
+        watch_link: "https://example.com/watch/cyber-runner"
     },
     { id: 9, title: "The Martian Chronicles", year: 2020, genre: "Sci-Fi", rating: 7.5, cover: "https://placehold.co/400x600/374151/ffffff?text=Martian", release_date: "2020-07-25", synopsis: "Exploration team struggles to colonize Mars after a catastrophic equipment failure.", cast: "Matt Damon, Jessica Chastain", 
         downloads: [
-            { quality: "480p", size: "550 MB", link: "#" },
-            { quality: "720p", size: "2.1 GB", link: "#" },
-            { quality: "1080p", size: "3.8 GB", link: "#" }
+            { quality: "480p", size: "550 MB", link: "#", type: "HD-TC" },
+            { quality: "720p", size: "2.1 GB", link: "#", type: "HD-TC" },
+            { quality: "1080p", size: "3.8 GB", link: "#", type: "HD-TC" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/martian-chronicles"
     },
     { id: 10, title: "Last Stand at Midnight", year: 2023, genre: "Action", rating: 8.9, cover: "https://placehold.co/400x600/4f46e5/ffffff?text=Stand", release_date: "2023-12-31", synopsis: "A rogue agent must protect a witness from an international assassination squad on New Year's Eve.", cast: "Tom Cruise, Emily Blunt", 
         downloads: [
-            { quality: "480p", size: "1.0 GB", link: "#" },
-            { quality: "720p", size: "3.0 GB", link: "#" },
-            { quality: "1080p", size: "5.5 GB", link: "#" }
+            { quality: "480p", size: "1.0 GB", link: "#", type: "WEB-DL" },
+            { quality: "720p", size: "3.0 GB", link: "#", type: "WEB-DL" },
+            { quality: "1080p", size: "5.5 GB", link: "#", type: "WEB-DL" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/last-stand"
     },
     { id: 11, title: "Whispers of the Past", year: 2022, genre: "Thriller", rating: 6.8, cover: "https://placehold.co/400x600/dc2626/ffffff?text=Whispers", release_date: "2022-11-17", synopsis: "A cold case detective finds a connection between a decades-old murder and a recent disappearance in his small hometown.", cast: "Chris Evans, Ana de Armas", 
         downloads: [
-            { quality: "480p", size: "350 MB", link: "#" },
-            { quality: "720p", size: "1.4 GB", link: "#" },
-            { quality: "1080p", size: "2.6 GB", link: "#" }
+            { quality: "480p", size: "350 MB", link: "#", type: "Pre-HDRip" },
+            { quality: "720p", size: "1.4 GB", link: "#", type: "Pre-HDRip" },
+            { quality: "1080p", size: "2.6 GB", link: "#", type: "Pre-HDRip" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/whispers"
     },
     { id: 12, title: "A Taste of Freedom", year: 2024, genre: "Documentary", rating: 9.3, cover: "https://placehold.co/400x600/10b981/ffffff?text=Freedom", release_date: "2024-07-04", synopsis: "Following the lives of three individuals released from incarceration and their journey to rebuild their lives.", cast: "N/A", 
         downloads: [
-            { quality: "480p", size: "650 MB", link: "#" },
-            { quality: "720p", size: "1.7 GB", link: "#" },
-            { quality: "1080p", size: "3.2 GB", link: "#" }
+            { quality: "480p", size: "650 MB", link: "#", type: "WEB-DL" },
+            { quality: "720p", size: "1.7 GB", link: "#", type: "WEB-DL" },
+            { quality: "1080p", size: "3.2 GB", link: "#", type: "WEB-DL" }
         ], 
-        industry: "International" 
+        industry: "International", 
+        watch_link: "https://example.com/watch/taste-freedom"
     },
     { id: 13, title: "The Secret Garden", year: 2021, genre: "Romance", rating: 6.5, cover: "https://placehold.co/400x600/ec4899/ffffff?text=Garden", release_date: "2021-09-01", synopsis: "An adaptation of the classic novel about a young girl who discovers a hidden garden on her uncle's estate.", cast: "Colin Firth, Julie Walters", 
         downloads: [
-            { quality: "480p", size: "300 MB", link: "#" },
-            { quality: "720p", size: "1.2 GB", link: "#" },
-            { quality: "1080p", size: "2.4 GB", link: "#" }
+            { quality: "480p", size: "300 MB", link: "#", type: "HD-TC" },
+            { quality: "720p", size: "1.2 GB", link: "#", type: "HD-TC" },
+            { quality: "1080p", size: "2.4 GB", link: "#", type: "HD-TC" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/secret-garden"
     },
     { id: 14, title: "Future Shock", year: 2025, genre: "Sci-Fi", rating: 9.0, cover: "https://placehold.co/400x600/000000/ffffff?text=Shock", release_date: "2025-01-01", synopsis: "A gripping tale of a society where dreams are commodified and sold on the black market.", cast: "Leonardo DiCaprio, Margot Robbie", 
         downloads: [
-            { quality: "480p", size: "1.2 GB", link: "#" },
-            { quality: "720p", size: "3.5 GB", link: "#" },
-            { quality: "1080p", size: "6.5 GB", link: "#" }
+            { quality: "480p", size: "1.2 GB", link: "#", type: "BluRay" },
+            { quality: "720p", size: "3.5 GB", link: "#", type: "BluRay" },
+            { quality: "1080p", size: "6.5 GB", link: "#", type: "BluRay" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/future-shock"
     },
     { id: 15, title: "Jungle Hunt", year: 2023, genre: "Action", rating: 7.8, cover: "https://placehold.co/400x600/4c0519/ffffff?text=Hunt", release_date: "2023-05-15", synopsis: "A survival expert guides a group of researchers through the Amazon, encountering danger at every turn.", cast: "Dwayne Johnson, Jason Statham", 
         downloads: [
-            { quality: "480p", size: "550 MB", link: "#" },
-            { quality: "720p", size: "2.4 GB", link: "#" },
-            { quality: "1080p", size: "4.5 GB", link: "#" }
+            { quality: "480p", size: "550 MB", link: "#", type: "WEB-DL" },
+            { quality: "720p", size: "2.4 GB", link: "#", type: "WEB-DL" },
+            { quality: "1080p", size: "4.5 GB", link: "#", type: "WEB-DL" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood", 
+        watch_link: "https://example.com/watch/jungle-hunt"
     },
     { id: 16, title: "The Silent Witness", year: 2018, genre: "Mystery", rating: 7.9, cover: "https://placehold.co/400x600/9ca3af/ffffff?text=Witness", release_date: "2018-04-12", synopsis: "A lawyer defends an accused man who refuses to speak.", cast: "Amy Adams, Jake Gyllenhaal", 
         downloads: [
-            { quality: "480p", size: "450 MB", link: "#" },
-            { quality: "720p", size: "1.3 GB", link: "#" },
-            { quality: "1080p", size: "2.1 GB", link: "#" }
+            { quality: "480p", size: "450 MB", link: "#", type: "Pre-HDRip" },
+            { quality: "720p", size: "1.3 GB", link: "#", type: "Pre-HDRip" },
+            { quality: "1080p", size: "2.1 GB", link: "#", type: "Pre-HDRip" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/silent-witness"
     },
     { id: 17, title: "Desert Mirage", year: 2020, genre: "Drama", rating: 8.1, cover: "https://placehold.co/400x600/fcd34d/000000?text=Desert", release_date: "2020-08-01", synopsis: "A heartbreaking story of love and loss in the Moroccan desert.", cast: "Penélope Cruz, Javier Bardem", 
         downloads: [
-            { quality: "480p", size: "380 MB", link: "#" },
-            { quality: "720p", size: "1.5 GB", link: "#" },
-            { quality: "1080p", size: "2.9 GB", link: "#" }
+            { quality: "480p", size: "380 MB", link: "#", type: "HD-TC" },
+            { quality: "720p", size: "1.5 GB", link: "#", type: "HD-TC" },
+            { quality: "1080p", size: "2.9 GB", link: "#", type: "HD-TC" }
         ], 
-        industry: "International" 
+        industry: "International", 
+        watch_link: "https://example.com/watch/desert-mirage"
     },
     { id: 18, title: "Ocean's Depth", year: 2019, genre: "Adventure", rating: 7.4, cover: "https://placehold.co/400x600/1e3a8a/ffffff?text=Ocean", release_date: "2019-06-20", synopsis: "Deep-sea exploration turns into a nightmare when the crew encounters an unknown creature.", cast: "Jason Momoa, Nicole Kidman", 
         downloads: [
-            { quality: "480p", size: "850 MB", link: "#" },
-            { quality: "720p", size: "2.2 GB", link: "#" },
-            { quality: "1080p", size: "3.9 GB", link: "#" }
+            { quality: "480p", size: "850 MB", link: "#", type: "BluRay" },
+            { quality: "720p", size: "2.2 GB", link: "#", type: "BluRay" },
+            { quality: "1080p", size: "3.9 GB", link: "#", type: "BluRay" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/oceans-depth"
     },
     { id: 19, title: "The Cursed Ring", year: 2022, genre: "Horror", rating: 6.9, cover: "https://placehold.co/400x600/000000/ff0000?text=Cursed", release_date: "2022-10-31", synopsis: "A group of teenagers unleashes an ancient evil after stealing a cursed artifact.", cast: "Unknown Cast", 
         downloads: [
-            { quality: "480p", size: "250 MB", link: "#" },
-            { quality: "720p", size: "1.1 GB", link: "#" },
-            { quality: "1080p", size: "2.0 GB", link: "#" }
+            { quality: "480p", size: "250 MB", link: "#", type: "Pre-HDRip" },
+            { quality: "720p", size: "1.1 GB", link: "#", type: "Pre-HDRip" },
+            { quality: "1080p", size: "2.0 GB", link: "#", type: "Pre-HDRip" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/cursed-ring"
     },
     { id: 20, title: "Star Command", year: 2024, genre: "Sci-Fi", rating: 8.5, cover: "https://placehold.co/400x600/0c4a6e/ffffff?text=Star", release_date: "2024-05-01", synopsis: "The final battle for humanity against an alien empire.", cast: "Chris Pine, Zoe Saldana", 
         downloads: [
-            { quality: "480p", size: "900 MB", link: "#" },
-            { quality: "720p", size: "2.8 GB", link: "#" },
-            { quality: "1080p", size: "4.8 GB", link: "#" }
+            { quality: "480p", size: "900 MB", link: "#", type: "WEB-DL" },
+            { quality: "720p", size: "2.8 GB", link: "#", type: "WEB-DL" },
+            { quality: "1080p", size: "4.8 GB", link: "#", type: "WEB-DL" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood", 
+        watch_link: "https://example.com/watch/star-command"
     },
     { id: 21, title: "Parallel Universe", year: 2023, genre: "Sci-Fi/Mystery", rating: 8.0, cover: "https://placehold.co/400x600/60a5fa/ffffff?text=Parallel", release_date: "2023-01-01", synopsis: "A scientist finds a way to travel to alternate realities.", cast: "Ryan Reynolds, Sandra Bullock", 
         downloads: [
-            { quality: "480p", size: "400 MB", link: "#" },
-            { quality: "720p", size: "2.0 GB", link: "#" },
-            { quality: "1080p", size: "3.5 GB", link: "#" }
+            { quality: "480p", size: "400 MB", link: "#", type: "HD-TC" },
+            { quality: "720p", size: "2.0 GB", link: "#", type: "HD-TC" },
+            { quality: "1080p", size: "3.5 GB", link: "#", type: "HD-TC" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/parallel-universe"
     },
     { id: 22, title: "Ancient Secrets", year: 2021, genre: "Adventure", rating: 7.7, cover: "https://placehold.co/400x600/a855f7/ffffff?text=Ancient", release_date: "2021-03-22", synopsis: "An archaeologist searches for a lost city in the Amazon jungle.", cast: "Harrison Ford, Angelina Jolie", 
         downloads: [
-            { quality: "480p", size: "700 MB", link: "#" },
-            { quality: "720p", size: "1.8 GB", link: "#" },
-            { quality: "1080p", size: "3.5 GB", link: "#" }
+            { quality: "480p", size: "700 MB", link: "#", type: "BluRay" },
+            { quality: "720p", size: "1.8 GB", link: "#", type: "BluRay" },
+            { quality: "1080p", size: "3.5 GB", link: "#", type: "BluRay" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood", 
+        watch_link: "https://example.com/watch/ancient-secrets"
     },
     { id: 23, title: "City Lights", year: 2017, genre: "Romance/Drama", rating: 9.2, cover: "https://placehold.co/400x600/f43f5e/ffffff?text=Lights", release_date: "2017-02-14", synopsis: "Two strangers meet on a bridge and change each other's lives forever.", cast: "Emma Stone, Ryan Gosling", 
         downloads: [
-            { quality: "480p", size: "350 MB", link: "#" },
-            { quality: "720p", size: "1.4 GB", link: "#" },
-            { quality: "1080p", size: "2.5 GB", link: "#" }
+            { quality: "480p", size: "350 MB", link: "#", type: "WEB-DL" },
+            { quality: "720p", size: "1.4 GB", link: "#", type: "WEB-DL" },
+            { quality: "1080p", size: "2.5 GB", link: "#", type: "WEB-DL" }
         ], 
-        industry: "International" 
+        industry: "International, Romance", 
+        watch_link: "https://example.com/watch/city-lights"
     },
     { id: 24, title: "The Heist Master", year: 2024, genre: "Crime/Action", rating: 8.4, cover: "https://placehold.co/400x600/22c55e/ffffff?text=Heist", release_date: "2024-06-01", synopsis: "A professional thief is forced into one last job by his former mentor.", cast: "Denzel Washington, Brad Pitt", 
         downloads: [
-            { quality: "480p", size: "800 MB", link: "#" },
-            { quality: "720p", size: "2.1 GB", link: "#" },
-            { quality: "1080p", size: "4.0 GB", link: "#" }
+            { quality: "480p", size: "800 MB", link: "#", type: "Pre-HDRip" },
+            { quality: "720p", size: "2.1 GB", link: "#", type: "Pre-HDRip" },
+            { quality: "1080p", size: "4.0 GB", link: "#", type: "Pre-HDRip" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/heist-master"
     },
     { id: 25, title: "Shadow World", year: 2022, genre: "Fantasy/Thriller", rating: 7.6, cover: "https://placehold.co/400x600/1f2937/ffffff?text=Shadow", release_date: "2022-11-05", synopsis: "A detective must navigate a dangerous shadow realm to save his partner.", cast: "Tom Hardy, Charlize Theron", 
         downloads: [
-            { quality: "480p", size: "450 MB", link: "#" },
-            { quality: "720p", size: "1.9 GB", link: "#" },
-            { quality: "1080p", size: "3.3 GB", link: "#" }
+            { quality: "480p", size: "450 MB", link: "#", type: "HD-TC" },
+            { quality: "720p", size: "1.9 GB", link: "#", type: "HD-TC" },
+            { quality: "1080p", size: "3.3 GB", link: "#", type: "HD-TC" }
         ], 
-        industry: "Hollywood" 
+        industry: "Hollywood",
+        watch_link: "https://example.com/watch/shadow-world"
     },
 ];
 
 // Elements that might exist on index.html
 const movieGrid = document.getElementById('movieGrid');
 const genreFilter = document.getElementById('genreFilter');
+const languageFilter = document.getElementById('languageFilter');
 const loadingIndicator = document.getElementById('loadingIndicator');
 const ratingFilter = document.getElementById('ratingFilter');
 const currentRatingDisplay = document.getElementById('currentRatingDisplay');
@@ -223,7 +249,7 @@ const notificationText = document.getElementById('notificationText');
 
 // Global state for view type and pagination (index page only)
 let currentView = 'grid'; // 'grid' or 'list'
-let moviesPerPage = 10; // **SET TO 10 MOVIES PER PAGE**
+let moviesPerPage = 15; // **UPDATED TO 15 MOVIES PER PAGE**
 let currentPage = 1; // Current page number
 let totalFilteredMovies = 0; // To track if more movies exist
 
@@ -261,7 +287,7 @@ function getVisualStarRatingHtml(rating) {
 /**
  * Helper to get the highest quality info for display purposes.
  * @param {Object} movie - The movie object.
- * @returns {Object} An object containing the highest quality, size, and link.
+ * @returns {Object} An object containing the highest quality, size, link, and type.
  */
 const getDisplayInfo = (movie) => {
     // Sort by quality preference (1080p > 720p > 480p)
@@ -274,7 +300,8 @@ const getDisplayInfo = (movie) => {
     return {
         quality: highestQuality ? highestQuality.quality : 'N/A',
         size: highestQuality ? highestQuality.size : 'N/A',
-        link: highestQuality ? highestQuality.link : '#'
+        link: highestQuality ? highestQuality.link : '#',
+        type: highestQuality ? highestQuality.type : 'N/A' // NEW: Include type
     };
 }
 
@@ -303,7 +330,36 @@ function populateGenreFilter() {
         genreFilter.appendChild(option);
     });
 }
+/**
+ * Populates the language filter dropdown with unique languages/industries from the mock data.
+ * FIX: Handles comma-separated values in the 'industry' field.
+ */
+function populateLanguageFilter() {
+    if (!languageFilter) return;
 
+    // Use a Set to collect unique languages (from the 'industry' field)
+    const uniqueLanguages = new Set();
+    mockMovies.forEach(movie => {
+        // FIX: Split the comma-separated string, trim, and add each unique language
+        movie.industry.split(',').forEach(lang => {
+            const trimmedLang = lang.trim();
+            if (trimmedLang) { // Ensure no empty strings are added
+                uniqueLanguages.add(trimmedLang);
+            }
+        });
+    });
+
+    // Clear existing options, keeping "All Languages"
+    languageFilter.innerHTML = '<option value="">All Languages</option>';
+
+    // Sort and add unique languages
+    Array.from(uniqueLanguages).sort().forEach(language => {
+        const option = document.createElement('option');
+        option.value = language;
+        option.textContent = language;
+        languageFilter.appendChild(option);
+    });
+}
 /**
  * Sorts the movie array based on the selected sort filter.
  * @param {Array} movies - The array of movie objects to sort.
@@ -483,6 +539,7 @@ function applyFilters(resetPage = false) {
     const searchInput = document.getElementById('searchInput');
     const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
     const selectedGenre = genreFilter ? genreFilter.value : '';
+    const selectedLanguage = languageFilter ? languageFilter.value : '';
     const minRating = ratingFilter ? parseFloat(ratingFilter.value) : 0; 
     
     let filtered = mockMovies.filter(movie => {
@@ -496,11 +553,15 @@ function applyFilters(resetPage = false) {
 
         // Genre selection filter
         const genreMatch = !selectedGenre || movie.genre.includes(selectedGenre);
-
+        
+        // Language selection filter (FIX: Use includes() for comma-separated string)
+        const languageMatch = !selectedLanguage || 
+                              movie.industry.toLowerCase().includes(selectedLanguage.toLowerCase());
+        
         // Rating filter
         const ratingMatch = movie.rating >= minRating;
 
-        return textMatch && genreMatch && ratingMatch;
+        return textMatch && genreMatch && languageMatch && ratingMatch;
     });
 
     // Apply sorting after filtering
@@ -551,7 +612,7 @@ function setupEventListeners() {
     }
 }
 
-// --- NEW MODAL FUNCTIONS ---
+// --- MODAL & HISTORY API FUNCTIONS ---
 
 /**
  * Renders details and download options into the modal and displays it.
@@ -575,21 +636,37 @@ function showMovieDetailsModal(movieId) {
 
     // Generate download button HTML for all available qualities
     const downloadButtonsHTML = movie.downloads.map(download => `
-        <button onclick="handleDownloadModal(${movie.id}, '${download.quality}', '${download.size}', '${download.link}')"
+        <button onclick="handleDownloadModal(${movie.id}, '${download.quality}', '${download.size}', '${download.link}', '${download.type}')"
                 class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 flex justify-between items-center text-left mb-2">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
-                Download ${download.quality}
+                Download ${download.quality} <span class="text-yellow-300 font-bold ml-1">(${download.type})</span>
             </span>
             <span class="text-sm text-gray-200 font-normal ml-4">${download.size}</span>
         </button>
     `).join('');
 
+    // NEW: Generate Watch Button HTML
+    const watchButtonHTML = movie.watch_link && movie.watch_link !== '#' ? `
+        <div class="mt-8 border-t border-gray-700 pt-6">
+            <h2 class="text-2xl font-semibold border-b border-gray-700 pb-1 mb-4 text-red-400">Watch Online</h2>
+            <a href="${movie.watch_link}" target="_blank" 
+                class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-red-500 focus:ring-opacity-50 flex justify-center items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.55-2.275a.5.5 0 01.725.445v9.66a.5.5 0 01-.725.445L15 14m-5 4v1a3 3 0 003 3h4a3 3 0 003-3v-1m-4-10l-4-4m0 0l-4 4m4-4v12" />
+                    </svg>
+                    Watch Now (External Link)
+                </span>
+            </a>
+        </div>
+    ` : '';
+    
     // Render Details into Modal
     modalContent.innerHTML = `
-        <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white transition duration-300">
+        <button onclick="closeModal(null, false)" class="absolute top-4 right-4 text-gray-400 hover:text-white transition duration-300 z-50">
             <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -600,6 +677,14 @@ function showMovieDetailsModal(movieId) {
                      class="w-full h-auto rounded-xl shadow-2xl" 
                      onerror="this.onerror=null;this.src='https://placehold.co/400x600/1a1a1a/cccccc?text=Cover+Unavailable';"
                 >
+                
+                <button onclick="closeModal(null, false)"
+                    class="mt-6 w-full bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-gray-500 focus:ring-opacity-50 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                    Go Back to List
+                </button>
             </div>
             
             <div class="md:w-2/3">
@@ -622,6 +707,8 @@ function showMovieDetailsModal(movieId) {
                 <div class="space-y-3 max-h-40 overflow-y-auto pr-2">
                     ${downloadButtonsHTML}
                 </div>
+                
+                ${watchButtonHTML}
             </div>
         </div>
     `;
@@ -629,20 +716,36 @@ function showMovieDetailsModal(movieId) {
     // Show the modal
     detailsModal.classList.remove('hidden');
     document.body.style.overflow = 'hidden'; // Prevent scrolling background
+    
+    // *** HISTORY API IMPLEMENTATION: 1. Push new state ***
+    // Add a new entry to the browser's history to represent the modal being open.
+    // The hash change triggers a new history state without a full page reload.
+    history.pushState({ modalOpen: true, movieId: movieId }, movie.title, '#details'); 
 }
+
 
 /**
  * Closes the movie details modal.
  * @param {Event} event - The click event (optional, for backdrop click).
+ * @param {boolean} isPopState - True if closing is triggered by history.popstate (device back button).
  */
-function closeModal(event) {
+function closeModal(event, isPopState = false) { 
     const detailsModal = document.getElementById('detailsModal');
-    // If event is passed, only close if the click was directly on the backdrop
+    
+    // Check if the click was directly on the backdrop (if event is passed and isPopState is false)
     if (event && event.target !== detailsModal) return; 
 
     if (detailsModal) {
         detailsModal.classList.add('hidden');
         document.body.style.overflow = ''; // Restore scrolling
+    }
+    
+    // *** HISTORY API IMPLEMENTATION: 2. Handle manual close ***
+    // If the modal was closed manually (X button, "Go Back" button, or backdrop click) 
+    // AND the URL hash is currently '#details', we need to manually go back in history 
+    // to remove the entry we created, otherwise the user would have to press back twice.
+    if (!isPopState && window.location.hash === '#details') {
+        history.back();
     }
 }
 
@@ -651,7 +754,7 @@ function closeModal(event) {
  */
 function renderModalError(message) {
     return `
-        <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white transition duration-300">
+        <button onclick="closeModal(null, false)" class="absolute top-4 right-4 text-gray-400 hover:text-white transition duration-300 z-50">
             <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -666,13 +769,15 @@ function renderModalError(message) {
     `;
 }
 
-// Function to handle download modal (remains unchanged)
-function handleDownloadModal(movieId, quality, size, downloadLink) {
+// Function to handle download modal
+// UPDATED: Added 'type' argument
+function handleDownloadModal(movieId, quality, size, downloadLink, type) { 
     const movie = mockMovies.find(m => m.id === movieId);
     if (!movie || !notificationBox || !notificationText) return;
 
     // 1. Show notification (Start message)
-    notificationText.textContent = `Starting download for "${movie.title}" (${quality}, ${size})...`;
+    // UPDATED: Added 'type' to notification text
+    notificationText.textContent = `Starting download for "${movie.title}" (${quality} ${type}, ${size})...`;
     notificationBox.style.display = 'block';
     notificationBox.classList.remove('bg-green-600');
     notificationBox.classList.add('bg-blue-600');
@@ -687,7 +792,8 @@ function handleDownloadModal(movieId, quality, size, downloadLink) {
         const a = document.createElement('a');
         a.href = downloadLink;
         const cleanTitle = movie.title.replace(/[^a-z0-9]/gi, '_');
-        a.download = `${cleanTitle}_${quality}.mp4`; 
+        // UPDATED: Added 'type' to the filename
+        a.download = `${cleanTitle}_${quality}_${type}.mp4`; 
         
         a.style.display = 'none'; // Keep it hidden
         document.body.appendChild(a);
@@ -701,7 +807,8 @@ function handleDownloadModal(movieId, quality, size, downloadLink) {
 
     // 3. Simulate download process delay and update notification
     setTimeout(() => {
-        notificationText.textContent = `Download for "${movie.title}" (${quality}) initiated! Check your browser's download queue.`;
+        // UPDATED: Added 'type' to final notification text
+        notificationText.textContent = `Download for "${movie.title}" (${quality} ${type}) initiated! Check your browser's download queue.`;
         notificationBox.classList.remove('bg-blue-600');
         notificationBox.classList.add('bg-green-600');
         
@@ -738,6 +845,7 @@ window.onload = () => {
         }
         
         populateGenreFilter();
+        populateLanguageFilter(); 
         
         applyFilters(); // Renders, sorts, and filters default view (page 1)
         
@@ -745,3 +853,15 @@ window.onload = () => {
         setupEventListeners(); 
     }, 1500); // 1.5 second loading time simulation
 };
+
+// *** HISTORY API IMPLEMENTATION: 3. Listen for device/browser back button press ***
+window.addEventListener('popstate', (event) => {
+    const detailsModal = document.getElementById('detailsModal');
+    
+    // If the modal is currently open and we are navigating back in history
+    if (detailsModal && !detailsModal.classList.contains('hidden')) {
+        // Close the modal using the isPopState flag (to prevent it from calling history.back() again)
+        closeModal(null, true); 
+    }
+    // If the modal is not open, the browser handles the history navigation normally.
+});
