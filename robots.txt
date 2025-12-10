@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: 
 
-# Specify the path to your sitemap file (if you have one)
+
 Sitemap: https://m-stream.free.nf/sitemap.xml
