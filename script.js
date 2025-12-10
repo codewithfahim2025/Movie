@@ -70,68 +70,68 @@ const mockMovies = [
         industry: "Bollywood, International", 
         watch_link: "https://example.com/watch/ter-ishk-mein"
     },
-    { id: 8, title: "Cyber Runner", year: 2024, genre: "Sci-Fi", rating: 8.3, cover: "https://placehold.co/400x600/6b7280/ffffff?text=Cyber", release_date: "2024-01-10", synopsis: "In a neon-drenched future, a rogue hacker finds a cryptic message that could expose the centralized AI controlling the city.", cast: "Keanu Reeves, Scarlett Johansson", 
+    { id: 8, title: "Dhurandhar*", year: 2025, genre: "Action/Thriller", rating: 8.4, cover: "dhurandhar2025.jpeg", release_date: "2025-12-05", synopsis: "An underworld saga following a network of criminals, informants and operatives whose lives intersect, navigating covert operations, espionage and betrayals.", cast: "Ranveer Singh,Akshaye Khanna,Sara Arjun,Sanjay Dutt,Arjun Rampal.", 
         downloads: [
-            { quality: "480p", size: "750 MB", link: "#", type: "BluRay" },
-            { quality: "720p", size: "2.3 GB", link: "#", type: "BluRay" },
-            { quality: "1080p", size: "4.5 GB", link: "#", type: "BluRay" }
+            { quality: "480p", size: "674 MB", link: "https://indi-share.com/mahindra-xuv400-ev-launch-date-price-and-range", type: "HDTC" },
+            { quality: "720p", size: "1.83 GB", link: "https://indi-files.net/download/atEdTgyzDwP", type: "HDTC" },
+            { quality: "1080p", size: "3.29 GB", link: "https://indi-share.com/river-indie-another-ev-scooter-that-can-beat-ola-know-range-and-price-in-india", type: "HDTC" }
         ], 
-        industry: "English", 
-        watch_link: "https://example.com/watch/cyber-runner"
+        industry: "Hindi", 
+        watch_link: ""
     },
-    { id: 9, title: "The Martian Chronicles", year: 2020, genre: "Sci-Fi", rating: 7.5, cover: "https://placehold.co/400x600/374151/ffffff?text=Martian", release_date: "2020-07-25", synopsis: "Exploration team struggles to colonize Mars after a catastrophic equipment failure.", cast: "Matt Damon, Jessica Chastain", 
+    { id: 9, title: "Black Phone 2*", year: 2020, genre: "Horror/Thriller", rating: 6.1, cover: "blackphone2.jpeg", release_date: "2025-10-17", synopsis: "Bad dreams haunt 15-year-old Gwen as she receives calls from the black phone and sees disturbing visions of three boys being stalked at a winter camp. Accompanied by her brother, Finn, they head to the camp to solve the mystery, only to confront the Grabber -- a killer who's grown even more powerful in death.", cast: " Mason Thames; Madeleine McGraw; Jeremy Davies; Demián Bichir; Ethan Hawke.", 
         downloads: [
-            { quality: "480p", size: "550 MB", link: "#", type: "HD-TC" },
-            { quality: "720p", size: "2.1 GB", link: "#", type: "HD-TC" },
-            { quality: "1080p", size: "3.8 GB", link: "#", type: "HD-TC" }
+            { quality: "480p", size: "444 MB", link: "https://indi-share.com/hyundai-ioniq-6-luxury-ev-car-know-range-price-and-lauch-date-in-india", type: "WEB_DL" },
+            { quality: "720p", size: "1.03 GB", link: "https://indi-share.com/tork-kratos-x-model-revealed-price-range-and-top-speed", type: "WEB-DL" },
+          
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/martian-chronicles"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 10, title: "Last Stand at Midnight", year: 2023, genre: "Action", rating: 8.9, cover: "https://placehold.co/400x600/4f46e5/ffffff?text=Stand", release_date: "2023-12-31", synopsis: "A rogue agent must protect a witness from an international assassination squad on New Year's Eve.", cast: "Tom Cruise, Emily Blunt", 
+    { id: 10, title: "A House of Dynamite", year: 2025, genre: "Thriller/Drama", rating: 6.4, cover: "ahouseofdynamite2025.jpeg", release_date: "2025-10-10", synopsis: "Radars at Fort Greely, Alaska, detect a nuclear missile. The president and his entourage must use the limited time they have to try to shoot down the missile before it reaches Chicago.", cast: "Idris Elba,Rebecca Ferguson. ", 
         downloads: [
-            { quality: "480p", size: "1.0 GB", link: "#", type: "WEB-DL" },
-            { quality: "720p", size: "3.0 GB", link: "#", type: "WEB-DL" },
-            { quality: "1080p", size: "5.5 GB", link: "#", type: "WEB-DL" }
+            { quality: "480p", size: "399 MB", link: "https://indi-share.com/how-to-make-delicious-icecream-at-home-know-easiest-method", type: "WEB-DL" },
+            { quality: "720p", size: "1.04 GB", link: "https://indi-share.com/top-5-best-electric-two-wheelers-in-india-you-can-buy-in-2023", type: "WEB-DL" },
+           
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/last-stand"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 11, title: "Whispers of the Past", year: 2022, genre: "Thriller", rating: 6.8, cover: "https://placehold.co/400x600/dc2626/ffffff?text=Whispers", release_date: "2022-11-17", synopsis: "A cold case detective finds a connection between a decades-old murder and a recent disappearance in his small hometown.", cast: "Chris Evans, Ana de Armas", 
+    { id: 11, title: "A Aa", year: 2016, genre: "Commedy/Drama/Romance", rating: 6.8, cover: "aaa2016.jpeg", release_date: "2016-06-02", synopsis: "Anasuya, the daughter of a rich woman, falls in love with Aanand. However, they face several obstacles while trying to convince their families about their relationship.", cast: "Nithiin,Samantha Ruth Prabhu,Anupama Parameswaran.", 
         downloads: [
-            { quality: "480p", size: "350 MB", link: "#", type: "Pre-HDRip" },
-            { quality: "720p", size: "1.4 GB", link: "#", type: "Pre-HDRip" },
-            { quality: "1080p", size: "2.6 GB", link: "#", type: "Pre-HDRip" }
+            { quality: "480p", size: "327 MB", link: "https://indi-share.com/best-mobile-under-20000-rupess-redmi-k50i-5g-or-xiaomi-11-lite-ne-5g", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://indi-share.com/top-mobiles-under-10000-rupees-in-2022", type: "WEB-DL" },
+            
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/whispers"
+        industry: "Telugu/Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 12, title: "A Taste of Freedom", year: 2024, genre: "Documentary", rating: 9.3, cover: "https://placehold.co/400x600/10b981/ffffff?text=Freedom", release_date: "2024-07-04", synopsis: "Following the lives of three individuals released from incarceration and their journey to rebuild their lives.", cast: "N/A", 
+    { id: 12, title: "Baaghi 4", year: 2025, genre: "Action/Thriller", rating: 2.4, cover: "baaghi4.jpeg", release_date: "2025-09-05", synopsis: "Following a failed suicide attempt, a man struggles with reality and descends into turmoil. His family faces uncertainty while a concealed truth lures him into a complex maze of obsession and love.", cast: "Tiger Shroff,Sanjay Dutt,Harnaz Kaur Sandhu,Sonam Bajwa.", 
         downloads: [
-            { quality: "480p", size: "650 MB", link: "#", type: "WEB-DL" },
-            { quality: "720p", size: "1.7 GB", link: "#", type: "WEB-DL" },
-            { quality: "1080p", size: "3.2 GB", link: "#", type: "WEB-DL" }
+            { quality: "480p", size: "500 MB", link: "https://indi-share.com/wordpress-a-simple-script-which-lights-up-website", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://indi-share.com/chetak-electric-vs-ola-s1-air-which-scooter-is-best-in-2023-detail-comparison", type: "WEB-DL" },
+            { quality: "1080p", size: "2.94 GB", link: "https://indi-share.com/mg-zs-vs-nexon-ev-vs-xuv-400-ev-detail-comparison-features-range-and-performance", type: "WEB-DL" }
         ], 
-        industry: "International", 
-        watch_link: "https://example.com/watch/taste-freedom"
+        industry: "Hindi", 
+        watch_link: ""
     },
-    { id: 13, title: "The Secret Garden", year: 2021, genre: "Romance", rating: 6.5, cover: "https://placehold.co/400x600/ec4899/ffffff?text=Garden", release_date: "2021-09-01", synopsis: "An adaptation of the classic novel about a young girl who discovers a hidden garden on her uncle's estate.", cast: "Colin Firth, Julie Walters", 
+    { id: 13, title: "Inception", year: 2010, genre: "Sci-Fi/Action", rating: 8.8, cover: "Inception2010.jpg", release_date: "2010-07-08", synopsis: "Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wife's murder and his only chance at redemption is to perform a nearly impossible task.", cast: "Leonardo DiCaprio,Cillian Murphy,Tom Hardy,Joseph Gordon-Levit,Elliot Page.", 
         downloads: [
-            { quality: "480p", size: "300 MB", link: "#", type: "HD-TC" },
-            { quality: "720p", size: "1.2 GB", link: "#", type: "HD-TC" },
-            { quality: "1080p", size: "2.4 GB", link: "#", type: "HD-TC" }
+            { quality: "480p", size: "442 MB", link: "https://indi-files.net/download/XwAcF2OyL0g", type: "WEB-DL" },
+            { quality: "720p", size: "1.12 GB", link: "https://indi-share.com/slow-wordpress-hosting-5-best-hosting-solution-for-wordpress", type:"WEB-DL" },
+            { quality: "1080p", size: "2.4 GB", link: "#", type: "WEB-DL" }
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/secret-garden"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 14, title: "Future Shock", year: 2025, genre: "Sci-Fi", rating: 9.0, cover: "https://placehold.co/400x600/000000/ffffff?text=Shock", release_date: "2025-01-01", synopsis: "A gripping tale of a society where dreams are commodified and sold on the black market.", cast: "Leonardo DiCaprio, Margot Robbie", 
+    { id: 14, title: "Interstellar", year: 2014, genre: "Sci-Fi/Adventure", rating: 8.7, cover: "Interstellar-2014.jpg", release_date: "2014-10-26", synopsis: "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.", cast: "Matthew McConaughey,Jessica Chastain,Anne Hathaway,Mackenzy Foy,Timothy Chamalate.", 
         downloads: [
-            { quality: "480p", size: "1.2 GB", link: "#", type: "BluRay" },
-            { quality: "720p", size: "3.5 GB", link: "#", type: "BluRay" },
-            { quality: "1080p", size: "6.5 GB", link: "#", type: "BluRay" }
+            { quality: "480p", size: "564 MB", link: "https://indi-share.com/indias-first-gear-ev-bike-matter-know-price-and-features", type: "BluRay" },
+            { quality: "720p", size: "1.48 GB", link: "https://indi-share.com/tork-kratos-x-model-revealed-price-range-and-top-speed", type: "BluRay" },
+           
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/future-shock"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
     { id: 15, title: "Jungle Hunt", year: 2023, genre: "Action", rating: 7.8, cover: "https://placehold.co/400x600/4c0519/ffffff?text=Hunt", release_date: "2023-05-15", synopsis: "A survival expert guides a group of researchers through the Amazon, encountering danger at every turn.", cast: "Dwayne Johnson, Jason Statham", 
         downloads: [
@@ -142,23 +142,23 @@ const mockMovies = [
         industry: "Hollywood", 
         watch_link: "https://example.com/watch/jungle-hunt"
     },
-    { id: 16, title: "The Silent Witness", year: 2018, genre: "Mystery", rating: 7.9, cover: "https://placehold.co/400x600/9ca3af/ffffff?text=Witness", release_date: "2018-04-12", synopsis: "A lawyer defends an accused man who refuses to speak.", cast: "Amy Adams, Jake Gyllenhaal", 
+    { id: 16, title: "Dude", year: 2025, genre: "Commedy/Adventure", rating: 6.3, cover: "dude2025.jpeg", release_date: "2025-10-17", synopsis: "Childhood friends Agan and Kural are inseparable. When Kural encounters romantic troubles, Agan must balance his hidden feelings for her with his desire to ensure her happiness.", cast: " Pradeep Ranganathan,Mamitha Baiju,R. Sarathkumar, Hridhu Haroon, Rohini, Aishwarya Sharma and Neha Shetty.", 
         downloads: [
-            { quality: "480p", size: "450 MB", link: "#", type: "Pre-HDRip" },
-            { quality: "720p", size: "1.3 GB", link: "#", type: "Pre-HDRip" },
-            { quality: "1080p", size: "2.1 GB", link: "#", type: "Pre-HDRip" }
+            { quality: "480p", size: "479 MB", link: "https://indi-share.com/tork-kratos-x-model-revealed-price-range-and-top-speed", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://indi-share.com/slow-internet-speed-boost-net-speed-with-these-methods", type: "WEB-DL" },
+            
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/silent-witness"
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 17, title: "Desert Mirage", year: 2020, genre: "Drama", rating: 8.1, cover: "https://placehold.co/400x600/fcd34d/000000?text=Desert", release_date: "2020-08-01", synopsis: "A heartbreaking story of love and loss in the Moroccan desert.", cast: "Penélope Cruz, Javier Bardem", 
+    { id: 18, title: "Eden", year: 2024, genre: "Survival/Thriller", rating: 6.5, cover: "eden2024.jpeg", release_date: "2025-08-22", synopsis: "A group of disillusioned Europeans settles on a remote, uninhabited island in the Galápagos. They soon discover that their greatest threat isn't the brutal climate or deadly wildlife, but one another. As tensions spiral and desperation takes hold, a twisted power struggle unfolds, leading to betrayal, violence and death", cast: "Jude Law, Ana de Armas, Vanessa Kirby, Sydney Sweeney, Daniel Brühl, Felix Kammerer, Toby Wallace,Richard Roxburgh", 
         downloads: [
-            { quality: "480p", size: "380 MB", link: "#", type: "HD-TC" },
-            { quality: "720p", size: "1.5 GB", link: "#", type: "HD-TC" },
-            { quality: "1080p", size: "2.9 GB", link: "#", type: "HD-TC" }
+            { quality: "480p", size: "451 MB", link: "https://indi-share.com/electric-scooter-comparisons-ola-vs-ather-vs-vida", type: "WEB-DL" },
+            { quality: "720p", size: "1.19 GB", link: "https://indi-share.com/river-indie-another-ev-scooter-that-can-beat-ola-know-range-and-price-in-india", type: "WEB-DL" },
+          
         ], 
-        industry: "International", 
-        watch_link: "https://example.com/watch/desert-mirage"
+        industry: "English,Hindi Dubbed", 
+        watch_link: ""
     },
     { id: 18, title: "Ocean's Depth", year: 2019, genre: "Adventure", rating: 7.4, cover: "https://placehold.co/400x600/1e3a8a/ffffff?text=Ocean", release_date: "2019-06-20", synopsis: "Deep-sea exploration turns into a nightmare when the crew encounters an unknown creature.", cast: "Jason Momoa, Nicole Kidman", 
         downloads: [
@@ -169,68 +169,68 @@ const mockMovies = [
         industry: "Hollywood",
         watch_link: "https://example.com/watch/oceans-depth"
     },
-    { id: 19, title: "The Cursed Ring", year: 2022, genre: "Horror", rating: 6.9, cover: "https://placehold.co/400x600/000000/ff0000?text=Cursed", release_date: "2022-10-31", synopsis: "A group of teenagers unleashes an ancient evil after stealing a cursed artifact.", cast: "Unknown Cast", 
+    { id: 19, title: "Eleven", year: 2025, genre: "Crime/Thriller", rating: 7.4, cover: "eleven2025.jpeg", release_date: "2025-05-16", synopsis: "A seasoned police officer begins an investigation after a series of gruesome murders targeting twins comes to light. However, he soon encounters a sinister game of psychological manipulation.", cast: "Naveen Chandra ,Reyaa Hari with Abhirami, Ravi Varma, Dileepan, Riythvika, Shashank, Aadukalam Naren and Arjai", 
         downloads: [
-            { quality: "480p", size: "250 MB", link: "#", type: "Pre-HDRip" },
-            { quality: "720p", size: "1.1 GB", link: "#", type: "Pre-HDRip" },
-            { quality: "1080p", size: "2.0 GB", link: "#", type: "Pre-HDRip" }
+            { quality: "480p", size: "468 MB", link: "https://indi-share.com/hyundai-ioniq-6-luxury-ev-car-know-range-price-and-lauch-date-in-india", type: "WEB-DL" },
+            { quality: "720p", size: "1.23 GB", link: "https://indi-share.com/slow-wordpress-hosting-5-best-hosting-solution-for-wordpress", type: "WEB-DL" },
+           
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/cursed-ring"
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 20, title: "Star Command", year: 2024, genre: "Sci-Fi", rating: 8.5, cover: "https://placehold.co/400x600/0c4a6e/ffffff?text=Star", release_date: "2024-05-01", synopsis: "The final battle for humanity against an alien empire.", cast: "Chris Pine, Zoe Saldana", 
+    { id: 20, title: "The Fantastic Four: First Steps", year: 2025, genre: "Action/Sci-Fi", rating: 6.9, cover: "fantastic4-2025.jpeg", release_date: "2024-07-24", synopsis: "Mister Fantastic, Invisible Woman, Human Torch and the Thing face their most daunting challenge yet as they defend Earth from Galactus and Silver Surfer.", cast: " Pedro Pascal, Vanessa Kirby, Ebon Moss-Bachrach, and Joseph Quinn ", 
         downloads: [
-            { quality: "480p", size: "900 MB", link: "#", type: "WEB-DL" },
-            { quality: "720p", size: "2.8 GB", link: "#", type: "WEB-DL" },
-            { quality: "1080p", size: "4.8 GB", link: "#", type: "WEB-DL" }
+            { quality: "480p", size: "404 MB", link: "https://indi-share.com/top-mobiles-under-10000-rupees-in-2022", type: "WEB-DL" },
+            { quality: "720p", size: "1.06 GB", link: "https://indi-share.com/top-5-best-electric-two-wheelers-in-india-you-can-buy-in-2023", type: "WEB-DL" },
+            { quality: "1080p", size: "2.3 GB", link: "https://indi-share.com/best-mobile-under-20000-rupess-redmi-k50i-5g-or-xiaomi-11-lite-ne-5g", type: "WEB-DL" }
         ], 
-        industry: "Hollywood", 
-        watch_link: "https://example.com/watch/star-command"
+        industry: "English,Hindi Dubbed", 
+        watch_link: ""
     },
-    { id: 21, title: "Parallel Universe", year: 2023, genre: "Sci-Fi/Mystery", rating: 8.0, cover: "https://placehold.co/400x600/60a5fa/ffffff?text=Parallel", release_date: "2023-01-01", synopsis: "A scientist finds a way to travel to alternate realities.", cast: "Ryan Reynolds, Sandra Bullock", 
+    { id: 21, title: "Final Destination Bloodlines", year: 2025, genre: "Horror/Mystery", rating: 6.7, cover: "final-destination-bloodlines2025.jpeg", release_date: "2025-05-16", synopsis: "Plagued by a violent and recurring nightmare, a college student heads home to track down the one person who might be able to break the cycle of death and save her family from the grisly demise that inevitably awaits them all.", cast: " Kaitlyn Santa Juana; Teo Briones; Richard Harmon; Owen Patrick Joyner; Anna Lore; Brec Bassinger; Tony Todd", 
         downloads: [
-            { quality: "480p", size: "400 MB", link: "#", type: "HD-TC" },
-            { quality: "720p", size: "2.0 GB", link: "#", type: "HD-TC" },
-            { quality: "1080p", size: "3.5 GB", link: "#", type: "HD-TC" }
+            { quality: "480p", size: "277 MB", link: "https://indi-share.com/top-5-best-electric-two-wheelers-in-india-you-can-buy-in-2023", type: "WEB-DL" },
+            { quality: "720p", size: "1.14 GB", link: "https://indi-share.com/oppo-find-n2-flip-launch-soon-buy-or-not-specification-and-price-detail", type: "WEB-DL" },
+            { quality: "1080p", size: "2.26 GB", link: "https://indi-share.com/oppo-find-n2-flip-launch-soon-buy-or-not-specification-and-price-detail", type: "WEB-DL" }
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/parallel-universe"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 22, title: "Ancient Secrets", year: 2021, genre: "Adventure", rating: 7.7, cover: "https://placehold.co/400x600/a855f7/ffffff?text=Ancient", release_date: "2021-03-22", synopsis: "An archaeologist searches for a lost city in the Amazon jungle.", cast: "Harrison Ford, Angelina Jolie", 
+    { id: 22, title: "F1", year: 2025, genre: "Sport/Action", rating: 7.7, cover: "f1-2025.jpeg", release_date: "2025-06-27", synopsis: "In the 1990s, Sonny Hayes was Formula 1's most promising driver until an accident on the track nearly ended his career. Thirty years later, the owner of a struggling Formula 1 team convinces Sonny to return to racing and become the best in the world. Driving alongside the team's hotshot rookie, Sonny soon learns that the road to redemption is not something you can travel alone.", cast: "Brad Pitt,Damson Idris,Kerry Condon,Tobias Menzies,Javier Bardem", 
         downloads: [
-            { quality: "480p", size: "700 MB", link: "#", type: "BluRay" },
-            { quality: "720p", size: "1.8 GB", link: "#", type: "BluRay" },
-            { quality: "1080p", size: "3.5 GB", link: "#", type: "BluRay" }
+            { quality: "480p", size: "626 MB", link: "https://indi-share.com/slow-wordpress-hosting-5-best-hosting-solution-for-wordpress", type: "HDTC" },
+            { quality: "720p", size: "1.26 GB", link: "https://indi-share.com/slow-internet-speed-boost-net-speed-with-these-methods", type: "HDTC" },
+           
         ], 
-        industry: "Hollywood", 
-        watch_link: "https://example.com/watch/ancient-secrets"
+        industry: "English,Hindi Dubbed", 
+        watch_link: ""
     },
-    { id: 23, title: "City Lights", year: 2017, genre: "Romance/Drama", rating: 9.2, cover: "https://placehold.co/400x600/f43f5e/ffffff?text=Lights", release_date: "2017-02-14", synopsis: "Two strangers meet on a bridge and change each other's lives forever.", cast: "Emma Stone, Ryan Gosling", 
+    { id: 23, title: "Kis Kisko Pyaar Karoon", year: 2015, genre: "Commedy/Drama", rating: 5.7, cover: "kkpk2015.jpeg", release_date: "2017-02-14", synopsis: "A man marries three different women who live in the same building and are unaware that they have the same husband. To make matters worse, all his wives get invited to his fourth wedding..", cast: " Kapil Sharma, Simran Kaur Mundi, and Manjari Fadnnis", 
         downloads: [
-            { quality: "480p", size: "350 MB", link: "#", type: "WEB-DL" },
-            { quality: "720p", size: "1.4 GB", link: "#", type: "WEB-DL" },
-            { quality: "1080p", size: "2.5 GB", link: "#", type: "WEB-DL" }
+            { quality: "480p", size: "434 MB", link: "https://indi-share.com/mahindra-xuv400-ev-launch-date-price-and-range", type: "WEB-DL" },
+            { quality: "720p", size: "1.22 GB", link: "https://indi-share.com/ola-s1-air-new-budget-friendly-scooter-that-can-beat-honda-activa", type: "WEB-DL" },
+           
         ], 
-        industry: "International, Romance", 
-        watch_link: "https://example.com/watch/city-lights"
+        industry: "Hindi", 
+        watch_link: ""
     },
-    { id: 24, title: "The Heist Master", year: 2024, genre: "Crime/Action", rating: 8.4, cover: "https://placehold.co/400x600/22c55e/ffffff?text=Heist", release_date: "2024-06-01", synopsis: "A professional thief is forced into one last job by his former mentor.", cast: "Denzel Washington, Brad Pitt", 
+    { id: 24, title: "Lokah Chapter 1: Chandra", year: 2025, genre: "Fantasy/Adventure", rating: 7.7, cover: "lokah2025.jpeg", release_date: "2025-08-28", synopsis: "A youthful woman uncovers mystical skills while facing personal hurdles. Meanwhile, as evil surfaces, she must embrace her powers and fate in a shifting world..", cast: "Dulquer Salmaan,Kalyani Priyadarshan,Naslen,Sandy,Arun Kurian,Chandu Salim Kumar", 
         downloads: [
-            { quality: "480p", size: "800 MB", link: "#", type: "Pre-HDRip" },
-            { quality: "720p", size: "2.1 GB", link: "#", type: "Pre-HDRip" },
-            { quality: "1080p", size: "4.0 GB", link: "#", type: "Pre-HDRip" }
+            { quality: "480p", size: "522 MB", link: "https://indi-share.com/how-to-make-delicious-icecream-at-home-know-easiest-method", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://indi-share.com/top-mobiles-under-10000-rupees-in-2022", type: "WEB-DL" },
+            { quality: "1080p", size: "3.01 GB", link: "https://indi-share.com/chetak-electric-vs-ola-s1-air-which-scooter-is-best-in-2023-detail-comparison", type: "WEB-DL" }
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/heist-master"
+        industry: "Malayalam,Hindi Dubbed",
+        watch_link: ""
     },
-    { id: 25, title: "Shadow World", year: 2022, genre: "Fantasy/Thriller", rating: 7.6, cover: "https://placehold.co/400x600/1f2937/ffffff?text=Shadow", release_date: "2022-11-05", synopsis: "A detective must navigate a dangerous shadow realm to save his partner.", cast: "Tom Hardy, Charlize Theron", 
+    { id: 25, title: "Mirai", year: 2025, genre: "Action/Adventure", rating: 7.2, cover: "mirai2025.jpeg", release_date: "2025-09-12", synopsis: "A warrior is tasked with the protection of nine sacred scriptures that can turn any mortal into a deity..", cast: "Teja Sajja,Manchu Manoj,Jagapathi Babu,Jayaram,Shriya Saran,Ritika Nayak", 
         downloads: [
-            { quality: "480p", size: "450 MB", link: "#", type: "HD-TC" },
-            { quality: "720p", size: "1.9 GB", link: "#", type: "HD-TC" },
-            { quality: "1080p", size: "3.3 GB", link: "#", type: "HD-TC" }
+            { quality: "480p", size: "415 MB", link: "https://indi-share.com/slow-internet-speed-boost-net-speed-with-these-methods", type: "WEB-DL" },
+            { quality: "720p", size: "1.72 GB", link: "https://indi-share.com/how-to-make-delicious-icecream-at-home-know-easiest-method", type: "WEB-DL" },
+            { quality: "1080p", size: "3.33 GB", link: "https://indi-share.com/ola-s1-air-new-budget-friendly-scooter-that-can-beat-honda-activa", type: "WEB-DL" }
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/shadow-world"
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
     },
 ];
 
