@@ -3,8 +3,8 @@ const mockMovies = [
     { id: 1, title: "12 th Fail", year: 2023, genre: "Drama", rating: 8.7, cover:"twelve-fail.jpeg", release_date: "2023-10-27", synopsis: "IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.", cast: "Vikrant Massey,Medha Shankr,Anant Joshi,Anshumaan Pushkar,Priyanshu Chatterjee", 
         // UPDATED: Added 'type' field to download objects
         downloads: [
-             { quality: "480p", size: "451 MB", link: "https://indi-down4.org/8dp199atxj2c", type: "WEB-DL" },
-            { quality: "720p", size: "1.15 GB", link: "https://indi-down4.org/apurtnsitqhp", type: "WEB-DL" },
+             { quality: "480p", size: "451 MB", link: "https://desilinks.org/links/34407", type: "WEB-DL" },
+            { quality: "720p", size: "1.15 GB", link: "https://desilinks.org/links/34406", type: "WEB-DL" },
           
         ], 
         industry: "Hindi", // Multi-language support
@@ -13,9 +13,9 @@ const mockMovies = [
     { id: 2, title: "Kishkindhapuri", year: 2025, genre: "Horror/Thriller", rating: 7.0, cover: "Kishkindhapuri2025.jpeg", release_date: "2025-09-12", synopsis: "The guests visit a vintage radio station for a ghost tour where they awaken a slumbering spirit. Locked inside, they struggle to escape as otherworldly powers endanger their existence.", cast: " Bellamkonda Sai Sreenivas, Anupama Parameswaran and Sandy.", 
         // UPDATED: Added 'type' field
         downloads: [
-          { quality: "480p", size: "490 MB", link: "https://indi-down4.org/zdzt7lbprrhu", type: "WEB-DL" },
+          { quality: "480p", size: "490 MB", link: "https://desilinks.org/links/52977", type: "WEB-DL" },
          
-            { quality: "720p", size: "1.27 GB", link: "https://indi-down4.org/1uaq2w709ors", type: "WEB-DL" },
+            { quality: "720p", size: "1.27 GB", link: "https://desilinks.org/links/52976", type: "WEB-DL" },
          
         ], 
         industry: "Telugu, Hindi Dubbed",
@@ -24,9 +24,9 @@ const mockMovies = [
     { id: 3, title: "Dracula: A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", cast:"Caleb Landry Jones,Zoe Bleu,Matilda De Angelis.",
         // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "358 MB", link: "https://indi-down4.org/52f2obpjn8sy", type: "WEB-DL" },
+            { quality: "480p", size: "358 MB", link: "https://desilinks.org/links/53829", type: "WEB-DL" },
            
-            { quality: "720p", size: "1.45 GB", link: "https://indi-down4.org/dq4a0ja8njma", type: "WEB-DL" },
+            { quality: "720p", size: "1.45 GB", link: "https://desilinks.org/links/53828", type: "WEB-DL" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -35,10 +35,10 @@ const mockMovies = [
     { id: 4, title: "Kantara:A Legend Chapter-1", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.",cast:"Rukmini Vasanth,Rishab Shetty,Gulshan Devaiah.", 
         // UPDATED: Added 'type' field
         downloads: [
-            { quality: "480p", size: "536 MB", link: "https://indi-down4.org/k3j1ysqlvy99", type: "WEB-DL" },
+            { quality: "480p", size: "536 MB", link: "https://desilinks.org/links/52451", type: "WEB-DL" },
            
-            { quality: "720p", size: "1.39 GB", link: "https://indi-down4.org/oat4p4u70tqd", type: "WEB-DL" },
-             { quality: "1080p", size: "3.17 GB", link: "https://indi-down4.org/t4onupy9p4dq", type: "WEB-DL" },
+            { quality: "720p", size: "1.39 GB", link: "https://desilinks.org/links/52449", type: "WEB-DL" },
+             { quality: "1080p", size: "3.17 GB", link: "https://desilinks.org/links/52447", type: "WEB-DL" },
         ], 
         industry: "Kannada,Hindi Dubbed",
         watch_link: ""
@@ -46,8 +46,8 @@ const mockMovies = [
     { id: 5, title: "Aaryan", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
         // UPDATED: Added 'type' field
         downloads: [
-          { quality: "480p", size: "461 MB", link: "https://indi-down4.org/s1qtjs2nwbps", type: "WEB-DL" },
-            { quality: "720p", size: "1.22 GB", link: "https://indi-down4.org/th0co2mzumu4", type: "WEB-DL" },
+          { quality: "480p", size: "461 MB", link: "https://desilinks.org/links/53771", type: "WEB-DL" },
+            { quality: "720p", size: "1.22 GB", link: "https://desilinks.org/links/53770", type: "WEB-DL" },
             
         ], 
         industry: "Tamil,Hindi Dubbed",
