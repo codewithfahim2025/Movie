@@ -56,9 +56,9 @@ const mockMovies = [
     { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-Fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
         // UPDATED: Added 'type' field
         downloads: [
-            { quality: "720p", size: "532 MB", link: "https://indi-down4.org/73b3g4wh5wbl", type: "WEB-DL" },
+            { quality: "480p", size: "532 MB", link: "https://desilinks.org/links/53355", type: "WEB-DL" },
            
-            { quality: "720p", size: "1.39 GB", link: "https://indi-down4.org/or3pi9vt5qsn", type: "WEB-DL" },
+            { quality: "720p", size: "1.39 GB", link: "https://desilinks.org/links/53354", type: "WEB-DL" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -68,8 +68,8 @@ const mockMovies = [
     { id: 7, title: "Tere Ishk Mein", year: 2025, genre: "Romance/Musical", rating: 8.2, cover: "tereishkmein2025.jpeg", release_date: "2025-11-28", synopsis: "Shankar and Mukti's intense love story unfolds against the backdrop of Benaras, exploring surrender and transformation through an all-consuming romance that heals, hurts, and changes them.", cast: "Dhanush,Kriti Sanon,Prabhu Deva.", 
         downloads: [
            
-            { quality: "720p", size: "1.53 GB", link: "https://indi-down4.org/qhhrv6odt3hz", type: "HDTC" },
-             { quality: "1080p", size: "3.21 GB", link: "https://indi-down4.org/3hh8yo5w0rqk", type: "HDTC" },
+            { quality: "720p", size: "1.53 GB", link: "https://desilinks.org/links/53788", type: "HDTC" },
+             { quality: "1080p", size: "3.21 GB", link: "https://desilinks.org/links/53786", type: "HDTC" },
         ], 
         industry: "Hindi", 
         watch_link: ""
@@ -78,15 +78,15 @@ const mockMovies = [
         downloads: [
             { quality: "480p", size: "674 MB", link: "https://indi-files.net/download/OByHdfqw9HA", type: "HDTC" },
             { quality: "720p", size: "1.83 GB", link: "https://indi-files.net/download/atEdTgyzDwP", type: "HDTC" },
-            { quality: "1080p", size: "3.29 GB", link: "https://indi-files-drive.org/download/R8DgT-qm0j0", type: "HDTC" }
+            { quality: "1080p", size: "3.29 GB", link: "https://desilinks.org/links/53917", type: "HDTC" }
         ], 
         industry: "Hindi", 
         watch_link: ""
     },
     { id: 9, title: "Black Phone 2", year: 2020, genre: "Horror/Thriller", rating: 6.1, cover: "blackphone2.jpeg", release_date: "2025-10-17", synopsis: "Bad dreams haunt 15-year-old Gwen as she receives calls from the black phone and sees disturbing visions of three boys being stalked at a winter camp. Accompanied by her brother, Finn, they head to the camp to solve the mystery, only to confront the Grabber -- a killer who's grown even more powerful in death.", cast: " Mason Thames; Madeleine McGraw; Jeremy Davies; Demián Bichir; Ethan Hawke.", 
         downloads: [
-            { quality: "480p", size: "444 MB", link: "https://indi-files.net/download/k-xCkOHtrrc", type: "WEB_DL" },
-            { quality: "720p", size: "1.03 GB", link: "https://indi-files.net/download/qqWQN-ZCEC6", type: "WEB-DL" },
+            { quality: "480p", size: "444 MB", link: "https://desilinks.org/links/53391", type: "WEB_DL" },
+            { quality: "720p", size: "1.03 GB", link: "https://desilinks.org/links/53390", type: "WEB-DL" },
           
         ], 
         industry: "English,Hindi Dubbed",
@@ -94,8 +94,8 @@ const mockMovies = [
     },
     { id: 10, title: "A House of Dynamite", year: 2025, genre: "Thriller/Drama", rating: 6.4, cover: "ahouseofdynamite2025.jpeg", release_date: "2025-10-10", synopsis: "Radars at Fort Greely, Alaska, detect a nuclear missile. The president and his entourage must use the limited time they have to try to shoot down the missile before it reaches Chicago.", cast: "Idris Elba,Rebecca Ferguson. ", 
         downloads: [
-            { quality: "480p", size: "399 MB", link: "https://indi-down4.org/k8n2qtfsk2po", type: "WEB-DL" },
-            { quality: "720p", size: "1.04 GB", link: "https://indi-down4.org/xtq4e0v6wlec", type: "WEB-DL" },
+            { quality: "480p", size: "399 MB", link: "https://desilinks.org/links/52965", type: "WEB-DL" },
+            { quality: "720p", size: "1.04 GB", link: "https://desilinks.org/links/52964", type: "WEB-DL" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -103,8 +103,8 @@ const mockMovies = [
     },
     { id: 11, title: "A Aa", year: 2016, genre: "Commedy/Drama/Romance", rating: 6.8, cover: "aaa2016.jpeg", release_date: "2016-06-02", synopsis: "Anasuya, the daughter of a rich woman, falls in love with Aanand. However, they face several obstacles while trying to convince their families about their relationship.", cast: "Nithiin,Samantha Ruth Prabhu,Anupama Parameswaran.", 
         downloads: [
-            { quality: "480p", size: "327 MB", link: "https://indi-down4.org/61a8owdl2hbn", type: "WEB-DL" },
-            { quality: "720p", size: "1.38 GB", link: "https://indi-down4.org/eam9evtayyph", type: "WEB-DL" },
+            { quality: "480p", size: "327 MB", link: "https://desilinks.org/links/52562", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://desilinks.org/links/52561", type: "WEB-DL" },
             
         ], 
         industry: "Telugu/Hindi Dubbed",
@@ -112,17 +112,17 @@ const mockMovies = [
     },
     { id: 12, title: "Baaghi 4", year: 2025, genre: "Action/Thriller", rating: 2.4, cover: "baaghi4.jpeg", release_date: "2025-09-05", synopsis: "Following a failed suicide attempt, a man struggles with reality and descends into turmoil. His family faces uncertainty while a concealed truth lures him into a complex maze of obsession and love.", cast: "Tiger Shroff,Sanjay Dutt,Harnaz Kaur Sandhu,Sonam Bajwa.", 
         downloads: [
-            { quality: "480p", size: "500 MB", link: "https://indi-down4.org/5uqcy87zs70g", type: "WEB-DL" },
-            { quality: "720p", size: "1.3 GB", link: "https://indi-down4.org/7ifpra6xhtxi", type: "WEB-DL" },
-            { quality: "1080p", size: "2.94 GB", link: "https://indi-down4.org/p5n9bvpngha1", type: "WEB-DL" }
+            { quality: "480p", size: "500 MB", link: "https://desilinks.org/links/51804", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://desilinks.org/links/51802", type: "WEB-DL" },
+            { quality: "1080p", size: "2.94 GB", link: "https://desilinks.org/links/51800", type: "WEB-DL" }
         ], 
         industry: "Hindi", 
         watch_link: ""
     },
     { id: 13, title: "Inception", year: 2010, genre: "Sci-Fi/Action", rating: 8.8, cover: "Inception2010.jpg", release_date: "2010-07-08", synopsis: "Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wife's murder and his only chance at redemption is to perform a nearly impossible task.", cast: "Leonardo DiCaprio,Cillian Murphy,Tom Hardy,Joseph Gordon-Levit,Elliot Page.", 
         downloads: [
-            { quality: "480p", size: "442 MB", link: "https://indi-files.net/download/XwAcF2OyL0g", type: "WEB-DL" },
-            { quality: "720p", size: "1.12 GB", link: "https://indi-down4.org/pala10mz3odj", type:"WEB-DL" },
+            { quality: "480p", size: "442 MB", link: "https://desilinks.org/links/1528", type: "WEB-DL" },
+            { quality: "720p", size: "1.12 GB", link: "https://desilinks.org/links/1527", type:"WEB-DL" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -130,8 +130,8 @@ const mockMovies = [
     },
     { id: 14, title: "Interstellar", year: 2014, genre: "Sci-Fi/Adventure", rating: 8.7, cover: "Interstellar-2014.jpg", release_date: "2014-10-26", synopsis: "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.", cast: "Matthew McConaughey,Jessica Chastain,Anne Hathaway,Mackenzy Foy,Timothy Chamalate.", 
         downloads: [
-            { quality: "480p", size: "564 MB", link: "https://indi-down4.org/ui0wyv2ptzec", type: "BluRay" },
-            { quality: "720p", size: "1.48 GB", link: "https://indi-down4.org/owkcieju7t31", type: "BluRay" },
+            { quality: "480p", size: "564 MB", link: "https://desilinks.org/links/36505", type: "BluRay" },
+            { quality: "720p", size: "1.48 GB", link: "https://desilinks.org/links/36504", type: "BluRay" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -139,17 +139,17 @@ const mockMovies = [
     },
     { id: 15, title: "The Black Phone", year: 2021, genre: "Horror/Mystrey", rating: 6.9, cover: "blackphone.jpeg", release_date: "2022-06-24", synopsis: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney.", cast: "Mason Thames,Madeleine McGraw,Jeremy Davies,James Ransone,Ethan Hawke", 
         downloads: [
-           
-            { quality: "720p", size: "889 MB", link: "https://indi-down4.org/xu8u6w2zsnjt", type: "WEB-DL" },
-            { quality: "1080p", size: "3.00 GB", link: "https://indi-down4.org/pfexy7x0yejt", type: "WEB-DL" }
+            { quality: "480p", size: "328 MB", link: "https://desilinks.org/links/21094", type: "WEB-DL" },
+            { quality: "720p", size: "889 MB", link: "https://desilinks.org/links/21093", type: "WEB-DL" },
+            { quality: "1080p", size: "3.00 GB", link: "https://desilinks.org/links/54014", type: "WEB-DL" }
         ], 
         industry: "English/Hindi Dubbed", 
         watch_link: ""
     },
     { id: 16, title: "Dude", year: 2025, genre: "Commedy/Adventure", rating: 6.3, cover: "dude2025.jpeg", release_date: "2025-10-17", synopsis: "Childhood friends Agan and Kural are inseparable. When Kural encounters romantic troubles, Agan must balance his hidden feelings for her with his desire to ensure her happiness.", cast: " Pradeep Ranganathan,Mamitha Baiju,R. Sarathkumar, Hridhu Haroon, Rohini, Aishwarya Sharma and Neha Shetty.", 
         downloads: [
-            { quality: "480p", size: "479 MB", link: "https://indi-down4.org/4fqy70ruyyy8", type: "WEB-DL" },
-            { quality: "720p", size: "1.3 GB", link: "https://indi-down4.org/xwpwg1b0kbou", type: "WEB-DL" },
+            { quality: "480p", size: "479 MB", link: "https://desilinks.org/links/53465", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://desilinks.org/links/53464", type: "WEB-DL" },
             
         ], 
         industry: "Tamil,Hindi Dubbed",
@@ -157,8 +157,8 @@ const mockMovies = [
     },
     { id: 18, title: "Eden", year: 2024, genre: "Survival/Thriller", rating: 6.5, cover: "eden2024.jpeg", release_date: "2025-08-22", synopsis: "A group of disillusioned Europeans settles on a remote, uninhabited island in the Galápagos. They soon discover that their greatest threat isn't the brutal climate or deadly wildlife, but one another. As tensions spiral and desperation takes hold, a twisted power struggle unfolds, leading to betrayal, violence and death", cast: "Jude Law, Ana de Armas, Vanessa Kirby, Sydney Sweeney, Daniel Brühl, Felix Kammerer, Toby Wallace,Richard Roxburgh", 
         downloads: [
-            { quality: "480p", size: "451 MB", link: "https://indi-down4.org/js55fgs8zjno", type: "WEB-DL" },
-            { quality: "720p", size: "1.19 GB", link: "https://indi-down4.org/c4klij3zn1ku", type: "WEB-DL" },
+            { quality: "480p", size: "451 MB", link: "https://desilinks.org/links/52954", type: "WEB-DL" },
+            { quality: "720p", size: "1.19 GB", link: "https://desilinks.org/links/52952", type: "WEB-DL" },
           
         ], 
         industry: "English,Hindi Dubbed", 
@@ -166,8 +166,8 @@ const mockMovies = [
     },
     { id: 18, title: "Oddity", year: 2024, genre: "Horror/Thriller", rating: 6.7, cover: "oddity2024.jpeg", release_date: "2024-08-30", synopsis: "Darcy Odello, a visually impaired psychic, strives to find the person who brutally murdered her sister. Later, when she visits the site of murder, she makes shocking discoveries.", cast: "Carolyn Bracken, Gwilym Lee, Steve Wall, Joe Rooney.", 
         downloads: [
-            { quality: "480p", size: "174 MB", link: "https://indi-down4.org/729yizxj6jte", type: "WEB-DL" },
-            { quality: "720p", size: "534 MB", link: "https://indi-down4.org/ypqnd2pneni5", type: "WEB-DL" },
+            { quality: "480p", size: "174 MB", link: "https://desilinks.org/links/50660", type: "WEB-DL" },
+            { quality: "720p", size: "534 MB", link: "https://desilinks.org/links/50659", type: "WEB-DL" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -175,8 +175,8 @@ const mockMovies = [
     },
     { id: 19, title: "Eleven", year: 2025, genre: "Crime/Thriller", rating: 7.4, cover: "eleven2025.jpeg", release_date: "2025-05-16", synopsis: "A seasoned police officer begins an investigation after a series of gruesome murders targeting twins comes to light. However, he soon encounters a sinister game of psychological manipulation.", cast: "Naveen Chandra ,Reyaa Hari with Abhirami, Ravi Varma, Dileepan, Riythvika, Shashank, Aadukalam Naren and Arjai", 
         downloads: [
-            { quality: "480p", size: "468 MB", link: "https://indi-down4.org/ux6oqkuimlrl", type: "WEB-DL" },
-            { quality: "720p", size: "1.23 GB", link: "https://indi-down4.org/x55njrftd1r0", type: "WEB-DL" },
+            { quality: "480p", size: "468 MB", link: "https://desilinks.org/links/49509", type: "WEB-DL" },
+            { quality: "720p", size: "1.23 GB", link: "https://desilinks.org/links/49508", type: "WEB-DL" },
            
         ], 
         industry: "Tamil,Hindi Dubbed",
@@ -184,26 +184,26 @@ const mockMovies = [
     },
     { id: 20, title: "The Fantastic Four: First Steps", year: 2025, genre: "Action/Sci-Fi", rating: 6.9, cover: "fantastic4-2025.jpeg", release_date: "2024-07-24", synopsis: "Mister Fantastic, Invisible Woman, Human Torch and the Thing face their most daunting challenge yet as they defend Earth from Galactus and Silver Surfer.", cast: " Pedro Pascal, Vanessa Kirby, Ebon Moss-Bachrach, and Joseph Quinn ", 
         downloads: [
-            { quality: "480p", size: "404 MB", link: "https://indi-down4.org/kiwbgd81e6f8", type: "WEB-DL" },
-            { quality: "720p", size: "1.06 GB", link: "https://indi-down4.org/s1rw7775xlfu", type: "WEB-DL" },
-            { quality: "1080p", size: "2.3 GB", link: "https://indi-down4.org/h6wehs3k56iu", type: "WEB-DL" }
+            { quality: "480p", size: "404 MB", link: "https://desilinks.org/links/50883", type: "WEB-DL" },
+            { quality: "720p", size: "1.06 GB", link: "https://desilinks.org/links/50881", type: "WEB-DL" },
+            { quality: "1080p", size: "2.3 GB", link: "https://desilinks.org/links/50879", type: "WEB-DL" }
         ], 
         industry: "English,Hindi Dubbed", 
         watch_link: ""
     },
     { id: 21, title: "Final Destination Bloodlines", year: 2025, genre: "Horror/Mystery", rating: 6.7, cover: "final-destination-bloodlines2025.jpeg", release_date: "2025-05-16", synopsis: "Plagued by a violent and recurring nightmare, a college student heads home to track down the one person who might be able to break the cycle of death and save her family from the grisly demise that inevitably awaits them all.", cast: " Kaitlyn Santa Juana; Teo Briones; Richard Harmon; Owen Patrick Joyner; Anna Lore; Brec Bassinger; Tony Todd", 
         downloads: [
-            { quality: "480p", size: "277 MB", link: "https://indi-down4.org/mv99sea2aho9", type: "WEB-DL" },
-            { quality: "720p", size: "1.14 GB", link: "https://indi-down4.org/kfqg9pqda2ca", type: "WEB-DL" },
-            { quality: "1080p", size: "2.26 GB", link: "https://indi-down4.org/037qba8v8k91", type: "WEB-DL" }
+            { quality: "480p", size: "277 MB", link: "https://desilinks.org/links/49603", type: "WEB-DL" },
+            { quality: "720p", size: "1.14 GB", link: "https://desilinks.org/links/49602", type: "WEB-DL" },
+            { quality: "1080p", size: "2.26 GB", link: "https://desilinks.org/links/49601", type: "WEB-DL" }
         ], 
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },
     { id: 22, title: "F1", year: 2025, genre: "Sport/Action", rating: 7.7, cover: "f1-2025.jpeg", release_date: "2025-06-27", synopsis: "In the 1990s, Sonny Hayes was Formula 1's most promising driver until an accident on the track nearly ended his career. Thirty years later, the owner of a struggling Formula 1 team convinces Sonny to return to racing and become the best in the world. Driving alongside the team's hotshot rookie, Sonny soon learns that the road to redemption is not something you can travel alone.", cast: "Brad Pitt,Damson Idris,Kerry Condon,Tobias Menzies,Javier Bardem", 
         downloads: [
-            { quality: "480p", size: "525 MB", link: "https://indi-down4.org/v8jjkpc4iq1u", type: "BluRay" },
-            { quality: "720p", size: "1.43 GB", link: "https://indi-down4.org/vss3nuhgvzxc", type: "BluRay" },
+            { quality: "480p", size: "525 MB", link: "https://desilinks.org/links/51538", type: "BluRay" },
+            { quality: "720p", size: "1.43 GB", link: "https://desilinks.org/links/51537", type: "BluRay" },
            
         ], 
         industry: "English,Hindi Dubbed", 
@@ -211,8 +211,8 @@ const mockMovies = [
     },
     { id: 23, title: "Kis Kisko Pyaar Karoon", year: 2015, genre: "Commedy/Drama", rating: 5.7, cover: "kkpk2015.jpeg", release_date: "2017-02-14", synopsis: "A man marries three different women who live in the same building and are unaware that they have the same husband. To make matters worse, all his wives get invited to his fourth wedding..", cast: " Kapil Sharma, Simran Kaur Mundi, and Manjari Fadnnis", 
         downloads: [
-            { quality: "480p", size: "434 MB", link: "https://indi-down4.org/l1ro7uik5w84", type: "WEB-DL" },
-            { quality: "720p", size: "1.22 GB", link: "https://indi-down4.org/oi5zzb0u9tlw", type: "WEB-DL" },
+            { quality: "480p", size: "434 MB", link: "https://desilinks.org/links/1113", type: "WEB-DL" },
+            { quality: "720p", size: "1.22 GB", link: "https://desilinks.org/links/1111", type: "WEB-DL" },
            
         ], 
         industry: "Hindi", 
@@ -220,18 +220,87 @@ const mockMovies = [
     },
     { id: 24, title: "Lokah Chapter 1: Chandra", year: 2025, genre: "Fantasy/Adventure", rating: 7.7, cover: "lokah2025.jpeg", release_date: "2025-08-28", synopsis: "A youthful woman uncovers mystical skills while facing personal hurdles. Meanwhile, as evil surfaces, she must embrace her powers and fate in a shifting world..", cast: "Dulquer Salmaan,Kalyani Priyadarshan,Naslen,Sandy,Arun Kurian,Chandu Salim Kumar", 
         downloads: [
-            { quality: "480p", size: "522 MB", link: "https://indi-down4.org/n8mc4is7il0k", type: "WEB-DL" },
-            { quality: "720p", size: "1.38 GB", link: "https://indi-down4.org/zrocptzlmq4e", type: "WEB-DL" },
-            { quality: "1080p", size: "3.01 GB", link: "https://indi-down4.org/ods6lc76kymv", type: "WEB-DL" }
+            { quality: "480p", size: "522 MB", link: "https://desilinks.org/links/53101", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://desilinks.org/links/53100", type: "WEB-DL" },
+            { quality: "1080p", size: "3.01 GB", link: "https://desilinks.org/links/53099", type: "WEB-DL" }
         ], 
         industry: "Malayalam,Hindi Dubbed",
         watch_link: ""
     },
-    { id: 25, title: "Mirai", year: 2025, genre: "Action/Adventure", rating: 7.2, cover: "mirai2025.jpeg", release_date: "2025-09-12", synopsis: "A warrior is tasked with the protection of nine sacred scriptures that can turn any mortal into a deity..", cast: "Teja Sajja,Manchu Manoj,Jagapathi Babu,Jayaram,Shriya Saran,Ritika Nayak", 
+    { id: 25, title: "Mirai", year: 2025, genre: "Action/Adventure", rating: 7.2, cover: "mirai2025.jpeg", release_date: "2025-09-12", synopsis: "A warrior is tasked with the protection of nine sacred scriptures that can turn any mortal into a deity.", cast: "Teja Sajja,Manchu Manoj,Jagapathi Babu,Jayaram,Shriya Saran,Ritika Nayak", 
         downloads: [
-            { quality: "480p", size: "415 MB", link: "https://indi-down4.org/wj4uiwenpovc", type: "WEB-DL" },
-            { quality: "720p", size: "1.72 GB", link: "https://indi-down4.org/w4yyoy503adc", type: "WEB-DL" },
-            { quality: "1080p", size: "3.33 GB", link: "https://indi-down4.org/w8ewai90myn2", type: "WEB-DL" }
+            { quality: "480p", size: "415 MB", link: "https://desilinks.org/links/53305", type: "WEB-DL" },
+            { quality: "720p", size: "1.72 GB", link: "https://desilinks.org/links/53304", type: "WEB-DL" },
+            { quality: "1080p", size: "3.33 GB", link: "https://desilinks.org/links/53303", type: "WEB-DL" }
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },
+
+
+
+
+        { id: 49994, title: "Mission Impossible – The Final Reckoning", year: 2025, genre: "Action/Thriller", rating: 7.2, cover: "mission-impossible2025.jpeg", release_date: "2025-05-23", synopsis: "Ethan and the IMF face the Entity, a rogue AI capable of ending the world by seizing global mainframes. How far will Ethan go to stop it?", cast: "Tom Cruise, Hayley Atwell, Ving Rhames, Simon Pegg, Henry Czerny and Angela Bassett.", 
+        downloads: [
+            { quality: "480p", size: "548 MB", link: "https://desilinks.org/links/48704", type: "WEB-DL" },
+            { quality: "720p", size: "1.57 GB", link: "https://desilinks.org/links/48702", type: "WEB-DL" },
+        { quality: "1080p", size: "3.08 GB", link: "https://desilinks.org/links/48700", type: "WEB-DL" },
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
+
+          { id: 49995, title: "Jurassic World Rebirth", year: 2025, genre: "Action/Sci-Fi", rating: 5.9, cover: "jwr2025.jpeg", release_date: "2025-07-02", synopsis: "Zora Bennett leads a team of skilled operatives to the most dangerous place on Earth, an island research facility for the original Jurassic Park. Their mission is to secure genetic material from dinosaurs whose DNA can provide life-saving benefits to mankind. As the top-secret expedition becomes more and more risky, they soon make a sinister, shocking discovery that's been hidden from the world for decades.", cast: "  Scarlett Johansson; Mahershala Ali; Jonathan Bailey; Rupert Friend; Manuel Garcia-Rulfo; Ed Skrein", 
+        downloads: [
+            { quality: "480p", size: "467 MB", link: "https://desilinks.org/links/50297", type: "WEB-DL" },
+            { quality: "720p", size: "1.23 GB", link: "https://desilinks.org/links/50295", type: "WEB-DL" },
+        { quality: "1080p", size: "2.67 GB", link: "https://desilinks.org/links/51190", type: "WEB-DL" },
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
+
+               { id: 49996, title: "How To Train Your Dragon", year: 2025, genre: "Action/Adventure", rating: 7.8, cover: "how-to-train-dragon.jpeg", release_date: "2025-06-13", synopsis: "On the rugged isle of Berk, a Viking boy named Hiccup defies centuries of tradition by befriending a dragon named Toothless. However, when an ancient threat emerges that endangers both species, Hiccup's friendship with Toothless becomes the key to forging a new future. Together, they must navigate the delicate path toward peace, soaring beyond the boundaries of their worlds and redefining what it means to be a hero and a leader.", cast: " Mason Thames, Nico Parker, Gabriel Howell, Julian Dennison, Bronwyn James.", 
+        downloads: [
+            { quality: "480p", size: "437 MB", link: "https://desilinks.org/links/49843", type: "WEB-DL" },
+            { quality: "720p", size: "1.15 GB", link: "https://desilinks.org/links/49842", type: "WEB-DL" },
+       
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
+             { id: 49997, title: "Thunderbolts", year: 2025, genre: "Action/Sci-Fi", rating: 7.1, cover: "Thunderbolts2025.jpg", release_date: "2025-05-02", synopsis: "Ensnared in a death trap, an unconventional team of antiheroes -- Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster and John Walker -- embarks on a dangerous mission that forces them to confront the darkest corners of their pasts.", cast: " Florence Pugh, Sebastian Stan, Wyatt Russell, Olga Kurylenko, Lewis Pullman.", 
+        downloads: [
+            { quality: "480p", size: "465 MB", link: "https://desilinks.org/links/48153", type: "WEB-DL" },
+            { quality: "720p", size: "1.00 GB", link: "https://desilinks.org/links/48151", type: "WEB-DL" },
+           { quality: "1080p", size: "2.55 GB", link: "https://desilinks.org/links/48311", type: "WEB-DL" },
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
+         { id: 49998, title: "Sinners", year: 2025, genre: "Horror/Action", rating: 7.6, cover: "sinners2025.jpeg", release_date: "2025-04-18", synopsis: "Trying to leave their troubled lives behind, twin brothers return to their Mississippi hometown to start again, only to discover that an even greater evil is waiting to welcome them back.", cast: "  Michael B. Jordan,Hailee Steinfeld,Miles Caton,Jack O'Connell,Wunmi Mosaku,Jayme Lawson,Omar Miller,Delroy Lindo", 
+        downloads: [
+            { quality: "480p", size: "271 MB", link: "https://desilinks.org/links/49035", type: "WEB-DL" },
+            { quality: "720p", size: "1.14 GB", link: "https://desilinks.org/links/49034", type: "WEB-DL" },
+         
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
+       { id: 49999, title: "Superman", year: 2025, genre: "Action/Sci-Fi", rating: 7.1, cover: "Superman2025.jpg", release_date: "2025-07-11", synopsis: "When Superman gets drawn into conflicts at home and abroad, his actions are questioned, giving tech billionaire Lex Luthor the opportunity to get the Man of Steel out of the way for good. Will intrepid reporter Lois Lane and Superman's four-legged companion, Krypto, be able to help him before it's too late?", cast: "  Clark Kent, alongside Rachel Brosnahan, Nicholas Hoult, Edi Gathegi, Anthony Carrigan, Nathan Fillion, and Isabela Merced.", 
+        downloads: [
+            { quality: "480p", size: "327 MB", link: "https://desilinks.org/links/51547", type: "WEB-DL" },
+            { quality: "720p", size: "1.35 GB", link: "https://desilinks.org/links/51546", type: "WEB-DL" },
+          { quality: "1080p", size: "2.67 GB", link: "https://desilinks.org/links/51545", type: "WEB-DL" },
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
+     { id: 50000, title: "In The Lost Lands", year: 2025, genre: "Action/Adventure", rating: 4.7, cover: "IntheLostLands2025.jpg", release_date: "2025-02-27", synopsis: "A witch travels to the Lost Lands in search of a magical power that allows a person to transform into a werewolf.", cast: " Milla Jovovich and Dave Bautista", 
+        downloads: [
+            { quality: "480p", size: "355 MB", link: "https://desilinks.org/links/50265", type: "BluRay" },
+            { quality: "720p", size: "903 MB", link: "https://desilinks.org/links/50264", type: "BluRay" },
+          
         ], 
         industry: "Telugu,Hindi Dubbed",
         watch_link: ""
