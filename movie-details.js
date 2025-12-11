@@ -466,7 +466,7 @@ function renderMovies(moviesToRender) {
             // List View Layout (Horizontal)
             cardContainer.className = 'movie-card bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-blue-700/50 flex flex-col sm:flex-row items-center p-4 space-x-4 cursor-pointer';
             cardHTML = `
-                <div class="w-16 h-24 flex-shrink-0 relative hidden sm:block">
+                <div class="w-16 h-24 flex-shrink-0 relative sm:block">
                     <img src="${movie.cover}" alt="${movie.title} Cover" 
                          class="w-full h-full object-cover rounded-md" 
                          onerror="this.onerror=null;this.src='https://placehold.co/100x150/1a1a1a/cccccc?text=Cover';"

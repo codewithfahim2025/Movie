@@ -27,6 +27,13 @@ body {
     height: auto;
 }
 
+/* NEW: Enforce cover image behavior for the 2/3 aspect ratio container (Fixes 'equal poster') */
+.movie-card .aspect-\[2\/3\] img {
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    width: 100%; 
+    height: 100%;
+}
+
 
 /* --- Modal Optimization for Mobile --- */
 .modal-backdrop {
