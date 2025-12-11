@@ -1,88 +1,92 @@
 // Mock Movie Data (expanded for robust pagination testing)
 const mockMovies = [
-    { id: 1, title: "Dhuruvangal Pathinaaru", year: 2016, genre: "Crime/Thriller", rating: 8.2, cover:"dhuruvangal-pathinaru.jpeg", release_date: "2016-12-29", synopsis: "A couple dies under mysterious circumstances and Inspector Deepak is assigned the case. However, he loses his leg in a confrontation during the investigation, which leads to the end of his career.", cast: " Rahman, Prakash Raghavan, Sharathkumar, Santhosh Krishna", 
+    { id: 1, title: "12 th Fail", year: 2023, genre: "Drama", rating: 8.7, cover:"twelve-fail.jpeg", release_date: "2023-10-27", synopsis: "IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.", cast: "Vikrant Massey,Medha Shankr,Anant Joshi,Anshumaan Pushkar,Priyanshu Chatterjee", 
         // UPDATED: Added 'type' field to download objects
         downloads: [
-            
-            { quality: "720p", size: "0.84 GB", link: "https://drive.google.com/uc?export=download&id=1wexiSgmg9yf_fB8tyKSCAhEGUVDBoK-D", type: "WEB-DL" },
-           
+             { quality: "480p", size: "451 MB", link: "https://indi-down4.org/8dp199atxj2c", type: "WEB-DL" },
+            { quality: "720p", size: "1.15 GB", link: "https://indi-down4.org/apurtnsitqhp", type: "WEB-DL" },
+          
         ], 
-        industry: "Tamil, English", // Multi-language support
-        watch_link: "https://example.com/watch/dhuruvangal-16" // Watch online link
+        industry: "Hindi", // Multi-language support
+        watch_link: "" // Watch online link
     },
-    { id: 2, title: "Hit: The First Case", year: 2020, genre: "Crime/Thriller", rating: 7.6, cover: "hit.jpeg", release_date: "2020-02-28", synopsis: "A police officer in the homicide intervention team must overcome his struggles with his tragic past in order to investigate a case involving a missing woman.", cast: "Vishwak Sen,Adivi Sesh,Meenakshi Chaudhary.", 
+    { id: 2, title: "Kishkindhapuri", year: 2025, genre: "Horror/Thriller", rating: 7.0, cover: "Kishkindhapuri2025.jpeg", release_date: "2025-09-12", synopsis: "The guests visit a vintage radio station for a ghost tour where they awaken a slumbering spirit. Locked inside, they struggle to escape as otherworldly powers endanger their existence.", cast: " Bellamkonda Sai Sreenivas, Anupama Parameswaran and Sandy.", 
         // UPDATED: Added 'type' field
         downloads: [
-           
-            { quality: "720p", size: "1.36 GB", link: "https://drive.google.com/uc?export=download&id=1f5CLl_7ARdDuj2pGaToasW_2z3t_OrEs", type: "WEB-DL" },
+          { quality: "480p", size: "490 MB", link: "https://indi-down4.org/zdzt7lbprrhu", type: "WEB-DL" },
+         
+            { quality: "720p", size: "1.27 GB", link: "https://indi-down4.org/1uaq2w709ors", type: "WEB-DL" },
          
         ], 
-        industry: "Telugu, Hindi",
-        watch_link: "https://example.com/watch/hit-first-case"
+        industry: "Telugu, Hindi Dubbed",
+        watch_link: ""
     },
     { id: 3, title: "Dracula: A Love Tale", year: 2025, genre: "Horror/Romance", rating: 6.2, cover: "dracula-a-love-tale.jpeg", release_date: "2025-07-30", synopsis: "Dracula: A Love Tale is a 2025 French gothic horror film by director Luc Besson, starring Caleb Landry Jones as Dracula and Christoph Waltz. It focuses on Dracula's tragic love for his wife, which leads him to become the immortal vampire after he renounces God. While released in France in July 2025, it is set for a North American theatrical release in early 2026.", cast:"Caleb Landry Jones,Zoe Bleu,Matilda De Angelis.",
         // UPDATED: Added 'type' field
         downloads: [
+            { quality: "480p", size: "358 MB", link: "https://indi-down4.org/52f2obpjn8sy", type: "WEB-DL" },
            
-            { quality: "720p", size: "0.6 GB", link: "https://drive.google.com/uc?export=download&id=1uc3DNfEU_MMliBdH_NPsL0IC9xqDfTaz", type: "WEB-DL" },
+            { quality: "720p", size: "1.45 GB", link: "https://indi-down4.org/dq4a0ja8njma", type: "WEB-DL" },
            
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/dracula-love-tale"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
     { id: 4, title: "Kantara:A Legend Chapter-1", year: 2025, genre: "Action/Thriller", rating: 8.3, cover: "kantara2025.jpeg", release_date: "2025-10-02", synopsis: "In pre-colonial Karnataka, during the Kadamba dynasty era, the ritual of Bhuta Kola takes root in the culture. Meanwhile, the seeds for the rise of Kaadubettu Shiva are also sown.",cast:"Rukmini Vasanth,Rishab Shetty,Gulshan Devaiah.", 
         // UPDATED: Added 'type' field
         downloads: [
-          
-            { quality: "720p", size: "0.88 GB", link: "https://drive.google.com/uc?export=download&id=1YfiZC03fQMLCE1nVBozHI7d3kY25MuI6", type: "WEB-DL" },
+            { quality: "480p", size: "536 MB", link: "https://indi-down4.org/k3j1ysqlvy99", type: "WEB-DL" },
            
+            { quality: "720p", size: "1.39 GB", link: "https://indi-down4.org/oat4p4u70tqd", type: "WEB-DL" },
+             { quality: "1080p", size: "3.17 GB", link: "https://indi-down4.org/t4onupy9p4dq", type: "WEB-DL" },
         ], 
-        industry: "Kannada",
-        watch_link: "https://example.com/watch/kantara"
+        industry: "Kannada,Hindi Dubbed",
+        watch_link: ""
     },
     { id: 5, title: "Aaryan", year: 2025, genre: "Crime/Thriller", rating: 6.4, cover: "aaryan2025.jpeg", release_date: "2025-10-31", synopsis: "A struggling writer announces he'll commit the perfect crime, sparking a tense pursuit as police try to prevent his methodically planned killing spree.", cast: "Vishnu Vishal,Shraddha Srinath,Maanasa Choudhary.", 
         // UPDATED: Added 'type' field
         downloads: [
-          
-            { quality: "720p", size: "0.76 GB", link: "https://drive.google.com/uc?export=download&id=1hXVEJaMttRwV_e7AufvvCCAojpIL0mMS", type: "WEB-DL" },
+          { quality: "480p", size: "461 MB", link: "https://indi-down4.org/s1qtjs2nwbps", type: "WEB-DL" },
+            { quality: "720p", size: "1.22 GB", link: "https://indi-down4.org/th0co2mzumu4", type: "WEB-DL" },
             
         ], 
-        industry: "Tamil",
-        watch_link: "https://example.com/watch/aaryan"
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
     },
     { id: 6, title: "Frankenstein", year: 2025, genre: "Horror/Sci-Fi", rating: 7.5, cover: "frankenstein2025.jpeg", release_date: "2025-11-07", synopsis: "A brilliant but egotistical scientist brings a monstrous creature to life in a daring experiment that ultimately leads to the undoing of both the creator and his tragic creation.", cast: "Oscar Isaac,Jacob Elordi,Mia Goth.", 
         // UPDATED: Added 'type' field
         downloads: [
+            { quality: "720p", size: "532 MB", link: "https://indi-down4.org/73b3g4wh5wbl", type: "WEB-DL" },
            
-            { quality: "720p", size: "1.0 GB", link: "https://drive.google.com/uc?export=download&id=1vGvJ3A28OECgii3bDn4CZFJ8C9PvsRas", type: "BluRay" },
+            { quality: "720p", size: "1.39 GB", link: "https://indi-down4.org/or3pi9vt5qsn", type: "WEB-DL" },
            
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/frankenstein"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
     // --- EXPANDED MOCK DATA (All updated to include 'type' field) ---
     { id: 7, title: "Tere Ishk Mein", year: 2025, genre: "Romance/Musical", rating: 8.2, cover: "tereishkmein2025.jpeg", release_date: "2025-11-28", synopsis: "Shankar and Mukti's intense love story unfolds against the backdrop of Benaras, exploring surrender and transformation through an all-consuming romance that heals, hurts, and changes them.", cast: "Dhanush,Kriti Sanon,Prabhu Deva.", 
         downloads: [
            
-            { quality: "720p", size: "1.3 GB", link: "https://drive.google.com/uc?export=download&id=1oKSPXO2jFnrZdEyWKb6UVeKNC1OwvIB3", type: "HDTC" },
-           
-        ], 
-        industry: "Bollywood, International", 
-        watch_link: "https://example.com/watch/ter-ishk-mein"
-    },
-    { id: 8, title: "Dhurandhar*", year: 2025, genre: "Action/Thriller", rating: 8.4, cover: "dhurandhar2025.jpeg", release_date: "2025-12-05", synopsis: "An underworld saga following a network of criminals, informants and operatives whose lives intersect, navigating covert operations, espionage and betrayals.", cast: "Ranveer Singh,Akshaye Khanna,Sara Arjun,Sanjay Dutt,Arjun Rampal.", 
-        downloads: [
-            { quality: "480p", size: "674 MB", link: "https://indi-share.com/mahindra-xuv400-ev-launch-date-price-and-range", type: "HDTC" },
-            { quality: "720p", size: "1.83 GB", link: "https://indi-files.net/download/atEdTgyzDwP", type: "HDTC" },
-            { quality: "1080p", size: "3.29 GB", link: "https://indi-share.com/river-indie-another-ev-scooter-that-can-beat-ola-know-range-and-price-in-india", type: "HDTC" }
+            { quality: "720p", size: "1.53 GB", link: "https://indi-down4.org/qhhrv6odt3hz", type: "HDTC" },
+             { quality: "1080p", size: "3.21 GB", link: "https://indi-down4.org/3hh8yo5w0rqk", type: "HDTC" },
         ], 
         industry: "Hindi", 
         watch_link: ""
     },
-    { id: 9, title: "Black Phone 2*", year: 2020, genre: "Horror/Thriller", rating: 6.1, cover: "blackphone2.jpeg", release_date: "2025-10-17", synopsis: "Bad dreams haunt 15-year-old Gwen as she receives calls from the black phone and sees disturbing visions of three boys being stalked at a winter camp. Accompanied by her brother, Finn, they head to the camp to solve the mystery, only to confront the Grabber -- a killer who's grown even more powerful in death.", cast: " Mason Thames; Madeleine McGraw; Jeremy Davies; Demián Bichir; Ethan Hawke.", 
+    { id: 8, title: "Dhurandhar", year: 2025, genre: "Action/Thriller", rating: 8.4, cover: "dhurandhar2025.jpeg", release_date: "2025-12-05", synopsis: "An underworld saga following a network of criminals, informants and operatives whose lives intersect, navigating covert operations, espionage and betrayals.", cast: "Ranveer Singh,Akshaye Khanna,Sara Arjun,Sanjay Dutt,Arjun Rampal.", 
         downloads: [
-            { quality: "480p", size: "444 MB", link: "https://indi-share.com/hyundai-ioniq-6-luxury-ev-car-know-range-price-and-lauch-date-in-india", type: "WEB_DL" },
-            { quality: "720p", size: "1.03 GB", link: "https://indi-share.com/tork-kratos-x-model-revealed-price-range-and-top-speed", type: "WEB-DL" },
+            { quality: "480p", size: "674 MB", link: "https://indi-files.net/download/OByHdfqw9HA", type: "HDTC" },
+            { quality: "720p", size: "1.83 GB", link: "https://indi-files.net/download/atEdTgyzDwP", type: "HDTC" },
+            { quality: "1080p", size: "3.29 GB", link: "https://indi-files-drive.org/download/R8DgT-qm0j0", type: "HDTC" }
+        ], 
+        industry: "Hindi", 
+        watch_link: ""
+    },
+    { id: 9, title: "Black Phone 2", year: 2020, genre: "Horror/Thriller", rating: 6.1, cover: "blackphone2.jpeg", release_date: "2025-10-17", synopsis: "Bad dreams haunt 15-year-old Gwen as she receives calls from the black phone and sees disturbing visions of three boys being stalked at a winter camp. Accompanied by her brother, Finn, they head to the camp to solve the mystery, only to confront the Grabber -- a killer who's grown even more powerful in death.", cast: " Mason Thames; Madeleine McGraw; Jeremy Davies; Demián Bichir; Ethan Hawke.", 
+        downloads: [
+            { quality: "480p", size: "444 MB", link: "https://indi-files.net/download/k-xCkOHtrrc", type: "WEB_DL" },
+            { quality: "720p", size: "1.03 GB", link: "https://indi-files.net/download/qqWQN-ZCEC6", type: "WEB-DL" },
           
         ], 
         industry: "English,Hindi Dubbed",
@@ -90,8 +94,8 @@ const mockMovies = [
     },
     { id: 10, title: "A House of Dynamite", year: 2025, genre: "Thriller/Drama", rating: 6.4, cover: "ahouseofdynamite2025.jpeg", release_date: "2025-10-10", synopsis: "Radars at Fort Greely, Alaska, detect a nuclear missile. The president and his entourage must use the limited time they have to try to shoot down the missile before it reaches Chicago.", cast: "Idris Elba,Rebecca Ferguson. ", 
         downloads: [
-            { quality: "480p", size: "399 MB", link: "https://indi-share.com/how-to-make-delicious-icecream-at-home-know-easiest-method", type: "WEB-DL" },
-            { quality: "720p", size: "1.04 GB", link: "https://indi-share.com/top-5-best-electric-two-wheelers-in-india-you-can-buy-in-2023", type: "WEB-DL" },
+            { quality: "480p", size: "399 MB", link: "https://indi-down4.org/k8n2qtfsk2po", type: "WEB-DL" },
+            { quality: "720p", size: "1.04 GB", link: "https://indi-down4.org/xtq4e0v6wlec", type: "WEB-DL" },
            
         ], 
         industry: "English,Hindi Dubbed",
@@ -99,8 +103,8 @@ const mockMovies = [
     },
     { id: 11, title: "A Aa", year: 2016, genre: "Commedy/Drama/Romance", rating: 6.8, cover: "aaa2016.jpeg", release_date: "2016-06-02", synopsis: "Anasuya, the daughter of a rich woman, falls in love with Aanand. However, they face several obstacles while trying to convince their families about their relationship.", cast: "Nithiin,Samantha Ruth Prabhu,Anupama Parameswaran.", 
         downloads: [
-            { quality: "480p", size: "327 MB", link: "https://indi-share.com/best-mobile-under-20000-rupess-redmi-k50i-5g-or-xiaomi-11-lite-ne-5g", type: "WEB-DL" },
-            { quality: "720p", size: "1.38 GB", link: "https://indi-share.com/top-mobiles-under-10000-rupees-in-2022", type: "WEB-DL" },
+            { quality: "480p", size: "327 MB", link: "https://indi-down4.org/61a8owdl2hbn", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://indi-down4.org/eam9evtayyph", type: "WEB-DL" },
             
         ], 
         industry: "Telugu/Hindi Dubbed",
@@ -108,9 +112,9 @@ const mockMovies = [
     },
     { id: 12, title: "Baaghi 4", year: 2025, genre: "Action/Thriller", rating: 2.4, cover: "baaghi4.jpeg", release_date: "2025-09-05", synopsis: "Following a failed suicide attempt, a man struggles with reality and descends into turmoil. His family faces uncertainty while a concealed truth lures him into a complex maze of obsession and love.", cast: "Tiger Shroff,Sanjay Dutt,Harnaz Kaur Sandhu,Sonam Bajwa.", 
         downloads: [
-            { quality: "480p", size: "500 MB", link: "https://indi-share.com/wordpress-a-simple-script-which-lights-up-website", type: "WEB-DL" },
-            { quality: "720p", size: "1.3 GB", link: "https://indi-share.com/chetak-electric-vs-ola-s1-air-which-scooter-is-best-in-2023-detail-comparison", type: "WEB-DL" },
-            { quality: "1080p", size: "2.94 GB", link: "https://indi-share.com/mg-zs-vs-nexon-ev-vs-xuv-400-ev-detail-comparison-features-range-and-performance", type: "WEB-DL" }
+            { quality: "480p", size: "500 MB", link: "https://indi-down4.org/5uqcy87zs70g", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://indi-down4.org/7ifpra6xhtxi", type: "WEB-DL" },
+            { quality: "1080p", size: "2.94 GB", link: "https://indi-down4.org/p5n9bvpngha1", type: "WEB-DL" }
         ], 
         industry: "Hindi", 
         watch_link: ""
@@ -118,34 +122,34 @@ const mockMovies = [
     { id: 13, title: "Inception", year: 2010, genre: "Sci-Fi/Action", rating: 8.8, cover: "Inception2010.jpg", release_date: "2010-07-08", synopsis: "Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wife's murder and his only chance at redemption is to perform a nearly impossible task.", cast: "Leonardo DiCaprio,Cillian Murphy,Tom Hardy,Joseph Gordon-Levit,Elliot Page.", 
         downloads: [
             { quality: "480p", size: "442 MB", link: "https://indi-files.net/download/XwAcF2OyL0g", type: "WEB-DL" },
-            { quality: "720p", size: "1.12 GB", link: "https://indi-share.com/slow-wordpress-hosting-5-best-hosting-solution-for-wordpress", type:"WEB-DL" },
-            { quality: "1080p", size: "2.4 GB", link: "#", type: "WEB-DL" }
+            { quality: "720p", size: "1.12 GB", link: "https://indi-down4.org/pala10mz3odj", type:"WEB-DL" },
+           
         ], 
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },
     { id: 14, title: "Interstellar", year: 2014, genre: "Sci-Fi/Adventure", rating: 8.7, cover: "Interstellar-2014.jpg", release_date: "2014-10-26", synopsis: "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.", cast: "Matthew McConaughey,Jessica Chastain,Anne Hathaway,Mackenzy Foy,Timothy Chamalate.", 
         downloads: [
-            { quality: "480p", size: "564 MB", link: "https://indi-share.com/indias-first-gear-ev-bike-matter-know-price-and-features", type: "BluRay" },
-            { quality: "720p", size: "1.48 GB", link: "https://indi-share.com/tork-kratos-x-model-revealed-price-range-and-top-speed", type: "BluRay" },
+            { quality: "480p", size: "564 MB", link: "https://indi-down4.org/ui0wyv2ptzec", type: "BluRay" },
+            { quality: "720p", size: "1.48 GB", link: "https://indi-down4.org/owkcieju7t31", type: "BluRay" },
            
         ], 
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },
-    { id: 15, title: "Jungle Hunt", year: 2023, genre: "Action", rating: 7.8, cover: "https://placehold.co/400x600/4c0519/ffffff?text=Hunt", release_date: "2023-05-15", synopsis: "A survival expert guides a group of researchers through the Amazon, encountering danger at every turn.", cast: "Dwayne Johnson, Jason Statham", 
+    { id: 15, title: "The Black Phone", year: 2021, genre: "Horror/Mystrey", rating: 6.9, cover: "blackphone.jpeg", release_date: "2022-06-24", synopsis: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney.", cast: "Mason Thames,Madeleine McGraw,Jeremy Davies,James Ransone,Ethan Hawke", 
         downloads: [
-            { quality: "480p", size: "550 MB", link: "#", type: "WEB-DL" },
-            { quality: "720p", size: "2.4 GB", link: "#", type: "WEB-DL" },
-            { quality: "1080p", size: "4.5 GB", link: "#", type: "WEB-DL" }
+           
+            { quality: "720p", size: "889 MB", link: "https://indi-down4.org/xu8u6w2zsnjt", type: "WEB-DL" },
+            { quality: "1080p", size: "3.00 GB", link: "https://indi-down4.org/pfexy7x0yejt", type: "WEB-DL" }
         ], 
-        industry: "Hollywood", 
-        watch_link: "https://example.com/watch/jungle-hunt"
+        industry: "English/Hindi Dubbed", 
+        watch_link: ""
     },
     { id: 16, title: "Dude", year: 2025, genre: "Commedy/Adventure", rating: 6.3, cover: "dude2025.jpeg", release_date: "2025-10-17", synopsis: "Childhood friends Agan and Kural are inseparable. When Kural encounters romantic troubles, Agan must balance his hidden feelings for her with his desire to ensure her happiness.", cast: " Pradeep Ranganathan,Mamitha Baiju,R. Sarathkumar, Hridhu Haroon, Rohini, Aishwarya Sharma and Neha Shetty.", 
         downloads: [
-            { quality: "480p", size: "479 MB", link: "https://indi-share.com/tork-kratos-x-model-revealed-price-range-and-top-speed", type: "WEB-DL" },
-            { quality: "720p", size: "1.3 GB", link: "https://indi-share.com/slow-internet-speed-boost-net-speed-with-these-methods", type: "WEB-DL" },
+            { quality: "480p", size: "479 MB", link: "https://indi-down4.org/4fqy70ruyyy8", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://indi-down4.org/xwpwg1b0kbou", type: "WEB-DL" },
             
         ], 
         industry: "Tamil,Hindi Dubbed",
@@ -153,26 +157,26 @@ const mockMovies = [
     },
     { id: 18, title: "Eden", year: 2024, genre: "Survival/Thriller", rating: 6.5, cover: "eden2024.jpeg", release_date: "2025-08-22", synopsis: "A group of disillusioned Europeans settles on a remote, uninhabited island in the Galápagos. They soon discover that their greatest threat isn't the brutal climate or deadly wildlife, but one another. As tensions spiral and desperation takes hold, a twisted power struggle unfolds, leading to betrayal, violence and death", cast: "Jude Law, Ana de Armas, Vanessa Kirby, Sydney Sweeney, Daniel Brühl, Felix Kammerer, Toby Wallace,Richard Roxburgh", 
         downloads: [
-            { quality: "480p", size: "451 MB", link: "https://indi-share.com/electric-scooter-comparisons-ola-vs-ather-vs-vida", type: "WEB-DL" },
-            { quality: "720p", size: "1.19 GB", link: "https://indi-share.com/river-indie-another-ev-scooter-that-can-beat-ola-know-range-and-price-in-india", type: "WEB-DL" },
+            { quality: "480p", size: "451 MB", link: "https://indi-down4.org/js55fgs8zjno", type: "WEB-DL" },
+            { quality: "720p", size: "1.19 GB", link: "https://indi-down4.org/c4klij3zn1ku", type: "WEB-DL" },
           
         ], 
         industry: "English,Hindi Dubbed", 
         watch_link: ""
     },
-    { id: 18, title: "Ocean's Depth", year: 2019, genre: "Adventure", rating: 7.4, cover: "https://placehold.co/400x600/1e3a8a/ffffff?text=Ocean", release_date: "2019-06-20", synopsis: "Deep-sea exploration turns into a nightmare when the crew encounters an unknown creature.", cast: "Jason Momoa, Nicole Kidman", 
+    { id: 18, title: "Oddity", year: 2024, genre: "Horror/Thriller", rating: 6.7, cover: "oddity2024.jpeg", release_date: "2024-08-30", synopsis: "Darcy Odello, a visually impaired psychic, strives to find the person who brutally murdered her sister. Later, when she visits the site of murder, she makes shocking discoveries.", cast: "Carolyn Bracken, Gwilym Lee, Steve Wall, Joe Rooney.", 
         downloads: [
-            { quality: "480p", size: "850 MB", link: "#", type: "BluRay" },
-            { quality: "720p", size: "2.2 GB", link: "#", type: "BluRay" },
-            { quality: "1080p", size: "3.9 GB", link: "#", type: "BluRay" }
+            { quality: "480p", size: "174 MB", link: "https://indi-down4.org/729yizxj6jte", type: "WEB-DL" },
+            { quality: "720p", size: "534 MB", link: "https://indi-down4.org/ypqnd2pneni5", type: "WEB-DL" },
+           
         ], 
-        industry: "Hollywood",
-        watch_link: "https://example.com/watch/oceans-depth"
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
     },
     { id: 19, title: "Eleven", year: 2025, genre: "Crime/Thriller", rating: 7.4, cover: "eleven2025.jpeg", release_date: "2025-05-16", synopsis: "A seasoned police officer begins an investigation after a series of gruesome murders targeting twins comes to light. However, he soon encounters a sinister game of psychological manipulation.", cast: "Naveen Chandra ,Reyaa Hari with Abhirami, Ravi Varma, Dileepan, Riythvika, Shashank, Aadukalam Naren and Arjai", 
         downloads: [
-            { quality: "480p", size: "468 MB", link: "https://indi-share.com/hyundai-ioniq-6-luxury-ev-car-know-range-price-and-lauch-date-in-india", type: "WEB-DL" },
-            { quality: "720p", size: "1.23 GB", link: "https://indi-share.com/slow-wordpress-hosting-5-best-hosting-solution-for-wordpress", type: "WEB-DL" },
+            { quality: "480p", size: "468 MB", link: "https://indi-down4.org/ux6oqkuimlrl", type: "WEB-DL" },
+            { quality: "720p", size: "1.23 GB", link: "https://indi-down4.org/x55njrftd1r0", type: "WEB-DL" },
            
         ], 
         industry: "Tamil,Hindi Dubbed",
@@ -180,26 +184,26 @@ const mockMovies = [
     },
     { id: 20, title: "The Fantastic Four: First Steps", year: 2025, genre: "Action/Sci-Fi", rating: 6.9, cover: "fantastic4-2025.jpeg", release_date: "2024-07-24", synopsis: "Mister Fantastic, Invisible Woman, Human Torch and the Thing face their most daunting challenge yet as they defend Earth from Galactus and Silver Surfer.", cast: " Pedro Pascal, Vanessa Kirby, Ebon Moss-Bachrach, and Joseph Quinn ", 
         downloads: [
-            { quality: "480p", size: "404 MB", link: "https://indi-share.com/top-mobiles-under-10000-rupees-in-2022", type: "WEB-DL" },
-            { quality: "720p", size: "1.06 GB", link: "https://indi-share.com/top-5-best-electric-two-wheelers-in-india-you-can-buy-in-2023", type: "WEB-DL" },
-            { quality: "1080p", size: "2.3 GB", link: "https://indi-share.com/best-mobile-under-20000-rupess-redmi-k50i-5g-or-xiaomi-11-lite-ne-5g", type: "WEB-DL" }
+            { quality: "480p", size: "404 MB", link: "https://indi-down4.org/kiwbgd81e6f8", type: "WEB-DL" },
+            { quality: "720p", size: "1.06 GB", link: "https://indi-down4.org/s1rw7775xlfu", type: "WEB-DL" },
+            { quality: "1080p", size: "2.3 GB", link: "https://indi-down4.org/h6wehs3k56iu", type: "WEB-DL" }
         ], 
         industry: "English,Hindi Dubbed", 
         watch_link: ""
     },
     { id: 21, title: "Final Destination Bloodlines", year: 2025, genre: "Horror/Mystery", rating: 6.7, cover: "final-destination-bloodlines2025.jpeg", release_date: "2025-05-16", synopsis: "Plagued by a violent and recurring nightmare, a college student heads home to track down the one person who might be able to break the cycle of death and save her family from the grisly demise that inevitably awaits them all.", cast: " Kaitlyn Santa Juana; Teo Briones; Richard Harmon; Owen Patrick Joyner; Anna Lore; Brec Bassinger; Tony Todd", 
         downloads: [
-            { quality: "480p", size: "277 MB", link: "https://indi-share.com/top-5-best-electric-two-wheelers-in-india-you-can-buy-in-2023", type: "WEB-DL" },
-            { quality: "720p", size: "1.14 GB", link: "https://indi-share.com/oppo-find-n2-flip-launch-soon-buy-or-not-specification-and-price-detail", type: "WEB-DL" },
-            { quality: "1080p", size: "2.26 GB", link: "https://indi-share.com/oppo-find-n2-flip-launch-soon-buy-or-not-specification-and-price-detail", type: "WEB-DL" }
+            { quality: "480p", size: "277 MB", link: "https://indi-down4.org/mv99sea2aho9", type: "WEB-DL" },
+            { quality: "720p", size: "1.14 GB", link: "https://indi-down4.org/kfqg9pqda2ca", type: "WEB-DL" },
+            { quality: "1080p", size: "2.26 GB", link: "https://indi-down4.org/037qba8v8k91", type: "WEB-DL" }
         ], 
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },
     { id: 22, title: "F1", year: 2025, genre: "Sport/Action", rating: 7.7, cover: "f1-2025.jpeg", release_date: "2025-06-27", synopsis: "In the 1990s, Sonny Hayes was Formula 1's most promising driver until an accident on the track nearly ended his career. Thirty years later, the owner of a struggling Formula 1 team convinces Sonny to return to racing and become the best in the world. Driving alongside the team's hotshot rookie, Sonny soon learns that the road to redemption is not something you can travel alone.", cast: "Brad Pitt,Damson Idris,Kerry Condon,Tobias Menzies,Javier Bardem", 
         downloads: [
-            { quality: "480p", size: "626 MB", link: "https://indi-share.com/slow-wordpress-hosting-5-best-hosting-solution-for-wordpress", type: "HDTC" },
-            { quality: "720p", size: "1.26 GB", link: "https://indi-share.com/slow-internet-speed-boost-net-speed-with-these-methods", type: "HDTC" },
+            { quality: "480p", size: "525 MB", link: "https://indi-down4.org/v8jjkpc4iq1u", type: "BluRay" },
+            { quality: "720p", size: "1.43 GB", link: "https://indi-down4.org/vss3nuhgvzxc", type: "BluRay" },
            
         ], 
         industry: "English,Hindi Dubbed", 
@@ -207,8 +211,8 @@ const mockMovies = [
     },
     { id: 23, title: "Kis Kisko Pyaar Karoon", year: 2015, genre: "Commedy/Drama", rating: 5.7, cover: "kkpk2015.jpeg", release_date: "2017-02-14", synopsis: "A man marries three different women who live in the same building and are unaware that they have the same husband. To make matters worse, all his wives get invited to his fourth wedding..", cast: " Kapil Sharma, Simran Kaur Mundi, and Manjari Fadnnis", 
         downloads: [
-            { quality: "480p", size: "434 MB", link: "https://indi-share.com/mahindra-xuv400-ev-launch-date-price-and-range", type: "WEB-DL" },
-            { quality: "720p", size: "1.22 GB", link: "https://indi-share.com/ola-s1-air-new-budget-friendly-scooter-that-can-beat-honda-activa", type: "WEB-DL" },
+            { quality: "480p", size: "434 MB", link: "https://indi-down4.org/l1ro7uik5w84", type: "WEB-DL" },
+            { quality: "720p", size: "1.22 GB", link: "https://indi-down4.org/oi5zzb0u9tlw", type: "WEB-DL" },
            
         ], 
         industry: "Hindi", 
@@ -216,18 +220,18 @@ const mockMovies = [
     },
     { id: 24, title: "Lokah Chapter 1: Chandra", year: 2025, genre: "Fantasy/Adventure", rating: 7.7, cover: "lokah2025.jpeg", release_date: "2025-08-28", synopsis: "A youthful woman uncovers mystical skills while facing personal hurdles. Meanwhile, as evil surfaces, she must embrace her powers and fate in a shifting world..", cast: "Dulquer Salmaan,Kalyani Priyadarshan,Naslen,Sandy,Arun Kurian,Chandu Salim Kumar", 
         downloads: [
-            { quality: "480p", size: "522 MB", link: "https://indi-share.com/how-to-make-delicious-icecream-at-home-know-easiest-method", type: "WEB-DL" },
-            { quality: "720p", size: "1.38 GB", link: "https://indi-share.com/top-mobiles-under-10000-rupees-in-2022", type: "WEB-DL" },
-            { quality: "1080p", size: "3.01 GB", link: "https://indi-share.com/chetak-electric-vs-ola-s1-air-which-scooter-is-best-in-2023-detail-comparison", type: "WEB-DL" }
+            { quality: "480p", size: "522 MB", link: "https://indi-down4.org/n8mc4is7il0k", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://indi-down4.org/zrocptzlmq4e", type: "WEB-DL" },
+            { quality: "1080p", size: "3.01 GB", link: "https://indi-down4.org/ods6lc76kymv", type: "WEB-DL" }
         ], 
         industry: "Malayalam,Hindi Dubbed",
         watch_link: ""
     },
     { id: 25, title: "Mirai", year: 2025, genre: "Action/Adventure", rating: 7.2, cover: "mirai2025.jpeg", release_date: "2025-09-12", synopsis: "A warrior is tasked with the protection of nine sacred scriptures that can turn any mortal into a deity..", cast: "Teja Sajja,Manchu Manoj,Jagapathi Babu,Jayaram,Shriya Saran,Ritika Nayak", 
         downloads: [
-            { quality: "480p", size: "415 MB", link: "https://indi-share.com/slow-internet-speed-boost-net-speed-with-these-methods", type: "WEB-DL" },
-            { quality: "720p", size: "1.72 GB", link: "https://indi-share.com/how-to-make-delicious-icecream-at-home-know-easiest-method", type: "WEB-DL" },
-            { quality: "1080p", size: "3.33 GB", link: "https://indi-share.com/ola-s1-air-new-budget-friendly-scooter-that-can-beat-honda-activa", type: "WEB-DL" }
+            { quality: "480p", size: "415 MB", link: "https://indi-down4.org/wj4uiwenpovc", type: "WEB-DL" },
+            { quality: "720p", size: "1.72 GB", link: "https://indi-down4.org/w4yyoy503adc", type: "WEB-DL" },
+            { quality: "1080p", size: "3.33 GB", link: "https://indi-down4.org/w8ewai90myn2", type: "WEB-DL" }
         ], 
         industry: "Telugu,Hindi Dubbed",
         watch_link: ""
