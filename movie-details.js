@@ -238,7 +238,140 @@ const mockMovies = [
     },
 
 
+ 
+ { id: 49981, title: "Housefull 5", year: 2025, genre: "Commedy/Drama", rating: 3.3, cover: "housefull5.jpeg", release_date: "2025-06-06", synopsis: "After billionaire Ranjeet Dobriyal dies at a party on his luxury cruise ship, several fraudsters pretend to be his son in an attempt to inherit his estate.", cast: ` "Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Sanjay Dutt, Fardeen Khan, Shreyas Talpade, Nana Patekar, Jackie Shroff."<br><br><br>
+   [First download option for Housefull A,Second for Housefull B] `, 
+        downloads: [
+            { quality: "480p", size: "339 MB", link: "https://desilinks.org/links/49315", type: "WEB-DL" },
+            { quality: "720p", size: "1.43 GB", link: "https://desilinks.org/links/49313", type: "WEB-DL" },
+       { quality: "1080p", size: "3.0 GB", link: "https://desilinks.org/links/49311", type: "WEB-DL" },
+        { quality: "480p", size: "339 MB", link: "https://desilinks.org/links/49301", type: "WEB-DL" },
+         { quality: "720p", size: "1.43 GB", link: "https://desilinks.org/links/49299", type: "WEB-DL" },
+          { quality: "1080p", size: "3.0 GB", link: "https://desilinks.org/links/49297", type: "WEB-DL" },
+        
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },      
+{ id: 49982, title: "Housefull 4", year: 2019, genre: "Commedy/Action", rating: 3.6, cover: "housefull4.jpeg", release_date: "2019-10-25", synopsis: "Three brothers are set to marry three sisters. However, a peek into the distant past reveals to one of the brothers that their brides have been mixed up in their current reincarnation.", cast: "Akshay Kumar, Riteish Deshmukh, Bobby Deol, Kriti Sanon, Pooja Hegde, Kriti Kharbanda and Rana Daggubati ", 
+        downloads: [
+            { quality: "480p", size: "407 MB", link: "https://desilinks.org/links/5919", type: "WEB-DL" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/5917", type: "WEB-DL" },
+      
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },   
 
+
+ { id: 49983, title: "Housefull 3", year: 2016, genre: "Commedy/Action", rating: 5.0, cover: "housefull3.jpeg", release_date: "2016-06-03", synopsis: "A rich businessman does not want his three daughters to get married because of a superstitious belief. Now, their boyfriends must prove to him that they are perfect for his daughters.", cast: " Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Jacqueline Fernandez, Nargis Fakhri, Lisa Haydon, Chunky Panday and Jackie Shroff", 
+        downloads: [
+            { quality: "480p", size: "372 MB", link: "https://desilinks.org/links/9768", type: "HDRip" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/9770", type: "HDRip" },
+      
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },   
+
+ { id: 49984, title: "Housefull 2", year: 2012, genre: "Commedy/Action", rating: 5.4, cover: "housefull2.jpeg", release_date: "2012-04-05", synopsis: "Four men join hands to date and marry the women of their dreams by changing their identities and deceiving their prospective fathers-in-law.", cast: "Rishi Kapoor, Randhir Kapoor, Mithun Chakraborty, Akshay Kumar, Asin, John Abraham, Jacqueline Fernandez, Riteish Deshmukh. ", 
+        downloads: [
+            { quality: "480p", size: "437 MB", link: "https://desilinks.org/links/4887", type: "BluRay" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/4885", type: "BluRay" },
+      
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },   
+
+ { id: 49985, title: "Housefull", year: 2010, genre: "Commedy/Romance", rating: 5.7, cover: "housefull.jpeg", release_date: "2010-04-30", synopsis: "Aarush is an unlucky man and carries his bad luck wherever he goes. His quest to find love only makes his life more miserable as he ends up in complicated situations.", cast: " Akshay Kumar, Riteish Deshmukh, Arjun Rampal, Lara Dutta, Deepika Padukone and Jiah Khan ", 
+        downloads: [
+            { quality: "480p", size: "415 MB", link: "https://desilinks.org/links/4838", type: "BluRay" },
+            { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/4844", type: "BluRay" },
+      
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },   
+ { id: 49986, title: "Jolly LLB 3", year: 2025, genre: "Commedy/Drama", rating: 6.6, cover: "jollyllb3.jpeg", release_date: "2025-09-19", synopsis: "Two advocates, Jolly Mishra and Jolly Tyagi engage in a battle of wits, causing mayhem in the courtroom with their unexpected antics.", cast: "Akshay Kumar, Arshad Warsi,Saurabh Shukla,Amrita Rao and Huma Qureshi ", 
+        downloads: [
+            { quality: "480p", size: "505 MB", link: "https://desilinks.org/links/52180", type: "WEB-DL" },
+            { quality: "720p", size: "1.31 GB", link: "https://desilinks.org/links/52178", type: "WEB-DL" },
+       { quality: "1080p", size: "2.99 GB", link: "https://desilinks.org/links/52176", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+
+
+ { id: 49987, title: "Jolly LLB 2", year: 2017, genre: "Commedy/Drama", rating: 7.2, cover: "jollyllb2.jpeg", release_date: "2017-02-10", synopsis: "A lawyer hoodwinks a woman to start his own law firm. However, he feels guilty and tries to make things right when he finds out that she commits suicide for failing to get justice for her husband", cast: " Akshay Kumar,Huma Qureshi, Annu Kapoor, and Kumud Mishra", 
+        downloads: [
+            { quality: "480p", size: "399 MB", link: "https://desilinks.org/links/4463", type: "BluRay" },
+            { quality: "720p", size: "1.00 GB", link: "https://desilinks.org/links/4461", type: "BluRay" },
+      
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+
+ { id: 49988, title: "Jolly LLB", year: 2013, genre: "Commedy/Crime", rating: 7.5, cover: "jollyllb.jpeg", release_date: "2013-03-15", synopsis: "Jolly, a struggling lawyer seeking success, comes upon a hit-and-run case and decides to fight for the victims. However, the defendant hires a proficient lawyer, Rajpal, to go against him.", cast: " Arshad Warsi, Boman Irani, Amrita Rao, and Saurabh Shukla ", 
+        downloads: [
+            { quality: "480p", size: "397 MB", link: "https://desilinks.org/links/41884", type: "BluRay" },
+            { quality: "720p", size: "1.01 GB", link: "https://desilinks.org/links/41883", type: "BluRay" },
+      
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+
+ { id: 49989, title: "Coolie", year: 2025, genre: "Action/Thriller", rating: 6.0, cover: "coolie2025.jpeg", release_date: "2025-08-14", synopsis: "Deva, a former gold smuggler, seeks to regain his past glory by reviving his old gang with stolen technology hidden in vintage golden watches, leading to unintended consequences.", cast: "Rajinikanth, Nagarjuna Akkineni, Soubin Shahir, Upendra, Shruti Haasan, Sathyaraj, Rachita Ram, Aamir Khan and Pooja Hegde", 
+        downloads: [
+            { quality: "480p", size: "540 MB", link: "https://desilinks.org/links/52576", type: "WEB-DL" },
+            { quality: "720p", size: "1.4 GB", link: "https://desilinks.org/links/52575", type: "WEB-DL" },
+       { quality: "1080p", size: "3.19 GB", link: "https://desilinks.org/links/52574", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+  { id: 49990, title: "Saiyaara ", year: 2025, genre: "Romance/Drama", rating: 6.3, cover: "saiyaara2025.jpeg", release_date: "2025-07-18", synopsis: "Passionate lovers navigate a rollercoaster romance, facing euphoric highs and crushing lows while desperately clinging to their tumultuous bond.", cast: "Ahaan Panday,Aneet Padda", 
+        downloads: [
+            { quality: "480p", size: "324 MB", link: "https://desilinks.org/links/50704", type: "WEB-DL" },
+            { quality: "720p", size: "1.36 GB", link: "https://desilinks.org/links/50702", type: "WEB-DL" },
+       { quality: "1080p", size: "2.86 GB", link: "https://desilinks.org/links/50700", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+
+
+  { id: 49991, title: "War 2", year: 2025, genre: "Action/Thriller", rating: 5.3, cover: "war2.jpeg", release_date: "2025-08-14", synopsis: "Things get complicated when Kabir Dhaliwal, a secret agent, is accused of betraying his nation and his former batchmate shoulders the responsibility of finding him.", cast: " Hrithik Roshan,Kiara Advani,N.T.Rama Rao.", 
+        downloads: [
+            { quality: "480p", size: "549 MB", link: "https://desilinks.org/links/51382", type: "WEB-DL" },
+            { quality: "720p", size: "1.44 GB", link: "https://desilinks.org/links/51380", type: "WEB-DL" },
+       { quality: "1080p", size: "3.26 GB", link: "https://desilinks.org/links/51378", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+
+                  { id: 49992, title: "War", year: 2019, genre: "Action/Thriller", rating: 6.6, cover: "war2019.jpeg", release_date: "2019-10-02", synopsis: "Kabir, a secret agent, goes rogue after a mission to catch a terrorist goes awry. However, his boss sends Khalid, another agent and his student, to track him down.", cast: " Hrithik Roshan,Tiger Shroff,Vaani Kapoor and Ashutosh Rana.", 
+        downloads: [
+            { quality: "480p", size: "434 MB", link: "https://desilinks.org/links/5652", type: "BluRay" },
+            { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/5654", type: "BluRay" },
+       { quality: "1080p", size: "2.50 GB", link: "https://desilinks.org/links/48830", type: "BluRay" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+           { id: 49993, title: "Weapons", year: 2025, genre: "Horror/Mystery", rating: 7.5, cover: "Weapons 2025.jpg", release_date: "2025-08-08", synopsis: "When all but one child from the same classroom mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.", cast: " Josh Brolin, Julia Garner, Alden Ehrenreich, Austin Abrams, Cary Christopher, Toby Huss.", 
+        downloads: [
+            { quality: "480p", size: "413 MB", link: "https://desilinks.org/links/51938", type: "WEB-DL" },
+            { quality: "720p", size: "1.16 GB", link: "https://desilinks.org/links/51937", type: "WEB-DL" },
+      
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },
 
         { id: 49994, title: "Mission Impossible – The Final Reckoning", year: 2025, genre: "Action/Thriller", rating: 7.2, cover: "mission-impossible2025.jpeg", release_date: "2025-05-23", synopsis: "Ethan and the IMF face the Entity, a rogue AI capable of ending the world by seizing global mainframes. How far will Ethan go to stop it?", cast: "Tom Cruise, Hayley Atwell, Ving Rhames, Simon Pegg, Henry Czerny and Angela Bassett.", 
         downloads: [
