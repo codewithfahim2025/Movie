@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="canonical" href="https://m-stream.free.nf/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-STREAM | High-Quality Movie Downloads</title>
+     <link rel="canonical" href="https://m-stream.free.nf/">
       <link rel="icon" type="image/png" href="/m-stream-logo-60x60.png">
     <link rel="icon" type="image/png" href="/m-stream-logo-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/m-stream-logo-32x32.png" sizes="32x32">
@@ -9,21 +12,11 @@
     <link rel="icon" type="image/png" href="/m-stream-logo-60x60.png" sizes="60x60">
     <link rel="icon" type="image/png" href="/m-stream-logo-92x92.png" sizes="92x92">
     <link rel="apple-touch-icon" type="image/png" href="/m-stream-logo-180x180.png" sizes="180x180">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M-STREAM</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">  
     
-    <!--Adsterra infinity free-->
-    <script
-  type="text/javascript"
-  src="//underpantsjokeimmunity.com/01/a4/a8/01a4a8306053f1fffe1e6c6b4addd13f.js"
-></script>
-<!--GA4-->
-<!-- Google tag (gtag.js) -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCS6ES0Z4B"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   <link rel="stylesheet" href="style.css">
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCS6ES0Z4B"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -31,114 +24,39 @@
 
   gtag('config', 'G-ZCS6ES0Z4B');
 </script>
+
 </head>
 <body>
+    <div class="container">
+        <img src="m-stream-logo-60x60.png" alt="M-Stream Logo" class="logo">
+        <h1>M-STREAM</h1>
+        <h2>Your Source for Premium Digital Content</h2>
+        <h3>Discover and download the best movies in high quality.</h3>
+        <p class="description">
+            Access a vast library of the latest releases and timeless classics, all optimized for fast downloads and superior viewing pleasure. Click below to start your cinematic journey.
+        </p>
+        <p class="cta-primary">
+            <a href="movie-details.html" class="button primary">Visit Main Site</a>
+        </p>
+        <p class="or-separator">Or,</p>
+        <p class="cta-secondary">
+            <a href="https://m-stream.pages.dev" class="button secondary">Visit Proxy Site</a>
+        </p>
 
-    <div class="container mx-auto p-4 sm:p-8">
-
-        <header class="text-center mb-12">
-            <img src="m-stream-logo-60x60.png" alt="m-stream-logo-60x60" style="border-radius: 50%;">
-            <h1 class="text-5xl font-extrabold text-blue-500 mb-2">M-STREAM</h1>
-            <p class="text-xl text-gray-400">Discover and download the best movies in high quality.</p>
-        </header>
-
-        <div class="bg-gray-900 p-6 rounded-xl shadow-2xl mb-10 border border-gray-700">
-            <h2 class="text-2xl font-semibold mb-5 text-gray-300">Filter & Sort Movies</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-
-                <div class="col-span-1 md:col-span-2">
-                    <label for="searchInput" class="block text-sm font-medium text-gray-400 mb-2">Search by Title, Genre, or Cast</label>
-                    <div class="flex">
-                        <input type="text" id="searchInput" placeholder="Enter movie title, cast, or keyword..."
-                            class="flex-grow bg-gray-800 border border-gray-700 text-white rounded-l-lg p-3 focus:ring-blue-500 focus:border-blue-500" 
-                            oninput="applyFilters(true)">
-                        <button onclick="triggerSearch()" class="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-r-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <div>
-                    <label for="genreFilter" class="block text-sm font-medium text-gray-400 mb-2">Filter by Genre</label>
-                    <select id="genreFilter" onchange="applyFilters(true)"
-                        class="w-full bg-gray-800 border border-gray-700 text-white rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500">
-                        <option value="">All Genres</option>
-                    </select>
-                </div>
-                <div>
-            <label for="languageFilter" class="block text-sm font-medium text-gray-400 mb-2">Filter by Language</label>
-            <select id="languageFilter" onchange="applyFilters(true)"
-                class="w-full bg-gray-800 border border-gray-700 text-white rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500">
-                <option value="">All Languages</option>
-            </select>
-        </div>
-                <div>
-                    <label for="sortFilter" class="block text-sm font-medium text-gray-400 mb-2">Sort By</label>
-                    <select id="sortFilter" onchange="applyFilters(true)"
-                        class="w-full bg-gray-800 border border-gray-700 text-white rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500">
-                        <option value="year_desc">Latest Year (Newest)</option>
-                        <option value="year_asc">Oldest Year</option>
-                        <option value="rating_desc">Highest Rating</option>
-                        <option value="rating_asc">Lowest Rating</option>
-                        <option value="title_asc">Title (A-Z)</option>
-                        <option value="size_desc">Largest Size</option>
-                    </select>
-                </div>
-
-                <div class="col-span-1 md:col-span-2">
-                    <label for="ratingFilter" class="block text-sm font-medium text-gray-400 mb-2">
-                        Minimum Rating: <span id="currentRatingDisplay" class="font-bold text-yellow-400">0</span> / 10
-                    </label>
-                    <input type="range" id="ratingFilter" min="0" max="10" step="0.1" value="0" 
-                        oninput="document.getElementById('currentRatingDisplay').textContent = this.value; applyFilters(true)"
-                        onchange="applyFilters(true)"
-                        class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer range-lg">
-                </div>
-
-                <div class="flex items-end justify-start md:justify-end">
-                    <button onclick="toggleView()"
-                        class="bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 focus:outline-none focus:ring-4 focus:ring-gray-500 focus:ring-opacity-50">
-                        <span id="viewToggleText">Switch to List View</span>
-                    </button>
-                </div>
+        <div class="contact-section">
+            <h4>Need Help? Connect With Us</h4>
+            <p>Email: <a href="mailto:support@m-stream.com" class="contact-link">support@m-stream.com</a></p>
+            <div class="social-links">
+                <a href="#" aria-label="Follow us on X (Twitter)" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="Follow us on Telegram" class="social-icon"><i class="fab fa-telegram-plane"></i></a>
+                <a href="#" aria-label="Follow us on Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
             </div>
         </div>
 
-        <div id="loadingIndicator" class="text-center py-20 hidden">
-            <svg class="animate-spin h-10 w-10 text-blue-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-            </svg>
-            <p class="mt-4 text-xl text-gray-400">Loading movie data...</p>
-        </div>
-
-        <div id="movieGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-            </div>
-
-        <div id="loadMoreContainer" class="text-center mt-10 hidden">
-            <button id="loadMoreButton" onclick="loadMore()"
-                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50">
-                Load More Movies
-            </button>
-        </div>
-
     </div>
 
-    <div id="detailsModal" class="fixed inset-0 bg-gray-900 bg-opacity-90 backdrop-blur-sm z-50 flex items-center justify-center hidden transition-opacity" onclick="closeModal(event)">
-        <div class="bg-gray-800 rounded-xl shadow-2xl w-11/12 max-w-4xl p-6 md:p-10 relative max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
-            <div id="modalContent">
-                </div>
-        </div>
-    </div>
-    
-    <div id="notificationBox" style="display:none;"
-        class="bg-blue-600 text-white p-4 rounded-lg shadow-xl min-w-[300px]">
-        <p id="notificationText" class="font-semibold"></p>
-    </div>
-
-    <script src="script.js"></script>
+    <footer>
+        &copy; 2025 M-STREAM. All rights reserved. | <a href="#" class="footer-link">Privacy Policy</a>
+    </footer>
 </body>
 </html>

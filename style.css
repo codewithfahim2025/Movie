@@ -1,115 +1,296 @@
-/* Custom styles for better aesthetics and interaction */
-/* Mobile-first approach: Base styles for small screens (Android/iOS) */
+/* --- Global Styles & Reset --- */
+:root {
+    --color-background: #0d0d15; /* Deeper Dark Blue/Black */
+    --color-surface: #1a1a2e; /* Dark Surface Blue */
+    --color-text-primary: #f0f0f5; /* Off-White */
+    --color-text-secondary: #a0a0c0; /* Muted Gray-Blue */
+    --color-accent-primary: #ff416c; /* Vibrant Pink/Red */
+    --color-accent-hover: #ff7f99; /* Lighter Pink/Red */
+    --color-proxy-border: #4d4d6e; /* Subtle border for proxy */
+    --color-contact-bg: #242440; /* Slightly lighter bg for contact box */
+    --font-primary: 'Helvetica Neue', Arial, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif, 'Inter', sans-serif;
-    background-color: #0d1117; /* Dark background */
-    margin: 0; /* Ensure no default margin */
-    padding: 0;
-    line-height: 1.6; /* Improved readability */
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    font-family: var(--font-primary);
+    /* Flex-based centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px 20px 80px 20px; /* Padding for fixed footer */
+    background-image: radial-gradient(circle at center, #1a1a2e 0%, #0d0d15 100%);
 }
 
-/* --- Movie Card Optimization for Mobile Grid --- */
-.movie-card {
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    cursor: pointer;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-}
-.movie-card:hover {
-    transform: translateY(-5px);
-    /* Blue glow on hover, kept for consistency on devices with hover states */
-    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.5), 0 4px 6px -4px rgba(37, 99, 235, 0.5); 
+/* --- Container & Layout --- */
+.container {
+    background-color: var(--color-surface);
+    padding: 50px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
 }
 
-/* Ensure images within the grid/list are fully responsive */
-.movie-card img {
-    max-width: 100%;
+/* --- Typography --- */
+h1 {
+    font-size: 3em;
+    color: var(--color-text-primary);
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 0 0 5px rgba(255, 65, 108, 0.4);
+}
+
+h2 {
+    font-size: 1.2em;
+    color: var(--color-accent-primary);
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1em;
+    color: var(--color-text-secondary);
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.description {
+    color: var(--color-text-secondary);
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+/* --- Logo --- */
+.logo {
+    width: 80px;
     height: auto;
-}
-
-
-/* --- Modal Optimization for Mobile --- */
-.modal-backdrop {
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 50;
-}
-
-/* Adjustments for the Modal Content on small screens */
-#modalContent {
-    margin: 1rem; /* Add margin around the modal content */
-    max-width: 95%; /* Allow it to take up most of the screen width */
-}
-
-/* Ensure the image in the modal scales down correctly on mobile */
-#detailsModal .md\:w-1\/3 {
-    width: 100%; /* Make the image take full width on small screens */
-    margin-bottom: 1rem; /* Add space below the image */
-}
-#detailsModal .md\:w-2\/3 {
-    width: 100%; /* Make the content take full width */
-}
-
-/* Text size adjustments within the modal for better mobile readability */
-#detailsModal h1 {
-    font-size: 2.5rem; /* Large title */
-}
-#detailsModal p, #detailsModal span {
-    font-size: 1rem; /* Base text size */
-}
-#detailsModal .text-xl {
-    font-size: 1.25rem; /* Smaller than desktop for H2s */
-}
-
-/* Download buttons container within the modal */
-#detailsModal .space-y-3 {
-    max-height: 25vh; /* Limit height to prevent modal from overflowing screen */
-}
-
-
-/* --- Range Input Slider (Rating Filter) Optimization --- */
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    height: 20px; /* Slightly larger thumb for easier touch interaction */
-    width: 20px;
+    margin-bottom: 20px;
+    border: 3px solid var(--color-accent-primary);
     border-radius: 50%;
-    background: #3b82f6; /* Blue 500 */
-    cursor: pointer;
-    margin-top: -6px; /* Adjust vertical alignment for 8px track */
-    box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
-}
-input[type=range]::-moz-range-thumb {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background: #3b82f6;
-    cursor: pointer;
-    box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
-}
-input[type=range] {
-    height: 8px; /* Track height */
-    background: #4b5563; /* Gray 600 */
-    border-radius: 4px;
-    transition: opacity .2s;
+    padding: 5px;
 }
 
-/* --- Media Queries for Tablets and Larger Android Devices (sm: 640px) --- */
-@media (min-width: 640px) {
-    /* Revert Modal layout for larger screens */
-    #detailsModal .md\:w-1\/3 {
-        width: 33.333333%;
-        margin-bottom: 0;
+/* --- Buttons & CTAs --- */
+.button {
+    display: inline-block;
+    padding: 14px 30px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 320px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button.primary {
+    background: linear-gradient(90deg, #ff416c 0%, #ff4b2b 100%);
+    color: var(--color-text-primary);
+    box-shadow: 0 5px 20px rgba(255, 65, 108, 0.4);
+}
+
+.button.primary:hover {
+    background: linear-gradient(90deg, #ff4b2b 0%, #ff416c 100%);
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(255, 65, 108, 0.6);
+}
+
+.button.secondary {
+    background-color: var(--color-surface);
+    color: var(--color-text-secondary);
+    border: 2px solid var(--color-proxy-border);
+    font-weight: 500;
+}
+
+.button.secondary:hover {
+    background-color: #242440;
+    color: var(--color-text-primary);
+    border-color: var(--color-accent-hover);
+    transform: translateY(-1px);
+}
+
+/* --- Separator --- */
+.or-separator {
+    color: var(--color-text-secondary);
+    margin: 30px 0 20px 0;
+    font-size: 0.9em;
+    position: relative;
+    padding-top: 5px;
+}
+
+.or-separator::before,
+.or-separator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 1px;
+    background: var(--color-proxy-border);
+    opacity: 0.7;
+}
+
+.or-separator::before {
+    left: 0;
+}
+
+.or-separator::after {
+    right: 0;
+}
+
+
+/* --- Contact Section Styles --- */
+.contact-section {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid var(--color-proxy-border);
+    text-align: center;
+    color: var(--color-text-secondary);
+}
+
+.contact-section h4 {
+    font-size: 1.1em;
+    color: var(--color-text-primary);
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    color: var(--color-accent-primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-icon {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    transition: transform 0.2s, color 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: var(--color-accent-primary);
+}
+
+
+/* --- Footer/Copyright Styles --- */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background);
+    color: var(--color-text-secondary);
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.8em;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 1000;
+}
+
+.footer-link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+/* ========================================================= */
+/* --- ANDROID / MOBILE RESPONSIVENESS (Max Width: 480px) --- */
+/* ========================================================= */
+
+@media (max-width: 480px) {
+    
+    body {
+        /* Remove vertical centering on small screens so the content starts from the top */
+        align-items: stretch;
+        justify-content: flex-start;
+        padding: 0 0 70px 0; /* Adjusted padding for footer */
+        min-height: auto;
     }
-    #detailsModal .md\:w-2\/3 {
-        width: 66.666667%;
+
+    .container {
+        /* Use smaller padding and remove max-width constraints */
+        max-width: 100%;
+        padding: 40px 20px 30px 20px; 
+        border-radius: 0; /* Full width edge-to-edge */
+        box-shadow: none; /* Remove heavy shadow on mobile */
+    }
+
+    /* --- Typography Adjustment --- */
+    h1 {
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 1em;
     }
     
-    /* Restore larger font size for modal title */
-    #detailsModal h1 {
-        font-size: 3rem; 
+    .description {
+        font-size: 0.9em;
+        padding: 0 10px; /* Slight horizontal padding for text block */
     }
 
-    /* Restore taller download buttons container */
-    #detailsModal .space-y-3 {
-        max-height: 40vh; 
+    /* --- Logo Adjustment --- */
+    .logo {
+        width: 60px; /* Smaller logo */
+    }
+
+    /* --- Buttons Adjustment --- */
+    .button {
+        padding: 12px 20px;
+        font-size: 0.95em;
+        max-width: 90%; /* Buttons can be slightly narrower than 100% */
+    }
+
+    /* --- Separator Adjustment --- */
+    .or-separator::before,
+    .or-separator::after {
+        width: 25%; /* Shorter lines around 'Or' */
+    }
+
+    /* --- Contact/Social Adjustment --- */
+    .social-links {
+        gap: 15px; /* Smaller gap */
+    }
+
+    .social-icon {
+        font-size: 1.5em; /* Slightly smaller icons */
+    }
+
+    /* --- Footer Adjustment --- */
+    footer {
+        padding: 12px 10px;
+        font-size: 0.75em; /* Smaller font for copyright */
+        position: fixed; /* Keep it fixed */
     }
 }

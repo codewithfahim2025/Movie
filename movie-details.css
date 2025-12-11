@@ -1,0 +1,115 @@
+/* Custom styles for better aesthetics and interaction */
+/* Mobile-first approach: Base styles for small screens (Android/iOS) */
+
+body {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif, 'Inter', sans-serif;
+    background-color: #0d1117; /* Dark background */
+    margin: 0; /* Ensure no default margin */
+    padding: 0;
+    line-height: 1.6; /* Improved readability */
+}
+
+/* --- Movie Card Optimization for Mobile Grid --- */
+.movie-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+.movie-card:hover {
+    transform: translateY(-5px);
+    /* Blue glow on hover, kept for consistency on devices with hover states */
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.5), 0 4px 6px -4px rgba(37, 99, 235, 0.5); 
+}
+
+/* Ensure images within the grid/list are fully responsive */
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* --- Modal Optimization for Mobile --- */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+}
+
+/* Adjustments for the Modal Content on small screens */
+#modalContent {
+    margin: 1rem; /* Add margin around the modal content */
+    max-width: 95%; /* Allow it to take up most of the screen width */
+}
+
+/* Ensure the image in the modal scales down correctly on mobile */
+#detailsModal .md\:w-1\/3 {
+    width: 100%; /* Make the image take full width on small screens */
+    margin-bottom: 1rem; /* Add space below the image */
+}
+#detailsModal .md\:w-2\/3 {
+    width: 100%; /* Make the content take full width */
+}
+
+/* Text size adjustments within the modal for better mobile readability */
+#detailsModal h1 {
+    font-size: 2.5rem; /* Large title */
+}
+#detailsModal p, #detailsModal span {
+    font-size: 1rem; /* Base text size */
+}
+#detailsModal .text-xl {
+    font-size: 1.25rem; /* Smaller than desktop for H2s */
+}
+
+/* Download buttons container within the modal */
+#detailsModal .space-y-3 {
+    max-height: 25vh; /* Limit height to prevent modal from overflowing screen */
+}
+
+
+/* --- Range Input Slider (Rating Filter) Optimization --- */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px; /* Slightly larger thumb for easier touch interaction */
+    width: 20px;
+    border-radius: 50%;
+    background: #3b82f6; /* Blue 500 */
+    cursor: pointer;
+    margin-top: -6px; /* Adjust vertical alignment for 8px track */
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
+}
+input[type=range]::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
+}
+input[type=range] {
+    height: 8px; /* Track height */
+    background: #4b5563; /* Gray 600 */
+    border-radius: 4px;
+    transition: opacity .2s;
+}
+
+/* --- Media Queries for Tablets and Larger Android Devices (sm: 640px) --- */
+@media (min-width: 640px) {
+    /* Revert Modal layout for larger screens */
+    #detailsModal .md\:w-1\/3 {
+        width: 33.333333%;
+        margin-bottom: 0;
+    }
+    #detailsModal .md\:w-2\/3 {
+        width: 66.666667%;
+    }
+    
+    /* Restore larger font size for modal title */
+    #detailsModal h1 {
+        font-size: 3rem; 
+    }
+
+    /* Restore taller download buttons container */
+    #detailsModal .space-y-3 {
+        max-height: 40vh; 
+    }
+}
