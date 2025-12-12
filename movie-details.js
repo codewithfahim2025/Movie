@@ -250,7 +250,7 @@ const mockMovies = [
             { quality: "720p", size: "500 MB/EP", link: "https://desilinks.org/links/53031", type: "WEB-DL" },  
          
     ], 
-        industry: "Hindi",
+        industry: "English,Hindi Dubbed",
         watch_link: ""
     },  
  { id: 49962, title: "Kis Kisko Pyaar Karoon 2", year: 2025, genre: "Romance/Drama", rating: "N/A", cover: "kkpk2.jpeg", release_date: "2025-12-12", synopsis: "A man tries to marry the woman that he loves but circumstances lead him to marrying a different girl and he ends up getting wed to three women of different religions.", cast:  " Kapil Sharma, Manjot Singh, Hira Warina, Tridha Choudhury.", 
