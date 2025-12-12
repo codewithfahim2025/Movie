@@ -238,7 +238,202 @@ const mockMovies = [
     },
 
 
- 
+
+
+
+
+
+
+ { id: 49961, title: "IT: Welcome To Derry", year: 2025, genre: "Horror/Web Series", rating: "7.8", cover: "it2025.jpeg", release_date: "2025-10-26", synopsis: "Following the events in the 1960s, the time leading up to the events of the first film in the Stephen King 'It' series.", cast:  "Bill Skarsgård,Taylour Paige, Jovan Adepo, Chris Chalk, James Remar, Stephen Rider, Clara Stack", 
+        downloads: [
+            { quality: "480p", size: "130 MB/EP", link: "https://desilinks.org/links/53033", type: "WEB-DL" },
+            { quality: "720p", size: "500 MB/EP", link: "https://desilinks.org/links/53031", type: "WEB-DL" },  
+         
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },  
+ { id: 49962, title: "Kis Kisko Pyaar Karoon 2", year: 2025, genre: "Romance/Drama", rating: "N/A", cover: "kkpk2.jpeg", release_date: "2025-12-12", synopsis: "A man tries to marry the woman that he loves but circumstances lead him to marrying a different girl and he ends up getting wed to three women of different religions.", cast:  " Kapil Sharma, Manjot Singh, Hira Warina, Tridha Choudhury.", 
+        downloads: [
+            { quality: "480p", size: "454 MB", link: "https://desilinks.org/links/54101", type: "HDTC" },
+            { quality: "720p", size: "1.27 GB", link: "https://desilinks.org/links/54099", type: "HDTC" },  
+           { quality: "1080p", size: " GB", link: "https://desilinks.org/links/54097", type: "HDTC" },  
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },     
+ { id: 49963, title: "Dhoom Dham 2024", year: 2024, genre: "Romance/Comedy", rating: 6.5, cover: "dhoomdham2024.jpeg", release_date: "2024-11-08", synopsis: "While on a trip to Poland for his cousin's marriage, a pampered young man from Hyderabad gets smitten by Suhana. But old family feuds interfere with their blossoming love.", cast:  " Chetan Maddineni, Hebah Patel, Benerjee, Vajja Venkata Giridhar.", 
+        downloads: [
+            { quality: "480p", size: "473 MB", link: "https://desilinks.org/links/46698", type: "WEB-DL" },
+            { quality: "720p", size: "1.17 GB", link: "https://desilinks.org/links/46697", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },     
+{ id: 49964, title: "Apocalypse Z: The Beginning of the End", year: 2024, genre: "Action/Horror", rating: 6.1, cover: "apocalypse2024.jpeg", release_date: "2024-10-04", synopsis: "A strange disease has spread across the planet, turning people into violent creatures. Manel, who lives in isolation after the death of his wife, will have to manage to survive in this apocalyptic scenario with his cat.", cast:  "Francisco Ortiz, José María Yazpik, Berta Vázquez, Iria Del Río.", 
+        downloads: [
+            { quality: "480p", size: "296 MB", link: "https://desilinks.org/links/42399", type: "WEB-DL" },
+            { quality: "720p", size: "1.23 GB", link: "https://desilinks.org/links/42398", type: "WEB-DL" },  
+           
+    ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },  
+{ id: 49965, title: "28 Years Later", year: 2025, genre: "Horror/Thriller", rating: 6.6, cover: "28 Years Later 2025.jpg", release_date: "2025-06-20", synopsis: "It's been almost three decades since the rage virus escaped from a biological weapons laboratory. Still living in a ruthlessly enforced quarantine, some have found ways to exist amid the infected. One such group of survivors lives on a small island connected to the mainland by a single, heavily defended causeway. When one of them decides to venture into the dark heart of the mainland, he soon discovers a mutation that has spread to not only the infected, but other survivors as well.", cast:  "Jodie Comer, Aaron Taylor-Johnson, Jack O'Connell, Alfie Williams and Ralph Fiennes.", 
+        downloads: [
+            { quality: "480p", size: "403 MB", link: "https://desilinks.org/links/50997", type: "WEB-DL" },
+            { quality: "720p", size: "1.05 GB", link: "https://desilinks.org/links/50996", type: "WEB-DL" },  
+           
+    ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },  
+{ id: 49966, title: "Salaar:Part 1 Ceasefire", year: 2023, genre: "Action/Thriller", rating: 6.6, cover: "salaar1.jpeg", release_date: "2023-12-22", synopsis: "Two former friends become enemies in a kingdom torn by power struggles. Betrayal, bloodshed and a shaky alliance decide the fate of the realm in this gripping tale of loyalty and treachery.", cast:  "Prabhas, Sukumaran, Shruti Haasan, Jagapathi Babu, Bobby Simha.", 
+        downloads: [
+            { quality: "480p", size: "542 MB", link: "https://desilinks.org/links/35562", type: "WEB-DL" },
+            { quality: "720p", size: "1.38 GB", link: "https://desilinks.org/links/35561", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },  
+
+
+  { id: 49967, title: "RRR", year: 2022, genre: "Action/Adventure", rating: 7.8, cover: "rrr.jpeg", release_date: "2022-03-24", synopsis: "A fearless revolutionary and an officer in the British force, who once shared a deep bond, decide to join forces and chart out an inspirational path of freedom against the despotic rulers.", cast:  " N.T. Rama Rao Jr. Komaram Bheem ,Ram Charan, Alluri Sitarama Raju Olivia Morris,Jennifer 'Jenny' Buxton", 
+        downloads: [
+            { quality: "480p", size: "505 MB", link: "https://desilinks.org/links/17893", type: "HDRip" },
+            { quality: "720p", size: "1.32 GB", link: "", type: "HDRip" },  
+           
+    ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },  
+
+  { id: 49968, title: "Baahubali 2: The Conclusion", year: 2017, genre: "Action/Fantasy", rating: 8.2, cover: "baahubali2.jpg", release_date: "2017-04-28", synopsis: "After learning that his father was brutally killed by Bhallaladeva, Mahendra Baahubali raises an army to defeat him and release his mother from the former's captivity.", cast:  "Prabhas, Rana Daggubati, Anushka, Tamannaah Bhatia, Ramya Krishnan, Sathyaraj, and Nassar", 
+        downloads: [
+            { quality: "480p", size: "482 MB", link: "https://desilinks.org/links/9052", type: "BluRay" },
+            { quality: "720p", size: "1.2 GB", link: "https://desilinks.org/links/9054", type: "BluRay" },  
+           
+    ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },  
+  { id: 49969, title: "Baahubali: The Beginning", year: 2015, genre: "Action/Fantasy", rating: 8.0, cover: "baahubali1.jpg", release_date: "2015-07-10", synopsis: "In the kingdom of Mahishmati, Shivudu falls in love with a young warrior woman. While trying to woo her, he learns about the conflict-ridden past of his family and his true legacy.", cast:  "Prabhas, Rana Daggubati, Anushka, Tamannaah Bhatia, Ramya Krishnan, Sathyaraj, and Nassar", 
+        downloads: [
+            { quality: "480p", size: "460 MB", link: "https://desilinks.org/links/8952", type: "BluRay" },
+            { quality: "720p", size: "1.14 GB", link: "https://desilinks.org/links/8954", type: "BluRay" },  
+           
+    ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },  
+ { id: 49970, title: "KGF:Chapter 2", year: 2022, genre: "Action/Thriller", rating: 8.2, cover: "kgf2.jpeg", release_date: "2022-04-14", synopsis: "Rocky successfully rises as the leader and saviour of the people of the Kolar Gold Fields. But, in his goal to fulfil his mother's wishes, Rocky must tackle Adheera, Inayat Khalil and Ramika Sen.", cast:  " Yash, Srinidhi Shetty , Raveena Tandon,Sanjay Dutt.", 
+        downloads: [
+            { quality: "480p", size: "483 MB", link: "https://desilinks.org/links/18268", type: "WEB-DL" },
+            { quality: "720p", size: "1.26 GB", link: "https://desilinks.org/links/18266", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    },  
+ { id: 49971, title: "KGF:Chapter 1", year: 2018, genre: "Action/Thriller", rating: 8.2, cover: "kgf1.jpeg", release_date: "2018-12-21", synopsis: "Rocky, a young man, seeks power and wealth in order to fulfil a promise to his dying mother. His quest takes him to Mumbai, where he gets involved with the notorious gold mafia.", cast:  " Yash, Srinidhi Shetty , Ramachandra Raju", 
+        downloads: [
+            { quality: "480p", size: "451 MB", link: "https://desilinks.org/links/539", type: "WEB-DL" },
+            { quality: "720p", size: "1.12 GB", link: "https://desilinks.org/links/537", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    },  
+ { id: 49972, title: "Stree 2", year: 2024, genre: "Horror/Commedy", rating: 6.9, cover: "stree2.jpeg", release_date: "2024-08-15", synopsis: "The town of Chanderi is being haunted again. This time, women are mysteriously abducted by a terrifying headless entity. Once again, it is up to Vicky and his friends to save their town and loved ones.", cast:  " Rajkummar Rao, Shraddha Kapoor, Pankaj Tripathi, Abhishek Banerjee and Aparshakti Khurana", 
+        downloads: [
+            { quality: "480p", size: "464 MB", link: "https://desilinks.org/links/41040", type: "WEB-DL" },
+            { quality: "720p", size: "1.2 GB", link: "https://desilinks.org/links/41038", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+ { id: 49973, title: "Stree", year: 2018, genre: "Horror/Commedy", rating: 7.5, cover: "stree.jpeg", release_date: "2018-08-31", synopsis: "The people of Chanderi live under constant fear of Stree, the spirit of a woman who attacks men at night during festivals. Vicky, along with his friends, decides to unravel the mystery.", cast:  "Rajkummar Rao, Shraddha Kapoor, Pankaj Tripathi, Aparshakti Khurana and Abhishek Banerjee", 
+        downloads: [
+            { quality: "480p", size: "373 MB", link: "https://desilinks.org/links/1239", type: "WEB-DL" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/1237", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+ { id: 49974, title: "Bhool Bhulaiyaa 3", year: 2024, genre: "Horror/Commedy", rating: 4.6, cover: "bhoolbhulaiya3.jpeg", release_date: "2024-11-01", synopsis: "Ruhaan, a fake ghost-chaser, takes a job at a spooky castle and finds out about a bad plan by tricky priests. His trip becomes a funny but scary ride with lots of surprises and frights.", cast:  "Kartik Aaryan , Ruhaan Randhawa , Vidya Balan ,Mallika , Madhuri Dixit , Mandira , Triptii Dimri.", 
+        downloads: [
+            { quality: "480p", size: "510 MB", link: "https://desilinks.org/links/44463", type: "WEB-DL" },
+            { quality: "720p", size: "1.32 GB", link: "https://desilinks.org/links/44462", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },      
+ { id: 49975, title: "Bhool Bhulaiyaa 2", year: 2022, genre: "Horror/Commedy", rating: 5.7, cover: "bhoolbhulaiya2.jpeg", release_date: "2022-05-20", synopsis: "After an accident, Ruhan agrees to accompany Reet back home. However, due to a series of untimely incidents, he gets caught up in her family's skirmish.", cast:  "Kartik Aaryan, Ruhan Randhawa, Kiara Advani, Reet Rathore, Rajpal Yadav", 
+        downloads: [
+            { quality: "480p", size: "411 MB", link: "https://desilinks.org/links/18762", type: "WEB-DL" },
+            { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/18760", type: "WEB-DL" },  
+           
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },      
+{ id: 49976, title: "Bhool Bhulaiyaa", year: 2007, genre: "Horror/Commedy", rating: 7.5, cover: "bhoolbhulaiya.jpeg", release_date: "2007-10-12", synopsis: "An NRI and his wife decide to stay in his ancestral home, paying no heed to the warnings about ghosts. Soon, inexplicable occurrences cause him to call a psychiatrist to help solve the mystery.", cast:  "Akshay Kumar, Vidya Balan, Shiney Ahuja, Ameesha Patel.", 
+        downloads: [
+            { quality: "480p", size: "452 MB", link: "https://desilinks.org/links/18476", type: "BluRay" },
+            { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/18472", type: "BluRay" },  
+           
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },   
+{ id: 49977, title: "Raid 2", year: 2025, genre: "Thriller/Drama", rating: 6.6, cover: "Raid2.jpeg", release_date: "2025-05-01", synopsis: "A Income Tax officer, Amay Patnaik, confronts the corrupt nexus in Bhoj. Beneath the veneer of honesty lies a sinister operation tied to Dada Bhai, a revered politician. As Amay unravels layers of deceit buried in fields and fortresses, one question looms: will justice prevail, or will power silence the truth?", cast:  " Ajay Devgn, Vaani Kapoor,Tamannah Bhatia,Riteish Deshmukh.", 
+        downloads: [
+            { quality: "480p", size: "296 MB", link: "https://desilinks.org/links/48140", type: "WEB-DL" },
+            { quality: "720p", size: "1.24 GB", link: "https://desilinks.org/links/48138", type: "WEB-DL" },  
+             { quality: "1080p", size: "2.61 GB", link: "https://desilinks.org/links/48136", type: "WEB-DL" },
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+
+
+{ id: 49978, title: "Raid", year: 2018, genre: "Crime/Action", rating: 7.4, cover: "Raid 2018.jpg", release_date: "2018-03-16", synopsis: "After receiving an anonymous tip, Amay Patnaik, a senior income tax officer, begins an investigation on an influential man in Lucknow for money laundering.", cast:  " Ajay Devgn, Saurabh Shukla and Ileana D'Cruz.", 
+        downloads: [
+            { quality: "480p", size: "324 MB", link: "https://desilinks.org/links/47275", type: "BluRay" },
+            { quality: "720p", size: "1.05 GB", link: "https://desilinks.org/links/47274", type: "BluRay" },
+     
+        
+    ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+
+{ id: 49979, title: "The Running Man", year: 2025, genre: "Sci-Fi/Adventure", rating: 6.4, cover: "The Running Man 2025.jpg", release_date: "2025-11-12", synopsis: "In the near future, a deadly competition where contestants must survive 30 days while being hunted by professional assassins. Desperate for money to save his sick daughter, Ben Richards is convinced by the show's ruthless producer to enter the game as a last resort. Ratings soon skyrocket as Ben's defiance, instincts and grit turn him into an unexpected fan favorite, as well as a threat to the entire system.", cast:  " Glen Powell , Ben Richards , Alyssa Benn , Cathy Richards , Sienna Benn ", 
+        downloads: [
+            { quality: "480p", size: "332 MB", link: "https://desilinks.org/links/54075", type: "WEB-DL" },
+            { quality: "720p", size: "900 MB", link: "https://desilinks.org/links/54074", type: "WEB-DL" },
+     
+        
+    ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    },      
+{ id: 49980, title: "Kaantha", year: 2025, genre: "Drama/Thriller", rating: 8.4, cover: "Kaantha2025.jpg", release_date: "2025-11-14", synopsis: "Ayya, a legendary 1950s Madras filmmaker, navigates a complex friendship with his protege movie star as creative differences arise over a new production.", cast:  "Dulquer Salmaan, Bhagyashri Borse, Rana Daggubati, Samuthirakani.", 
+        downloads: [
+            { quality: "480p", size: "563 MB", link: "https://desilinks.org/links/54064", type: "WEB-DL" },
+            { quality: "720p", size: "1.18 GB", link: "https://desilinks.org/links/54063", type: "WEB-DL" },
+       { quality: "1080p", size: "2.18 GB", link: "https://desilinks.org/links/54062", type: "WEB-DL" },
+        
+    ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    },      
+
  { id: 49981, title: "Housefull 5", year: 2025, genre: "Commedy/Drama", rating: 3.3, cover: "housefull5.jpeg", release_date: "2025-06-06", synopsis: "After billionaire Ranjeet Dobriyal dies at a party on his luxury cruise ship, several fraudsters pretend to be his son in an attempt to inherit his estate.", cast: ` "Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Sanjay Dutt, Fardeen Khan, Shreyas Talpade, Nana Patekar, Jackie Shroff."<br><br><br>
    [First download option for Housefull A,Second for Housefull B] `, 
         downloads: [
