@@ -244,7 +244,7 @@ const mockMovies = [
 
 
 
- { id: 49961, title: "IT: Welcome To Derry", year: 2025, genre: "Horror/Web Series", rating: "7.8", cover: "it2025.jpeg", release_date: "2025-10-26", synopsis: "Following the events in the 1960s, the time leading up to the events of the first film in the Stephen King 'It' series.", cast:  "Bill Skarsgård,Taylour Paige, Jovan Adepo, Chris Chalk, James Remar, Stephen Rider, Clara Stack", 
+ { id: 49961, title: "IT: Welcome To Derry", year: 2025, genre: "Horror/Web Series", rating: 7.8, cover: "it2025.jpeg", release_date: "2025-10-26", synopsis: "Following the events in the 1960s, the time leading up to the events of the first film in the Stephen King 'It' series.", cast:  "Bill Skarsgård,Taylour Paige, Jovan Adepo, Chris Chalk, James Remar, Stephen Rider, Clara Stack", 
         downloads: [
             { quality: "480p", size: "130 MB/EP", link: "https://desilinks.org/links/53033", type: "WEB-DL" },
             { quality: "720p", size: "500 MB/EP", link: "https://desilinks.org/links/53031", type: "WEB-DL" },  
@@ -253,11 +253,11 @@ const mockMovies = [
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },  
- { id: 49962, title: "Kis Kisko Pyaar Karoon 2", year: 2025, genre: "Romance/Drama", rating: "N/A", cover: "kkpk2.jpeg", release_date: "2025-12-12", synopsis: "A man tries to marry the woman that he loves but circumstances lead him to marrying a different girl and he ends up getting wed to three women of different religions.", cast:  " Kapil Sharma, Manjot Singh, Hira Warina, Tridha Choudhury.", 
+ { id: 49962, title: "Kis Kisko Pyaar Karoon 2", year: 2025, genre: "Romance/Drama", rating: 10, cover: "kkpk2.jpeg", release_date: "2025-12-12", synopsis: "A man tries to marry the woman that he loves but circumstances lead him to marrying a different girl and he ends up getting wed to three women of different religions.", cast:  " Kapil Sharma, Manjot Singh, Hira Warina, Tridha Choudhury.", 
         downloads: [
             { quality: "480p", size: "454 MB", link: "https://desilinks.org/links/54101", type: "HDTC" },
             { quality: "720p", size: "1.27 GB", link: "https://desilinks.org/links/54099", type: "HDTC" },  
-           { quality: "1080p", size: " GB", link: "https://desilinks.org/links/54097", type: "HDTC" },  
+           { quality: "1080p", size: "2.29 GB", link: "https://desilinks.org/links/54097", type: "HDTC" },  
     ], 
         industry: "Hindi",
         watch_link: ""
@@ -391,7 +391,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },   
-{ id: 49977, title: "Raid 2", year: 2025, genre: "Thriller/Drama", rating: 6.6, cover: "Raid2.jpeg", release_date: "2025-05-01", synopsis: "A Income Tax officer, Amay Patnaik, confronts the corrupt nexus in Bhoj. Beneath the veneer of honesty lies a sinister operation tied to Dada Bhai, a revered politician. As Amay unravels layers of deceit buried in fields and fortresses, one question looms: will justice prevail, or will power silence the truth?", cast:  " Ajay Devgn, Vaani Kapoor,Tamannah Bhatia,Riteish Deshmukh.", 
+{ id: 49977, title: "Raid 2", year: 2025, genre: "Thriller/Drama", rating: 6.6, cover: "raid2.jpeg", release_date: "2025-05-01", synopsis: "A Income Tax officer, Amay Patnaik, confronts the corrupt nexus in Bhoj. Beneath the veneer of honesty lies a sinister operation tied to Dada Bhai, a revered politician. As Amay unravels layers of deceit buried in fields and fortresses, one question looms: will justice prevail, or will power silence the truth?", cast:  " Ajay Devgn, Vaani Kapoor,Tamannah Bhatia,Riteish Deshmukh.", 
         downloads: [
             { quality: "480p", size: "296 MB", link: "https://desilinks.org/links/48140", type: "WEB-DL" },
             { quality: "720p", size: "1.24 GB", link: "https://desilinks.org/links/48138", type: "WEB-DL" },  
