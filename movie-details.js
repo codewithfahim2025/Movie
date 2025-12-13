@@ -267,7 +267,7 @@ const mockMovies = [
 
 
 
-{ id: 49941, title: "Por Thozil", year: 2023, genre: "Thriller/Action", rating: 8.0, cover: "por-thozhil.jpg", release_date: "2023-06-09", synopsis: "A rookie cop teams up with a veteran officer to investigate a series of murders and soon finds himself on the trail of a brutal serial killer determined to keep on taking lives.", cast: "", 
+{ id: 49941, title: "Por Thozil", year: 2023, genre: "Thriller/Action", rating: 8.0, cover: "por-thozhil.jpg", release_date: "2023-06-09", synopsis: "A rookie cop teams up with a veteran officer to investigate a series of murders and soon finds himself on the trail of a brutal serial killer determined to keep on taking lives.", cast: " R. Sarathkumar, Ashok Selvan and Nikhila Vimal,Sarath Babu, Nizhalgal Ravi, Sunil Sukhada and Santhosh Keezhattoor ", 
         downloads: [
             { quality: "480p", size: "488 MB", link: "https://desilinks.org/links/31115", type: "WEB-DL" },
             { quality: "720p", size: "1.28 GB", link: "https://desilinks.org/links/31114", type: "WEB-DL" },
