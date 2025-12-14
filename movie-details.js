@@ -267,13 +267,159 @@ const mockMovies = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   { id: 49927, title: "The Abondons: Season 1", year: 2025, genre: "Drama", rating: 6.2, cover: "The Abandons S01 2025.jpg", release_date: "2025-12-04", synopsis: "The Abandons is an American Western action drama television series created by Kurt Sutter for Netflix. Set in the 1850s, the series centers on the conflicts of several outlaw groups during the Old West.", cast: " Gillian Anderson, Lena Headey, Nick Robinson, Lamar Johnson, Patton Oswalt.", 
+        downloads: [
+            { quality: "480p", size: "979 MB", link: "https://desilinks.org/links/53966", type: "WEB-DL" },
+            { quality: "720p", size: "2.42 GB", link: "https://desilinks.org/links/53967", type: "WEB-DL" },
+          
+
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    }, 
+{ id: 49928, title: "Akhanda", year: 2021, genre: "Action/Fantasy", rating: 6.8, cover: "Akhanda 2.jpg", release_date: "2021-12-02", synopsis: "When the nefarious Varadarajulu plans to attack Murali Krishna, an ardent devotee of Lord Shiva, Akhanda leaves no stone unturned to defeat the evil.", cast: " Nandamuri Balakrishna, Pragya Jaiswal, Jagapathi Babu and Srikanth. ", 
+        downloads: [
+            { quality: "480p", size: "524 MB", link: "https://desilinks.org/links/27499", type: "WEB-DL" },
+            { quality: "720p", size: "1.41 GB", link: "https://desilinks.org/links/27498", type: "WEB-DL" },
+          
+
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },
+{ id: 49929, title: "Akhanda 2", year: 2025, genre: "Action/Adventure", rating: 7.0, cover: "Akhanda 2.jpg", release_date: "2025-12-12", synopsis: "A heartwarming journey explores the connection between children's innocence, the natural world, and spiritual faith as communities strive for progress.", cast: " Nandamuri Balakrishna, Samyuktha Menon, Aadhi Pinisetty, Harshaali Malhotra, Kabir Duhan Singh.", 
+        downloads: [
+            { quality: "480p", size: "520 MB", link: "https://desilinks.org/links/54110", type: "HDTC" },
+            { quality: "720p", size: "1.37 GB", link: "https://desilinks.org/links/54108", type: "HDTC" },
+             { quality: "1080p", size: "2.89 GB", link: "https://desilinks.org/links/54106", type: "HDTC" },
+
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },
+{ id: 49930, title: "Raees", year: 2017, genre: "Action/Crime", rating: 6.6, cover: "Raees 2017.jpg", release_date: "2017-01-25", synopsis: "Threat looms over bootlegger Raees Alam and his business after ACP Majmudar decides to get the better of him. In order to survive and keep his trade thriving, Raees must overcome Majumdar.", cast: "Shahrukh Khan, Nawazuddin Siddiqui · Mahira Khan · Mohammed Zeeshan Ayyub .", 
+        downloads: [
+            { quality: "480p", size: "415 MB", link: "https://desilinks.org/links/1247", type: "BluRay" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/1246", type: "BluRay" },
+
+
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+{ id: 49931, title: "Jawan", year: 2023, genre: "Action/Thriller", rating: 6.9, cover: "jawan2023.jpg", release_date: "2023-09-07", synopsis: "A man is driven by a personal vendetta to rectify the wrongs in society, while keeping a promise made years ago. He comes up against a monstrous outlaw with no fear, who has caused extreme suffering to many.", cast: "Shahrukh Khan, Deepika Padukone,  Vijay Sethupathi,Nayanthara.", 
+        downloads: [
+            { quality: "480p", size: "530 MB", link: "https://desilinks.org/links/33256", type: "WEB-DL" },
+            { quality: "720p", size: "1.35 GB", link: "https://desilinks.org/links/33255", type: "WEB-DL" },
+ { quality: "1080p", size: "4.9 GB", link: "https://desilinks.org/links/33271", type: "WEB-DL" },
+
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+{ id: 49932, title: "Pathaan", year: 2023, genre: "Action/Thriller", rating: 5.8, cover: "pathaan.jpeg", release_date: "2023-01-25", synopsis: "A Pakistani general hires a private terror outfit to conduct attacks in India while Pathaan, an Indian secret agent, is on a mission to form a special unit.", cast: "Shahrukh Khan, Deepika Padukone, John Abraham, Dimple Kapadia, and Ashutosh Rana.", 
+        downloads: [
+            { quality: "480p", size: "432 MB", link: "https://desilinks.org/links/25392", type: "WEB-DL" },
+            { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/25390", type: "WEB-DL" },
+
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },
+{ id: 49933, title: "Thug Life ", year: 2025, genre: "Action/Drama", rating: 4.2, cover: "Thug Life 2025.jpg", release_date: "2025-06-05", synopsis: "Gang leader Sakthivel adopts Amaran after a gang war, but years later, a survival from assassination sparks doubt. Soon, Sakthivel suspects Amaran, igniting a conflict of loyalty and revenge.", cast: " Kamal Haasan · Silambarasan · Trisha Krishnan · Aishwarya Lekshmi ·", 
+        downloads: [
+            { quality: "480p", size: "409 MB", link: "https://desilinks.org/links/49725", type: "WEB-DL" },
+            { quality: "720p", size: "1.7 GB", link: "https://desilinks.org/links/49724", type: "WEB-DL" },
+            { quality: "1080p", size: "3.38 GB", link: "https://desilinks.org/links/50231", type: "WEB-DL" },
+        ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    },
+{ id: 49934, title: "Game Changer ", year: 2025, genre: "Action/Thriller", rating: 5.1, cover: "Game Changer 2025.jpg", release_date: "2025-01-10", synopsis: "Ram Nandan, a government official, embarks on a relentless fight against corrupt politicians. Determined to bring about fair elections, he tries to revolutionise the way the government operates.", cast: "Ram Charan, Kiara Advani, Sankalpa Banerjee, Anjali.", 
+        downloads: [
+            { quality: "480p", size: "484 MB", link: "https://desilinks.org/links/45593", type: "WEB-DL" },
+            { quality: "720p", size: "1.26 GB", link: "https://desilinks.org/links/45592", type: "WEB-DL" },
+          
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },
+{ id: 49935, title: "Jewel Thief-The Heist Begins ", year: 2025, genre: "Action/Thriller", rating: 4.2, cover: "Jewel Thief The Heist Begins 2025.jpg", release_date: "2025-04-25", synopsis: "In this high-octane battle of wits and wills, ingenious con artist Rehan devises a diamond heist while trying to outsmart Rajan, his sadistic adversary.", cast: " Robbie Grewal, Kookie Gulati. With Saif Ali Khan, Jaideep Ahlawat, Nikita Dutta, Kunal Kapoor.", 
+        downloads: [
+            { quality: "480p", size: "372 MB", link: "https://desilinks.org/links/47953", type: "WEB-DL" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/47951", type: "WEB-DL" },
+            { quality: "1080p", size: "2.24 GB", link: "https://desilinks.org/links/48273", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },      
+{ id: 49936, title: "Ground Zero", year: 2025, genre: "Action/Thriller", rating: 6.7, cover: "Ground Zero 2025.jpg", release_date: "2025-04-25", synopsis: "BSF officer Dubey spearheads a two-year investigation after the 2001 Parliament attack. He uncovers mastermind Ghazi Baba, leading to India's largest anti-terror operation.", cast: " Emraan Hashmi; Sai Tamhankar; Zoya Hussain.", 
+        downloads: [
+            { quality: "480p", size: "428 MB", link: "https://desilinks.org/links/47947", type: "WEB-DL" },
+            { quality: "720p", size: "1.11 GB", link: "https://desilinks.org/links/47945", type: "WEB-DL" },
+            { quality: "1080p", size: "2.52 GB", link: "https://desilinks.org/links/49274", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+{ id: 49937, title: "Dhadak", year: 2018, genre: "Romance/Thriller", rating: 4.7, cover: "Dhadak 2018.jpg", release_date: "2018-07-20", synopsis: "Madhu and Parthavi fall in love but face opposition from their families due to their differing social status. In a bid to unite, they elope but Parthavi's father and brother stay on their tail.", cast: " Janhvi Kapoor · Ishaan Khatter · Aditya Kumar · Kharaj Mukherjee · Ashutosh Rana ·", 
+        downloads: [
+            { quality: "480p", size: "395 MB", link: "https://desilinks.org/links/535", type: "BluRay" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/533", type: "BluRay" },
+           
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+{ id: 49938, title: "Dhadak 2", year: 2025, genre: "Romance/Thriller", rating: 6.8, cover: "Dhadak 2.jpg", release_date: "2025-08-01", synopsis: "Nilesh and Vidhi fall in love. Tragedy strikes when their relationship is threatened by caste differences, creating a significant obstacle to their union.", cast: " Siddhant Chaturvedi; Triptii Dimri;Deeksha Joshi.", 
+        downloads: [
+            { quality: "480p", size: "307 MB", link: "https://desilinks.org/links/51064", type: "WEB-DL" },
+            { quality: "720p", size: "1.29 GB", link: "https://desilinks.org/links/51062", type: "WEB-DL" },
+            { quality: "1080p", size: "2.72 GB", link: "https://desilinks.org/links/51060", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },    
+{ id: 49939, title: "Sky Force", year: 2025, genre: "Action/Thriller", rating: 6.8, cover: "Sky Force 2025.jpg", release_date: "2025-01-24", synopsis: "India and Pakistan engage in airstrike warfare. As the conflict escalates, so does the risk of deadly consequences. Amid rising tensions, a group of individuals seek the truth behind the war.", cast: " Akshay Kumar; Veer Pahariya; Sara Ali Khan; Nimrat Kaur.", 
+        downloads: [
+            { quality: "480p", size: "397 MB", link: "https://desilinks.org/links/45602", type: "WEB-DL" },
+            { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/45600", type: "WEB-DL" },
+            { quality: "1080p", size: "2.32 GB", link: "https://desilinks.org/links/46249", type: "WEB-DL" },
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    },      
+{ id: 49940, title: "Kuberaa", year: 2025, genre: "Thriller/Crime", rating: 6.4, cover: "kuberaa2025.jpg", release_date: "2025-06-20", synopsis: "A beggar undergoes a dramatic transformation, exploring themes of greed, ambition, and moral dilemmas faced by the characters leading to a quest for redemption.", cast: "Dhanush, Nagarjuna, Rashmika Mandanna and Jim Sarbh.", 
+        downloads: [
+            { quality: "480p", size: "554 MB", link: "https://desilinks.org/links/49767", type: "WEB-DL" },
+            { quality: "720p", size: "1.5 GB", link: "https://desilinks.org/links/49765", type: "WEB-DL" },
+            { quality: "1080p", size: "3.04 GB", link: "https://desilinks.org/links/49763", type: "WEB-DL" },
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    },  
+
+
 { id: 49941, title: "Por Thozil", year: 2023, genre: "Thriller/Action", rating: 8.0, cover: "por-thozhil.jpg", release_date: "2023-06-09", synopsis: "A rookie cop teams up with a veteran officer to investigate a series of murders and soon finds himself on the trail of a brutal serial killer determined to keep on taking lives.", cast: " R. Sarathkumar, Ashok Selvan and Nikhila Vimal,Sarath Babu, Nizhalgal Ravi, Sunil Sukhada and Santhosh Keezhattoor ", 
         downloads: [
             { quality: "480p", size: "488 MB", link: "https://desilinks.org/links/31115", type: "WEB-DL" },
             { quality: "720p", size: "1.28 GB", link: "https://desilinks.org/links/31114", type: "WEB-DL" },
            
         ], 
-        industry: "Malayalam,Hindi Dubbed",
+        industry: "Tamil,Hindi Dubbed",
         watch_link: ""
     },  
 
