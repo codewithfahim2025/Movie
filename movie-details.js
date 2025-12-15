@@ -126,7 +126,7 @@ const mockMovies = [
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },
-    { id: 111, title: "A Aa", year: 2016, genre: "Commedy/Drama/Romance", rating: 6.8, cover: "aaa2016.jpeg", release_date: "2016-06-02", synopsis: "Anasuya, the daughter of a rich woman, falls in love with Aanand. However, they face several obstacles while trying to convince their families about their relationship.", cast: "Nithiin,Samantha Ruth Prabhu,Anupama Parameswaran.", 
+    { id: 111, title: "A Aa", year: 2016, genre: "Comedy/Drama/Romance", rating: 6.8, cover: "aaa2016.jpeg", release_date: "2016-06-02", synopsis: "Anasuya, the daughter of a rich woman, falls in love with Aanand. However, they face several obstacles while trying to convince their families about their relationship.", cast: "Nithiin,Samantha Ruth Prabhu,Anupama Parameswaran.", 
         downloads: [
             { quality: "480p", size: "327 MB", link: "https://desilinks.org/links/52562", type: "WEB-DL" },
             { quality: "720p", size: "1.38 GB", link: "https://desilinks.org/links/52561", type: "WEB-DL" },
@@ -162,7 +162,7 @@ const mockMovies = [
         industry: "English,Hindi Dubbed",
         watch_link: ""
     },
-    { id: 115, title: "The Black Phone", year: 2021, genre: "Horror/Mystrey", rating: 6.9, cover: "blackphone.jpeg", release_date: "2022-06-24", synopsis: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney.", cast: "Mason Thames,Madeleine McGraw,Jeremy Davies,James Ransone,Ethan Hawke", 
+    { id: 115, title: "The Black Phone", year: 2021, genre: "Horror/Mystery", rating: 6.9, cover: "blackphone.jpeg", release_date: "2022-06-24", synopsis: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney.", cast: "Mason Thames,Madeleine McGraw,Jeremy Davies,James Ransone,Ethan Hawke", 
         downloads: [
             { quality: "480p", size: "328 MB", link: "https://desilinks.org/links/21094", type: "WEB-DL" },
             { quality: "720p", size: "889 MB", link: "https://desilinks.org/links/21093", type: "WEB-DL" },
@@ -171,7 +171,7 @@ const mockMovies = [
         industry: "English/Hindi Dubbed", 
         watch_link: ""
     },
-    { id: 116, title: "Dude", year: 2025, genre: "Commedy/Adventure", rating: 6.3, cover: "dude2025.jpeg", release_date: "2025-10-17", synopsis: "Childhood friends Agan and Kural are inseparable. When Kural encounters romantic troubles, Agan must balance his hidden feelings for her with his desire to ensure her happiness.", cast: " Pradeep Ranganathan,Mamitha Baiju,R. Sarathkumar, Hridhu Haroon, Rohini, Aishwarya Sharma and Neha Shetty.", 
+    { id: 116, title: "Dude", year: 2025, genre: "Comedy/Adventure", rating: 6.3, cover: "dude2025.jpeg", release_date: "2025-10-17", synopsis: "Childhood friends Agan and Kural are inseparable. When Kural encounters romantic troubles, Agan must balance his hidden feelings for her with his desire to ensure her happiness.", cast: " Pradeep Ranganathan,Mamitha Baiju,R. Sarathkumar, Hridhu Haroon, Rohini, Aishwarya Sharma and Neha Shetty.", 
         downloads: [
             { quality: "480p", size: "479 MB", link: "https://desilinks.org/links/53465", type: "WEB-DL" },
             { quality: "720p", size: "1.3 GB", link: "https://desilinks.org/links/53464", type: "WEB-DL" },
@@ -234,7 +234,7 @@ const mockMovies = [
         industry: "English,Hindi Dubbed", 
         watch_link: ""
     },
-    { id: 123, title: "Kis Kisko Pyaar Karoon", year: 2015, genre: "Commedy/Drama", rating: 5.7, cover: "kkpk2015.jpeg", release_date: "2017-02-14", synopsis: "A man marries three different women who live in the same building and are unaware that they have the same husband. To make matters worse, all his wives get invited to his fourth wedding..", cast: " Kapil Sharma, Simran Kaur Mundi, and Manjari Fadnnis", 
+    { id: 123, title: "Kis Kisko Pyaar Karoon", year: 2015, genre: "Comedy/Drama", rating: 5.7, cover: "kkpk2015.jpeg", release_date: "2017-02-14", synopsis: "A man marries three different women who live in the same building and are unaware that they have the same husband. To make matters worse, all his wives get invited to his fourth wedding..", cast: " Kapil Sharma, Simran Kaur Mundi, and Manjari Fadnnis", 
         downloads: [
             { quality: "480p", size: "434 MB", link: "https://desilinks.org/links/1113", type: "WEB-DL" },
             { quality: "720p", size: "1.22 GB", link: "https://desilinks.org/links/1111", type: "WEB-DL" },
@@ -812,7 +812,7 @@ const mockMovies = [
         industry: "Tamil,Hindi Dubbed",
         watch_link: ""
     },  
- { id: 49972, title: "Stree 2", year: 2024, genre: "Horror/Commedy", rating: 6.9, cover: "stree2.jpeg", release_date: "2024-08-15", synopsis: "The town of Chanderi is being haunted again. This time, women are mysteriously abducted by a terrifying headless entity. Once again, it is up to Vicky and his friends to save their town and loved ones.", cast:  " Rajkummar Rao, Shraddha Kapoor, Pankaj Tripathi, Abhishek Banerjee and Aparshakti Khurana", 
+ { id: 49972, title: "Stree 2", year: 2024, genre: "Horror/Comedy", rating: 6.9, cover: "stree2.jpeg", release_date: "2024-08-15", synopsis: "The town of Chanderi is being haunted again. This time, women are mysteriously abducted by a terrifying headless entity. Once again, it is up to Vicky and his friends to save their town and loved ones.", cast:  " Rajkummar Rao, Shraddha Kapoor, Pankaj Tripathi, Abhishek Banerjee and Aparshakti Khurana", 
         downloads: [
             { quality: "480p", size: "464 MB", link: "https://desilinks.org/links/41040", type: "WEB-DL" },
             { quality: "720p", size: "1.2 GB", link: "https://desilinks.org/links/41038", type: "WEB-DL" },  
@@ -821,7 +821,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },    
- { id: 49973, title: "Stree", year: 2018, genre: "Horror/Commedy", rating: 7.5, cover: "stree.jpeg", release_date: "2018-08-31", synopsis: "The people of Chanderi live under constant fear of Stree, the spirit of a woman who attacks men at night during festivals. Vicky, along with his friends, decides to unravel the mystery.", cast:  "Rajkummar Rao, Shraddha Kapoor, Pankaj Tripathi, Aparshakti Khurana and Abhishek Banerjee", 
+ { id: 49973, title: "Stree", year: 2018, genre: "Horror/Comedy", rating: 7.5, cover: "stree.jpeg", release_date: "2018-08-31", synopsis: "The people of Chanderi live under constant fear of Stree, the spirit of a woman who attacks men at night during festivals. Vicky, along with his friends, decides to unravel the mystery.", cast:  "Rajkummar Rao, Shraddha Kapoor, Pankaj Tripathi, Aparshakti Khurana and Abhishek Banerjee", 
         downloads: [
             { quality: "480p", size: "373 MB", link: "https://desilinks.org/links/1239", type: "WEB-DL" },
             { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/1237", type: "WEB-DL" },  
@@ -830,7 +830,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },    
- { id: 49974, title: "Bhool Bhulaiyaa 3", year: 2024, genre: "Horror/Commedy", rating: 4.6, cover: "bhoolbhulaiya3.jpeg", release_date: "2024-11-01", synopsis: "Ruhaan, a fake ghost-chaser, takes a job at a spooky castle and finds out about a bad plan by tricky priests. His trip becomes a funny but scary ride with lots of surprises and frights.", cast:  "Kartik Aaryan , Ruhaan Randhawa , Vidya Balan ,Mallika , Madhuri Dixit , Mandira , Triptii Dimri.", 
+ { id: 49974, title: "Bhool Bhulaiyaa 3", year: 2024, genre: "Horror/Comedy", rating: 4.6, cover: "bhoolbhulaiya3.jpeg", release_date: "2024-11-01", synopsis: "Ruhaan, a fake ghost-chaser, takes a job at a spooky castle and finds out about a bad plan by tricky priests. His trip becomes a funny but scary ride with lots of surprises and frights.", cast:  "Kartik Aaryan , Ruhaan Randhawa , Vidya Balan ,Mallika , Madhuri Dixit , Mandira , Triptii Dimri.", 
         downloads: [
             { quality: "480p", size: "510 MB", link: "https://desilinks.org/links/44463", type: "WEB-DL" },
             { quality: "720p", size: "1.32 GB", link: "https://desilinks.org/links/44462", type: "WEB-DL" },  
@@ -839,7 +839,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },      
- { id: 49975, title: "Bhool Bhulaiyaa 2", year: 2022, genre: "Horror/Commedy", rating: 5.7, cover: "bhoolbhulaiya2.jpeg", release_date: "2022-05-20", synopsis: "After an accident, Ruhan agrees to accompany Reet back home. However, due to a series of untimely incidents, he gets caught up in her family's skirmish.", cast:  "Kartik Aaryan, Ruhan Randhawa, Kiara Advani, Reet Rathore, Rajpal Yadav", 
+ { id: 49975, title: "Bhool Bhulaiyaa 2", year: 2022, genre: "Horror/Comedy", rating: 5.7, cover: "bhoolbhulaiya2.jpeg", release_date: "2022-05-20", synopsis: "After an accident, Ruhan agrees to accompany Reet back home. However, due to a series of untimely incidents, he gets caught up in her family's skirmish.", cast:  "Kartik Aaryan, Ruhan Randhawa, Kiara Advani, Reet Rathore, Rajpal Yadav", 
         downloads: [
             { quality: "480p", size: "411 MB", link: "https://desilinks.org/links/18762", type: "WEB-DL" },
             { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/18760", type: "WEB-DL" },  
@@ -848,7 +848,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },      
-{ id: 49976, title: "Bhool Bhulaiyaa", year: 2007, genre: "Horror/Commedy", rating: 7.5, cover: "bhoolbhulaiya.jpeg", release_date: "2007-10-12", synopsis: "An NRI and his wife decide to stay in his ancestral home, paying no heed to the warnings about ghosts. Soon, inexplicable occurrences cause him to call a psychiatrist to help solve the mystery.", cast:  "Akshay Kumar, Vidya Balan, Shiney Ahuja, Ameesha Patel.", 
+{ id: 49976, title: "Bhool Bhulaiyaa", year: 2007, genre: "Horror/Comedy", rating: 7.5, cover: "bhoolbhulaiya.jpeg", release_date: "2007-10-12", synopsis: "An NRI and his wife decide to stay in his ancestral home, paying no heed to the warnings about ghosts. Soon, inexplicable occurrences cause him to call a psychiatrist to help solve the mystery.", cast:  "Akshay Kumar, Vidya Balan, Shiney Ahuja, Ameesha Patel.", 
         downloads: [
             { quality: "480p", size: "452 MB", link: "https://desilinks.org/links/18476", type: "BluRay" },
             { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/18472", type: "BluRay" },  
@@ -900,7 +900,7 @@ const mockMovies = [
         watch_link: ""
     },      
 
- { id: 49981, title: "Housefull 5", year: 2025, genre: "Commedy/Drama", rating: 3.3, cover: "housefull5.jpeg", release_date: "2025-06-06", synopsis: "After billionaire Ranjeet Dobriyal dies at a party on his luxury cruise ship, several fraudsters pretend to be his son in an attempt to inherit his estate.", cast: ` "Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Sanjay Dutt, Fardeen Khan, Shreyas Talpade, Nana Patekar, Jackie Shroff."<br><br><br>
+ { id: 49981, title: "Housefull 5", year: 2025, genre: "Comedy/Drama", rating: 3.3, cover: "housefull5.jpeg", release_date: "2025-06-06", synopsis: "After billionaire Ranjeet Dobriyal dies at a party on his luxury cruise ship, several fraudsters pretend to be his son in an attempt to inherit his estate.", cast: ` "Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Sanjay Dutt, Fardeen Khan, Shreyas Talpade, Nana Patekar, Jackie Shroff."<br><br><br>
    [First download option for Housefull A,Second for Housefull B] `, 
         downloads: [
             { quality: "480p", size: "339 MB", link: "https://desilinks.org/links/49315", type: "WEB-DL" },
@@ -914,7 +914,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },      
-{ id: 49982, title: "Housefull 4", year: 2019, genre: "Commedy/Action", rating: 3.6, cover: "housefull4.jpeg", release_date: "2019-10-25", synopsis: "Three brothers are set to marry three sisters. However, a peek into the distant past reveals to one of the brothers that their brides have been mixed up in their current reincarnation.", cast: "Akshay Kumar, Riteish Deshmukh, Bobby Deol, Kriti Sanon, Pooja Hegde, Kriti Kharbanda and Rana Daggubati ", 
+{ id: 49982, title: "Housefull 4", year: 2019, genre: "Comedy/Action", rating: 3.6, cover: "housefull4.jpeg", release_date: "2019-10-25", synopsis: "Three brothers are set to marry three sisters. However, a peek into the distant past reveals to one of the brothers that their brides have been mixed up in their current reincarnation.", cast: "Akshay Kumar, Riteish Deshmukh, Bobby Deol, Kriti Sanon, Pooja Hegde, Kriti Kharbanda and Rana Daggubati ", 
         downloads: [
             { quality: "480p", size: "407 MB", link: "https://desilinks.org/links/5919", type: "WEB-DL" },
             { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/5917", type: "WEB-DL" },
@@ -925,7 +925,7 @@ const mockMovies = [
     },   
 
 
- { id: 49983, title: "Housefull 3", year: 2016, genre: "Commedy/Action", rating: 5.0, cover: "housefull3.jpeg", release_date: "2016-06-03", synopsis: "A rich businessman does not want his three daughters to get married because of a superstitious belief. Now, their boyfriends must prove to him that they are perfect for his daughters.", cast: " Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Jacqueline Fernandez, Nargis Fakhri, Lisa Haydon, Chunky Panday and Jackie Shroff", 
+ { id: 49983, title: "Housefull 3", year: 2016, genre: "Comedy/Action", rating: 5.0, cover: "housefull3.jpeg", release_date: "2016-06-03", synopsis: "A rich businessman does not want his three daughters to get married because of a superstitious belief. Now, their boyfriends must prove to him that they are perfect for his daughters.", cast: " Akshay Kumar, Abhishek Bachchan, Riteish Deshmukh, Jacqueline Fernandez, Nargis Fakhri, Lisa Haydon, Chunky Panday and Jackie Shroff", 
         downloads: [
             { quality: "480p", size: "372 MB", link: "https://desilinks.org/links/9768", type: "HDRip" },
             { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/9770", type: "HDRip" },
@@ -935,7 +935,7 @@ const mockMovies = [
         watch_link: ""
     },   
 
- { id: 49984, title: "Housefull 2", year: 2012, genre: "Commedy/Action", rating: 5.4, cover: "housefull2.jpeg", release_date: "2012-04-05", synopsis: "Four men join hands to date and marry the women of their dreams by changing their identities and deceiving their prospective fathers-in-law.", cast: "Rishi Kapoor, Randhir Kapoor, Mithun Chakraborty, Akshay Kumar, Asin, John Abraham, Jacqueline Fernandez, Riteish Deshmukh. ", 
+ { id: 49984, title: "Housefull 2", year: 2012, genre: "Comedy/Action", rating: 5.4, cover: "housefull2.jpeg", release_date: "2012-04-05", synopsis: "Four men join hands to date and marry the women of their dreams by changing their identities and deceiving their prospective fathers-in-law.", cast: "Rishi Kapoor, Randhir Kapoor, Mithun Chakraborty, Akshay Kumar, Asin, John Abraham, Jacqueline Fernandez, Riteish Deshmukh. ", 
         downloads: [
             { quality: "480p", size: "437 MB", link: "https://desilinks.org/links/4887", type: "BluRay" },
             { quality: "720p", size: "1.0 GB", link: "https://desilinks.org/links/4885", type: "BluRay" },
@@ -945,7 +945,7 @@ const mockMovies = [
         watch_link: ""
     },   
 
- { id: 49985, title: "Housefull", year: 2010, genre: "Commedy/Romance", rating: 5.7, cover: "housefull.jpeg", release_date: "2010-04-30", synopsis: "Aarush is an unlucky man and carries his bad luck wherever he goes. His quest to find love only makes his life more miserable as he ends up in complicated situations.", cast: " Akshay Kumar, Riteish Deshmukh, Arjun Rampal, Lara Dutta, Deepika Padukone and Jiah Khan ", 
+ { id: 49985, title: "Housefull", year: 2010, genre: "Comedy/Romance", rating: 5.7, cover: "housefull.jpeg", release_date: "2010-04-30", synopsis: "Aarush is an unlucky man and carries his bad luck wherever he goes. His quest to find love only makes his life more miserable as he ends up in complicated situations.", cast: " Akshay Kumar, Riteish Deshmukh, Arjun Rampal, Lara Dutta, Deepika Padukone and Jiah Khan ", 
         downloads: [
             { quality: "480p", size: "415 MB", link: "https://desilinks.org/links/4838", type: "BluRay" },
             { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/4844", type: "BluRay" },
@@ -954,7 +954,7 @@ const mockMovies = [
         industry: "Hindi",
         watch_link: ""
     },   
- { id: 49986, title: "Jolly LLB 3", year: 2025, genre: "Commedy/Drama", rating: 6.6, cover: "jollyllb3.jpeg", release_date: "2025-09-19", synopsis: "Two advocates, Jolly Mishra and Jolly Tyagi engage in a battle of wits, causing mayhem in the courtroom with their unexpected antics.", cast: "Akshay Kumar, Arshad Warsi,Saurabh Shukla,Amrita Rao and Huma Qureshi ", 
+ { id: 49986, title: "Jolly LLB 3", year: 2025, genre: "Comedy/Drama", rating: 6.6, cover: "jollyllb3.jpeg", release_date: "2025-09-19", synopsis: "Two advocates, Jolly Mishra and Jolly Tyagi engage in a battle of wits, causing mayhem in the courtroom with their unexpected antics.", cast: "Akshay Kumar, Arshad Warsi,Saurabh Shukla,Amrita Rao and Huma Qureshi ", 
         downloads: [
             { quality: "480p", size: "505 MB", link: "https://desilinks.org/links/52180", type: "WEB-DL" },
             { quality: "720p", size: "1.31 GB", link: "https://desilinks.org/links/52178", type: "WEB-DL" },
@@ -965,7 +965,7 @@ const mockMovies = [
     },
 
 
- { id: 49987, title: "Jolly LLB 2", year: 2017, genre: "Commedy/Drama", rating: 7.2, cover: "jollyllb2.jpeg", release_date: "2017-02-10", synopsis: "A lawyer hoodwinks a woman to start his own law firm. However, he feels guilty and tries to make things right when he finds out that she commits suicide for failing to get justice for her husband", cast: " Akshay Kumar,Huma Qureshi, Annu Kapoor, and Kumud Mishra", 
+ { id: 49987, title: "Jolly LLB 2", year: 2017, genre: "Comedy/Drama", rating: 7.2, cover: "jollyllb2.jpeg", release_date: "2017-02-10", synopsis: "A lawyer hoodwinks a woman to start his own law firm. However, he feels guilty and tries to make things right when he finds out that she commits suicide for failing to get justice for her husband", cast: " Akshay Kumar,Huma Qureshi, Annu Kapoor, and Kumud Mishra", 
         downloads: [
             { quality: "480p", size: "399 MB", link: "https://desilinks.org/links/4463", type: "BluRay" },
             { quality: "720p", size: "1.00 GB", link: "https://desilinks.org/links/4461", type: "BluRay" },
@@ -975,7 +975,7 @@ const mockMovies = [
         watch_link: ""
     },
 
- { id: 49988, title: "Jolly LLB", year: 2013, genre: "Commedy/Crime", rating: 7.5, cover: "jollyllb.jpeg", release_date: "2013-03-15", synopsis: "Jolly, a struggling lawyer seeking success, comes upon a hit-and-run case and decides to fight for the victims. However, the defendant hires a proficient lawyer, Rajpal, to go against him.", cast: " Arshad Warsi, Boman Irani, Amrita Rao, and Saurabh Shukla ", 
+ { id: 49988, title: "Jolly LLB", year: 2013, genre: "Comedy/Crime", rating: 7.5, cover: "jollyllb.jpeg", release_date: "2013-03-15", synopsis: "Jolly, a struggling lawyer seeking success, comes upon a hit-and-run case and decides to fight for the victims. However, the defendant hires a proficient lawyer, Rajpal, to go against him.", cast: " Arshad Warsi, Boman Irani, Amrita Rao, and Saurabh Shukla ", 
         downloads: [
             { quality: "480p", size: "397 MB", link: "https://desilinks.org/links/41884", type: "BluRay" },
             { quality: "720p", size: "1.01 GB", link: "https://desilinks.org/links/41883", type: "BluRay" },
@@ -1227,39 +1227,52 @@ function populateLanguageFilter() {
         languageFilter.appendChild(option);
     });
 }
+// movie-details.js
+
 /**
  * Sorts the movie array based on the selected sort filter.
  * @param {Array} movies - The array of movie objects to sort.
  */
 function sortMovies(movies) {
-    const sortValue = document.getElementById('sortFilter').value || 'year_desc';
-    
+    // 1. Ensure default is set to 'release_date_desc'
+    const sortValue = document.getElementById('sortFilter').value || 'year_desc'; 
     const [field, order] = sortValue.split('_');
 
     return movies.sort((a, b) => {
         let valA = a[field];
         let valB = b[field];
 
-        // String comparison
-        if (field === 'title' || field === 'industry' || field === 'genre') {
-            valA = valA.toLowerCase();
-            valB = valB.toLowerCase();
-        } 
-        
-        // Numeric comparison
+        // Text Fields
+       
+        // 2. ROBUST DATE FIELD HANDLING (using getTime() with NaN check)
+         if (field === 'release_date') {
+            
+            // Function to safely convert date string to a number (timestamp)
+            const safeGetTime = (dateString) => {
+                if (!dateString) return 0; // Handle null/empty dates
+                const dateObj = new Date(dateString);
+                const timeValue = dateObj.getTime();
+                
+                // CRITICAL: Check if the date object is valid (NaN)
+                return !isNaN(timeValue) ? timeValue : 0;
+            };
+            
+            valA = safeGetTime(valA);
+            valB = safeGetTime(valB);
+        }
+        // Simple Numeric Fields
         else if (field === 'rating' || field === 'year') {
             valA = parseFloat(valA);
             valB = parseFloat(valB);
-        } else if (field === 'size') {
-            // Sort by the size of the highest quality download
+        }
+        // Custom 'size' field logic 
+        else if (field === 'size') {
             const getSizeValue = (movie) => {
-                const highestQuality = getDisplayInfo(movie);
-                // Assuming size is like "X.X GB" or "X.X MB"
-                // Normalize to MB for consistent comparison
+                const highestQuality = getDisplayInfo(movie); // Assumes getDisplayInfo is defined
                 const sizeStr = highestQuality.size;
-                if (sizeStr.includes('GB')) {
+                if (sizeStr && sizeStr.includes('GB')) {
                     return parseFloat(sizeStr.replace(' GB', '')) * 1024;
-                } else if (sizeStr.includes('MB')) {
+                } else if (sizeStr && sizeStr.includes('MB')) {
                     return parseFloat(sizeStr.replace(' MB', ''));
                 }
                 return 0;
@@ -1267,11 +1280,13 @@ function sortMovies(movies) {
             valA = getSizeValue(a);
             valB = getSizeValue(b);
         }
-
+        
+        // Final comparison logic
         let comparison = 0;
         if (valA < valB) comparison = -1;
         if (valA > valB) comparison = 1;
 
+        // Apply ASC or DESC order
         return order === 'asc' ? comparison : -comparison;
     });
 }
@@ -1476,6 +1491,10 @@ function setupEventListeners() {
                 triggerSearch();
             }
         });
+    }
+    const sortFilter = document.getElementById('sortFilter');
+    if (sortFilter) {
+        sortFilter.addEventListener('change', applyFilters);
     }
 }
 
