@@ -267,20 +267,129 @@ const mockMovies = [
 
 
 
+ { id: 49915, title: "Vikram Vedha", year: 2022, genre: "Action/Thriller", rating: 7.1, cover: "vikramvedha2022.jpg", release_date: "2022-09-29", synopsis: "Vikram, an encounter specialist, goes on the lookout for Vedha, a ruthless gangster. However, uncertainty ensues when the latter inadvertently surrenders and gets bailed by Vikram's advocate wife.", cast: " Radhika Apte · Hrithik Roshan · Saif Ali Khan · Rohit Saraf · Rofique Khan · Sharib Hashmi · Yogita Bihani · Satyadeep Misra.", 
+        downloads: [
+            { quality: "480p", size: "425 MB", link: "https://desilinks.org/links/28104", type: "WEB-DL" },
+            { quality: "720p", size: "1.1 GB", link: "https://desilinks.org/links/28103", type: "WEB-DL" },
+        
 
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    }, 
+ { id: 49916, title: "Jailer", year: 2023, genre: "Action/Comedy", rating: 7.2, cover: "jailer2023.jpg", release_date: "2023-08-10", synopsis: "A retired jailer lives a peaceful life with his family. But when his son, who is a policeman, goes missing and is supposedly killed, he is forced to go back to his world of crime and find the killer.", cast: " Rajinikanth · Ramya Krishnan · Shiva Rajkumar · Vinayakan · Mohanlal · Mirnaa Menon · Vasanth Ravi · Yogi Babu", 
+        downloads: [
+            { quality: "480p", size: "546 MB", link: "https://desilinks.org/links/31824", type: "WEB-DL" },
+            { quality: "720p", size: "1.44 GB", link: "https://desilinks.org/links/31823", type: "WEB-DL" },
+        
 
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49917, title: "Kaithi", year: 2019, genre: "Action/Thriller", rating: 8.4, cover: "kaithi2020.jpg", release_date: "2019-10-25", synopsis: "Dilli, an ex-convict, endeavours to meet his daughter for the first time after leaving prison. However, his attempts are interrupted due to a drug raid planned by Inspector Bejoy.", cast: "", 
+        downloads: [
+            { quality: "480p", size: "391 MB", link: "https://desilinks.org/links/8969", type: "HDRip" },
+            { quality: "720p", size: "1.02 GB", link: "https://desilinks.org/links/8967", type: "HDRip" },
+        
 
+        ], 
+        industry: "Telugu,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49918, title: "Leo", year: 2022, genre: "Action/Thriller", rating: 7.2, cover: "leo2023.jpg", release_date: "2023-10-19", synopsis: "Parthiban, a cafe owner, lives with his wife and son in Himachal Pradesh. Things take an absurd turn for him when he gets in the way of a drug cartel.", cast: "Joseph Vijay, Sanjay Dutt, Trisha Krishnan, Arjun Sarja. ", 
+        downloads: [
+            { quality: "480p", size: "500 MB", link: "https://desilinks.org/links/33755", type: "WEB-DL" },
+            { quality: "720p", size: "1.27 GB", link: "https://desilinks.org/links/33754", type: "WEB-DL" },
+        
 
+        ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49919, title: "Vikram", year: 2022, genre: "Action/Thriller", rating: 8.3, cover: "vikram2022.jpg", release_date: "2022-06-03", synopsis: "A special agent investigates a murder committed by a masked group of serial killers. However, a tangled maze of clues soon leads him to the drug kingpin of Chennai.", cast: "Kamal Hasan, Vijay Sethupathi, Santhanam, Fahadh Faasil, Fahadh Faasil", 
+        downloads: [
+            { quality: "480p", size: "500 MB", link: "https://desilinks.org/links/19046", type: "WEB-DL" },
+            { quality: "720p", size: "1.3 GB", link: "https://desilinks.org/links/19044", type: "WEB-DL" },
+        
 
+        ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49920, title: "Aneethy", year: 2023, genre: "Action/Thriller", rating: 6.6, cover: "Aneethi 2023.jpg", release_date: "2023-07-21", synopsis: "A food delivery guy finds himself captivated by Subbu's charm. However, their lives take a tumultuous turn when a series of unexpected events unfold, plunging them into a chaotic world.", cast: "Arjun Das · Bharani · Suresh Chakravarthi · Arjun Chidambaram.", 
+        downloads: [
+            { quality: "480p", size: "500 MB", link: "https://desilinks.org/links/54032", type: "WEB-DL" },
+            { quality: "720p", size: "1.32 GB", link: "https://desilinks.org/links/54031", type: "WEB-DL" },
+        
 
+        ], 
+        industry: "Tamil,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49921, title: "Zootopia", year: 2016, genre: "Comedy", rating: 8.0, cover: "Zootopia.jpeg", release_date: "2016-03-04", synopsis: "When Judy Hopps, a rookie officer in the Zootopia Police Department, sniffs out a sinister plot, she enlists the help of a con artist to solve the case in order to prove her abilities to Chief Bogo.", cast: " Ginnifer Goodwin, Jason Bateman, Ke Huy Quan, Fortune Feimster.", 
+        downloads: [
+            { quality: "480p", size: "359 MB", link: "https://desilinks.org/links/32479", type: "BluRay" },
+            { quality: "720p", size: "899 MB", link: "https://desilinks.org/links/32478", type: "BluRay" },
+        
 
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49922, title: "Zootopia 2", year: 2025, genre: "Comedy", rating: 7.8, cover: "Zootopia 2.jpg", release_date: "2025-11-26", synopsis: "Zootopia 2 adalah film animasi komedi Amerika Serikat yang diproduksi oleh Walt Disney Animation Studios. Film ini menjadi film kedua dalam waralaba Zootopia, disutradarai oleh Jared Bush bersama dengan Byron Howard, ditulis oleh Bush, dan diproduksi oleh Yvett Merino", cast: " Ginnifer Goodwin, Jason Bateman, Ke Huy Quan, Fortune Feimster.", 
+        downloads: [
+            { quality: "480p", size: "399 MB", link: "https://desilinks.org/links/53796", type: "HDTC" },
+            { quality: "720p", size: "899 MB", link: "https://desilinks.org/links/53794", type: "HDTC" },
+          { quality: "720p", size: "1.81 GB", link: "https://desilinks.org/links/53792", type: "HDTC" },
+          
 
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    }, 
+ { id: 49923, title: "Single Papa: Season 1", year: 2025, genre: "Comedy/Web Series", rating: 8.2, cover: "singlepapa.jpeg", release_date: "2025-12-12", synopsis: "The show follows Gaurav's chaotic and heartwarming journey into single fatherhood. He names the baby 'Amul' and struggles to prove his capability as a parent against societal expectations, family resistance, and a skeptical adoption agency head (Neha Dhupia). The series blends humor with emotional depth, exploring themes of modern parenting, unconventional families, and Gaurav's personal growth from an irresponsible bachelor to a loving single dad.", cast: "Kunal Kemmu, Prajakta Koli, Manoj Pahwa, Ayesha Raza Mishra, Neha Dhupia, Dayanand Shetty, Isha Talwar, Suhail Nayyar, Aisha Ahmed", 
+        downloads: [
+            { quality: "480p", size: "733 MB", link: "https://desilinks.org/links/54143", type: "WEB-DL" },
+            { quality: "720p", size: "1.18 GB", link: "https://desilinks.org/links/54144", type: "WEB-DL" },
+          
 
+        ], 
+        industry: "Hindi",
+        watch_link: ""
+    }, 
+ { id: 49924, title: "From: Season 2", year: 2023, genre: "Horror/Web Series", rating: 7.8, cover: "From S03 2024.jpg", release_date: "2023-04-23", synopsis: "The series is centered around a nightmarish town in the United States that traps everyone who enters. The unwilling residents must find a way to survive the terrifying, human-like creatures that emerge from the surrounding forest at night.", cast: "Harold Perrineau, Catalina Sandino Moreno, Eion Bailey, David Alpay, Elizabeth Saunders, Scott McCord, Ricky He, and Chloe Van Landschoot ", 
+        downloads: [
+          
+            { quality: "720p", size: "2.81 GB", link: "https://technews24.site/links/UWJHUlNUWlBYMWxQK0NuSmhMUlM3SjJRNE9OQ3lDM0JQVkZ5Q1dUNGlyR3FlbzRSLzhGLzRPV0UrcTZhM2N1Wg==", type: "WEB-DL" },
+          
 
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    }, 
+  { id: 49925, title: "From: Season 1", year: 2022, genre: "Horror/Web Series", rating: 7.8, cover: "From S03 2024.jpg", release_date: "2022-02-20", synopsis: "The series is centered around a nightmarish town in the United States that traps everyone who enters. The unwilling residents must find a way to survive the terrifying, human-like creatures that emerge from the surrounding forest at night.", cast: "Harold Perrineau, Catalina Sandino Moreno, Eion Bailey, David Alpay, Elizabeth Saunders, Scott McCord, Ricky He, and Chloe Van Landschoot ", 
+        downloads: [
+          
+            { quality: "720p", size: "2.84 GB", link: "https://technews24.site/links/UWJHUlNUWlBYMWxQK0NuSmhMUlM3SjJRNE9OQ3lDM0JQVkZ5Q1dUNGlyR3FlbzRSLzhGLzRPV0UrcTZhM2N1Wg==", type: "WEB-DL" },
+          
 
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    }, 
+   { id: 49926, title: "From: Season 3", year: 2024, genre: "Horror/Web Series", rating: 7.8, cover: "From S03 2024.jpg", release_date: "2024-09-02", synopsis: "The series is centered around a nightmarish town in the United States that traps everyone who enters. The unwilling residents must find a way to survive the terrifying, human-like creatures that emerge from the surrounding forest at night.", cast: "Harold Perrineau, Catalina Sandino Moreno, Eion Bailey, David Alpay, Elizabeth Saunders, Scott McCord, Ricky He, and Chloe Van Landschoot ", 
+        downloads: [
+            { quality: "480p", size: "1.28 GB", link: "https://desilinks.org/links/43400", type: "WEB-DL" },
+            { quality: "720p", size: "5.44 GB", link: "https://desilinks.org/links/42312", type: "WEB-DL" },
+          
 
+        ], 
+        industry: "English,Hindi Dubbed",
+        watch_link: ""
+    }, 
 
-   { id: 49927, title: "The Abondons: Season 1", year: 2025, genre: "Drama", rating: 6.2, cover: "The Abandons S01 2025.jpg", release_date: "2025-12-04", synopsis: "The Abandons is an American Western action drama television series created by Kurt Sutter for Netflix. Set in the 1850s, the series centers on the conflicts of several outlaw groups during the Old West.", cast: " Gillian Anderson, Lena Headey, Nick Robinson, Lamar Johnson, Patton Oswalt.", 
+   { id: 49927, title: "The Abondons: Season 1", year: 2025, genre: "Drama/Web Series", rating: 6.2, cover: "The Abandons S01 2025.jpg", release_date: "2025-12-04", synopsis: "The Abandons is an American Western action drama television series created by Kurt Sutter for Netflix. Set in the 1850s, the series centers on the conflicts of several outlaw groups during the Old West.", cast: " Gillian Anderson, Lena Headey, Nick Robinson, Lamar Johnson, Patton Oswalt.", 
         downloads: [
             { quality: "480p", size: "979 MB", link: "https://desilinks.org/links/53966", type: "WEB-DL" },
             { quality: "720p", size: "2.42 GB", link: "https://desilinks.org/links/53967", type: "WEB-DL" },
